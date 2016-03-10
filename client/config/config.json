@@ -1,0 +1,22 @@
+{
+  "file_path": "/Users/King/Work/code58/hawkeye/client/logs/app.log",
+  "chain": [
+    {
+      "type": "level",
+      "value": "INFO"
+    },
+    {
+      "type": "keyword",
+      "value": "King"
+    },
+    {
+      "type": "regex",
+      "value": "^[0-9]+$"
+    }
+
+  ],
+  "alert": {
+    "type": "email",
+    "my_email": "303548901@qq.com"
+  }
+}
