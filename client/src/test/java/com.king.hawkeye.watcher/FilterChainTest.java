@@ -1,5 +1,7 @@
 package com.king.hawkeye.watcher;
 
+import com.king.hawkeye.filter.FilterChain;
+import com.king.hawkeye.filter.KeyWordFilter;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,8 +1,11 @@
 package com.king.hawkeye.watcher;
 
+import com.king.hawkeye.channel.ILogChannel;
+
 import java.io.*;
 
 /**
+ * 日志文件 监控器
  * Created by King on 16/3/10.
  */
 public class FileWatcher extends Thread {
@@ -12,7 +15,7 @@ public class FileWatcher extends Thread {
     private String fileName;
     private BufferedInputStream bufferedInputStream;
 
-    private ILogChannel channel = Bootstrap.getChannel();
+    private ILogChannel channel;
 
     private boolean isWatching = true;
 
@@ -21,11 +24,12 @@ public class FileWatcher extends Thread {
 
     public FileWatcher(String fileName) throws IOException {
         this.fileName = fileName;
-        File file = new File(DIR_PATH + fileName);
+        File file = new File(fileName);
         this.bufferedInputStream = new BufferedInputStream(new FileInputStream(file));
         position = file.length();
-        System.out.println("??" + file.exists());
         bufferedInputStream.skip(position);
+
+        channel = Bootstrap.getChannel();
     }
 
     @Override
@@ -40,7 +44,6 @@ public class FileWatcher extends Thread {
                         baos.write(ch);
                     } else {
                         channel.put(new String(baos.toByteArray()));
-                        System.out.println(new String(baos.toByteArray()));
                         baos.reset();
                     }
                 } else {
@@ -54,16 +57,7 @@ public class FileWatcher extends Thread {
         }
     }
 
-    public static void main(String[] args) {
-        String fileName = "logs/app.log";
-        FileWatcher watcher = null;
-        try {
-            watcher = new FileWatcher(fileName);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        watcher.start();
+    public void stopWatching() {
+        isWatching = false;
     }
 }

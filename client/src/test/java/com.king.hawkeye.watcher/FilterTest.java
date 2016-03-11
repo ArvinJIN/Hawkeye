@@ -1,5 +1,6 @@
 package com.king.hawkeye.watcher;
 
+import com.king.hawkeye.filter.*;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

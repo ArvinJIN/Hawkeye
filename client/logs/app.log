@@ -1,1807 +1,512 @@
-2016-03-10 11:27:35,146 INFO LogInfo [main] test...0
+2016-03-11 14:09:58,295 DEBUG c.k.h.w.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"keyword","value":"King"}],"alert":{"type":"email","value":"303548901@qq.com"}}
+2016-03-11 14:10:03,063 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:10:28,432 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:10:32,961 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:10:35,264 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:10:39,073 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:10:44,770 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:10:49,440 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:11:00,832 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:11:11,953 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:11:13,952 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:11:24,753 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:11:46,188 DEBUG c.k.h.w.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"keyword","value":"King"}],"alert":{"type":"email","value":"303548901@qq.com"}}
+2016-03-11 14:12:10,592 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:12:35,201 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:12:48,544 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:13:05,504 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:13:08,354 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:13:11,050 ERROR c.k.h.w.EmailAlert [Thread-2] send email error. email address is 303548901@qq.com and message is logInfo come : 2016-03-11 14:12:10,592 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:13:23,201 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:13:52,673 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:13:54,001 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:14:17,776 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:14:34,896 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:15:02,481 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:15:19,073 DEBUG c.k.h.w.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"keyword","value":"King"}],"alert":{"type":"blank","value":"303548901@qq.com"}}
+2016-03-11 14:15:29,008 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:15:38,033 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:15:41,857 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:16:46,517 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:16:47,520 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:16:57,553 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:19:47,562 DEBUG c.k.h.w.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"keyword","value":"King"}],"alert":{"type":"blank","value":"303548901@qq.com"}}
+2016-03-11 14:19:52,503 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:19:57,520 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:20:05,552 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:20:13,585 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:20:21,617 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:20:25,632 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:20:33,664 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:20:40,688 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:20:44,705 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:20:58,753 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:21:00,939 DEBUG c.k.h.w.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"}],"alert":{"type":"blank","value":"303548901@qq.com"}}
+2016-03-11 14:21:06,784 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:21:18,832 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:21:22,848 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:21:29,873 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:21:33,888 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:21:40,913 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:21:43,921 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:21:45,962 DEBUG c.k.h.w.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"}],"alert":{"type":"blank","value":"303548901@qq.com"}}
+2016-03-11 14:21:49,937 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:21:53,953 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:22:17,041 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:22:21,056 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:22:25,074 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:22:33,104 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:22:37,121 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:22:51,169 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:22:55,184 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:23:00,208 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:23:13,968 DEBUG c.k.h.w.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"}],"alert":{"type":"blank","value":"303548901@qq.com"}}
+2016-03-11 14:23:21,297 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:23:41,377 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:23:45,394 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:24:00,448 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:24:03,456 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:24:07,473 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:24:08,481 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:49:33,754 ERROR c.k.h.w.MainTest [main] error and keyword king.
+2016-03-11 14:49:34,761 ERROR c.k.h.w.MainTest [main] error and keyword king.
+2016-03-11 14:49:35,765 ERROR c.k.h.w.MainTest [main] error and keyword king.
+2016-03-11 14:49:36,770 ERROR c.k.h.w.MainTest [main] error and keyword king.
+2016-03-11 14:49:37,694 DEBUG c.k.h.w.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"king"}],"alert":{"type":"blank","value":"303548901@qq.com"}}
+2016-03-11 14:49:37,776 ERROR c.k.h.w.MainTest [main] error and keyword king.
+2016-03-11 14:49:38,778 ERROR c.k.h.w.MainTest [main] error and keyword king.
+2016-03-11 14:49:39,783 ERROR c.k.h.w.MainTest [main] error and keyword king.
+2016-03-11 14:50:35,501 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:50:36,970 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:50:39,617 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:50:42,396 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:50:44,017 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:50:45,750 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:50:47,135 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:50:48,498 ERROR c.k.h.w.MainTest [main] error and keyword king.
+2016-03-11 14:50:49,958 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:50:52,419 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:50:55,202 ERROR c.k.h.w.MainTest [main] error and keyword king.
+2016-03-11 14:50:56,335 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:50:58,589 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:00,264 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:03,249 ERROR c.k.h.w.MainTest [main] error info.
+2016-03-11 14:51:04,535 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:05,676 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:07,753 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:10,227 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:11,753 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:13,357 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:15,931 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:17,147 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:19,813 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:22,711 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:24,371 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:26,932 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:29,445 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:31,353 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:32,738 ERROR c.k.h.w.MainTest [main] error and keyword king.
+2016-03-11 14:51:34,081 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
+2016-03-11 14:51:35,989 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:37,344 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:51:40,200 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:41,280 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:51:45,526 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:47,387 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:49,852 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:51,959 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:53,916 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:51:56,160 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:51:57,758 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:00,576 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:52:02,597 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:04,427 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:06,204 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:08,733 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:10,687 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:13,039 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:15,289 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:16,601 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:18,525 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:21,165 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:24,091 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:27,000 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:28,349 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:29,536 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:52:30,821 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:32,735 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:35,535 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:37,955 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:40,015 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:42,403 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:43,790 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:45,115 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:46,439 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:47,584 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:52:48,795 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:49,914 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:51,356 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:52,932 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:54,199 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:56,821 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:52:59,109 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:01,118 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:10,817 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:12,723 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:14,079 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:15,884 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:18,597 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:21,490 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:22,533 ERROR c.k.h.w.MainTest [main] error and keyword king.
+java.lang.Exception: test exception...
+	at com.king.hawkeye.watcher.MainTest$1.run(MainTest.java:45) [test-classes/:?]
+	at com.king.hawkeye.watcher.MainTest.log(MainTest.java:56) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:78) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:212) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:68) [junit-rt.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+2016-03-11 14:53:24,886 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:26,215 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:28,936 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:31,423 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:33,324 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:36,151 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:38,078 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:40,652 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:42,534 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:44,975 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:46,304 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
+2016-03-11 14:53:49,186 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:50,585 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 14:53:52,045 ERROR c.k.h.w.MainTest [main] error and keyword king.
+java.lang.Exception: test exception...
+	at com.king.hawkeye.watcher.MainTest$1.run(MainTest.java:45) [test-classes/:?]
+	at com.king.hawkeye.watcher.MainTest.log(MainTest.java:56) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:78) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:212) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:68) [junit-rt.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+2016-03-11 14:53:53,699 INFO c.k.h.w.MainTest [main] ...
+2016-03-11 15:04:30,970 ERROR c.k.h.a.EmailAlert [main] send email error. email address is 303548901@qq.com and message is test alert...
+2016-03-11 15:05:59,203 ERROR c.k.h.a.EmailAlert [main] send email error. email address is 303548901@qq.com and message is test alert...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : mail.58ganji.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1421) ~[commons-email-1.4.jar:1.4]
+	at org.apache.commons.mail.Email.send(Email.java:1448) ~[commons-email-1.4.jar:1.4]
+	at com.king.hawkeye.alert.EmailAlert.sendEmail(EmailAlert.java:43) ~[classes/:?]
+	at com.king.hawkeye.alert.EmailAlert.alert(EmailAlert.java:27) [classes/:?]
+	at com.king.hawkeye.watcher.AlertTest.emailAlertTest(AlertTest.java:15) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:78) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:212) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:68) [junit-rt.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: mail.58ganji.com, 465; timeout 60000
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:386) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:245) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:194) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send0(Transport.java:253) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.5.2.jar:1.5.2]
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411) ~[commons-email-1.4.jar:1.4]
+	... 30 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[?:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_40]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_40]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_40]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:656) ~[?:1.8.0_40]
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:386) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:245) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:194) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send0(Transport.java:253) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.5.2.jar:1.5.2]
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411) ~[commons-email-1.4.jar:1.4]
+	... 30 more
+2016-03-11 15:10:18,198 ERROR c.k.h.a.EmailAlert [main] send email error. email address is jinleihao@58ganji.com and message is test alert...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : 303548901@qq.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1421) ~[commons-email-1.4.jar:1.4]
+	at org.apache.commons.mail.Email.send(Email.java:1448) ~[commons-email-1.4.jar:1.4]
+	at com.king.hawkeye.alert.EmailAlert.sendEmail(EmailAlert.java:44) ~[classes/:?]
+	at com.king.hawkeye.alert.EmailAlert.alert(EmailAlert.java:27) [classes/:?]
+	at com.king.hawkeye.watcher.AlertTest.emailAlertTest(AlertTest.java:15) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:78) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:212) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:68) [junit-rt.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: 303548901@qq.com, 465; timeout 60000
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:386) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:245) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:194) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send0(Transport.java:253) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.5.2.jar:1.5.2]
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411) ~[commons-email-1.4.jar:1.4]
+	... 30 more
+Caused by: java.net.UnknownHostException: 303548901@qq.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0_40]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_40]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_40]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:656) ~[?:1.8.0_40]
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:386) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:245) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:194) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send0(Transport.java:253) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.5.2.jar:1.5.2]
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411) ~[commons-email-1.4.jar:1.4]
+	... 30 more
+2016-03-11 15:11:55,833 ERROR c.k.h.a.EmailAlert [main] send email error. email address is jinleihao@58ganji.com and message is test alert...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : mail.qq.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1421) ~[commons-email-1.4.jar:1.4]
+	at org.apache.commons.mail.Email.send(Email.java:1448) ~[commons-email-1.4.jar:1.4]
+	at com.king.hawkeye.alert.EmailAlert.sendEmail(EmailAlert.java:44) ~[classes/:?]
+	at com.king.hawkeye.alert.EmailAlert.alert(EmailAlert.java:27) [classes/:?]
+	at com.king.hawkeye.watcher.AlertTest.emailAlertTest(AlertTest.java:15) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:78) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:212) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:68) [junit-rt.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: mail.qq.com, 465; timeout 60000
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:386) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:245) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:194) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send0(Transport.java:253) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.5.2.jar:1.5.2]
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411) ~[commons-email-1.4.jar:1.4]
+	... 30 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[?:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_40]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_40]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_40]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:656) ~[?:1.8.0_40]
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:386) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:245) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:194) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send0(Transport.java:253) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.5.2.jar:1.5.2]
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411) ~[commons-email-1.4.jar:1.4]
+	... 30 more
+2016-03-11 15:20:51,734 ERROR c.k.h.a.EmailAlert [main] send email error. email address is jinleihao@58ganji.com and message is test alert...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.qq.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1421) ~[commons-email-1.4.jar:1.4]
+	at org.apache.commons.mail.Email.send(Email.java:1448) ~[commons-email-1.4.jar:1.4]
+	at com.king.hawkeye.alert.EmailAlert.sendEmail(EmailAlert.java:44) ~[classes/:?]
+	at com.king.hawkeye.alert.EmailAlert.alert(EmailAlert.java:27) [classes/:?]
+	at com.king.hawkeye.watcher.AlertTest.emailAlertTest(AlertTest.java:15) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:78) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:212) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:68) [junit-rt.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+Caused by: javax.mail.AuthenticationFailedException: 535 Error: ÇëÊ¹ÓÃÊÚÈ¨ÂëµÇÂ¼¡£ÏêÇéÇë¿´: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256
 
-2016-03-10 11:27:36,154 INFO LogInfo [main] test...1
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:892) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:814) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:728) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:386) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:245) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Service.connect(Service.java:194) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send0(Transport.java:253) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.5.2.jar:1.5.2]
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411) ~[commons-email-1.4.jar:1.4]
+	... 30 more
+2016-03-11 15:26:06,719 ERROR c.k.h.a.EmailAlert [main] send email error. email address is jinleihao@58ganji.com and message is test alert...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.qq.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1421) ~[commons-email-1.4.jar:1.4]
+	at org.apache.commons.mail.Email.send(Email.java:1448) ~[commons-email-1.4.jar:1.4]
+	at com.king.hawkeye.alert.EmailAlert.sendEmail(EmailAlert.java:45) ~[classes/:?]
+	at com.king.hawkeye.alert.EmailAlert.alert(EmailAlert.java:27) [classes/:?]
+	at com.king.hawkeye.watcher.AlertTest.emailAlertTest(AlertTest.java:15) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:78) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:212) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:68) [junit-rt.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140) [idea_rt.jar:?]
+Caused by: com.sun.mail.smtp.SMTPSendFailedException: 501 mail from address must be same as authorization user
 
-2016-03-10 11:27:37,158 INFO LogInfo [main] test...2
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2202) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1693) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.5.2.jar:1.5.2]
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411) ~[commons-email-1.4.jar:1.4]
+	... 30 more
+Caused by: com.sun.mail.smtp.SMTPSenderFailedException: 501 mail from address must be same as authorization user
 
-2016-03-10 11:27:38,163 INFO LogInfo [main] test...3
-
-2016-03-10 11:27:56,867 INFO LogInfo [main] test...0
-2016-03-10 11:27:57,873 INFO LogInfo [main] test...1
-2016-03-10 11:27:58,877 INFO LogInfo [main] test...2
-2016-03-10 11:27:59,882 INFO LogInfo [main] test...3
-2016-03-10 11:28:00,884 INFO LogInfo [main] test...4
-2016-03-10 11:28:01,885 INFO LogInfo [main] test...5
-2016-03-10 11:28:02,886 INFO LogInfo [main] test...6
-2016-03-10 11:28:03,890 INFO LogInfo [main] test...7
-2016-03-10 11:28:04,894 INFO LogInfo [main] test...8
-2016-03-10 11:28:05,899 INFO LogInfo [main] test...9
-2016-03-10 11:28:06,903 INFO LogInfo [main] test...10
-2016-03-10 11:28:07,908 INFO LogInfo [main] test...11
-2016-03-10 11:28:08,913 INFO LogInfo [main] test...12
-2016-03-10 11:28:09,917 INFO LogInfo [main] test...13
-2016-03-10 11:28:10,921 INFO LogInfo [main] test...14
-2016-03-10 11:28:11,925 INFO LogInfo [main] test...15
-2016-03-10 11:28:12,928 INFO LogInfo [main] test...16
-2016-03-10 11:28:13,932 INFO LogInfo [main] test...17
-2016-03-10 11:28:14,935 INFO LogInfo [main] test...18
-2016-03-10 11:28:15,939 INFO LogInfo [main] test...19
-2016-03-10 11:28:16,940 INFO LogInfo [main] test...20
-2016-03-10 11:28:17,945 INFO LogInfo [main] test...21
-2016-03-10 11:28:18,948 INFO LogInfo [main] test...22
-2016-03-10 11:28:19,952 INFO LogInfo [main] test...23
-2016-03-10 11:28:20,956 INFO LogInfo [main] test...24
-2016-03-10 11:28:21,960 INFO LogInfo [main] test...25
-2016-03-10 11:28:22,963 INFO LogInfo [main] test...26
-2016-03-10 11:28:23,968 INFO LogInfo [main] test...27
-2016-03-10 11:28:24,971 INFO LogInfo [main] test...28
-2016-03-10 11:28:25,975 INFO LogInfo [main] test...29
-2016-03-10 11:28:26,980 INFO LogInfo [main] test...30
-2016-03-10 11:28:27,984 INFO LogInfo [main] test...31
-2016-03-10 11:28:28,988 INFO LogInfo [main] test...32
-2016-03-10 11:28:29,992 INFO LogInfo [main] test...33
-2016-03-10 11:28:30,996 INFO LogInfo [main] test...34
-2016-03-10 11:28:32,001 INFO LogInfo [main] test...35
-2016-03-10 11:28:33,006 INFO LogInfo [main] test...36
-2016-03-10 11:28:34,011 INFO LogInfo [main] test...37
-2016-03-10 11:28:35,014 INFO LogInfo [main] test...38
-2016-03-10 11:28:36,018 INFO LogInfo [main] test...39
-2016-03-10 11:28:37,020 INFO LogInfo [main] test...40
-2016-03-10 11:28:38,024 INFO LogInfo [main] test...41
-2016-03-10 11:28:39,029 INFO LogInfo [main] test...42
-2016-03-10 11:28:40,033 INFO LogInfo [main] test...43
-2016-03-10 11:28:41,036 INFO LogInfo [main] test...44
-2016-03-10 11:28:42,039 INFO LogInfo [main] test...45
-2016-03-10 11:28:43,044 INFO LogInfo [main] test...46
-2016-03-10 11:28:44,048 INFO LogInfo [main] test...47
-2016-03-10 11:28:45,052 INFO LogInfo [main] test...48
-2016-03-10 11:28:46,058 INFO LogInfo [main] test...49
-2016-03-10 11:28:47,060 INFO LogInfo [main] test...50
-2016-03-10 11:28:48,065 INFO LogInfo [main] test...51
-2016-03-10 11:28:49,068 INFO LogInfo [main] test...52
-2016-03-10 11:28:50,071 INFO LogInfo [main] test...53
-2016-03-10 11:28:51,076 INFO LogInfo [main] test...54
-2016-03-10 11:28:52,081 INFO LogInfo [main] test...55
-2016-03-10 11:28:53,085 INFO LogInfo [main] test...56
-2016-03-10 11:28:54,089 INFO LogInfo [main] test...57
-2016-03-10 11:28:55,093 INFO LogInfo [main] test...58
-2016-03-10 11:28:56,096 INFO LogInfo [main] test...59
-2016-03-10 11:28:57,101 INFO LogInfo [main] test...60
-2016-03-10 11:28:58,106 INFO LogInfo [main] test...61
-2016-03-10 11:28:59,110 INFO LogInfo [main] test...62
-2016-03-10 11:29:00,114 INFO LogInfo [main] test...63
-2016-03-10 11:30:02,197 INFO LogInfo [main] test...0
-2016-03-10 11:30:03,199 INFO LogInfo [main] test...1
-2016-03-10 11:30:04,203 INFO LogInfo [main] test...2
-2016-03-10 11:30:05,208 INFO LogInfo [main] test...3
-2016-03-10 11:30:06,211 INFO LogInfo [main] test...4
-2016-03-10 11:30:07,215 INFO LogInfo [main] test...5
-2016-03-10 11:30:08,217 INFO LogInfo [main] test...6
-2016-03-10 11:30:09,222 INFO LogInfo [main] test...7
-2016-03-10 11:30:10,227 INFO LogInfo [main] test...8
-2016-03-10 11:30:11,233 INFO LogInfo [main] test...9
-2016-03-10 11:30:12,238 INFO LogInfo [main] test...10
-2016-03-10 11:30:13,241 INFO LogInfo [main] test...11
-2016-03-10 11:30:14,244 INFO LogInfo [main] test...12
-2016-03-10 11:30:15,247 INFO LogInfo [main] test...13
-2016-03-10 11:30:16,251 INFO LogInfo [main] test...14
-2016-03-10 11:30:17,253 INFO LogInfo [main] test...15
-2016-03-10 11:30:18,258 INFO LogInfo [main] test...16
-2016-03-10 11:30:19,263 INFO LogInfo [main] test...17
-2016-03-10 11:30:20,268 INFO LogInfo [main] test...18
-2016-03-10 11:30:21,272 INFO LogInfo [main] test...19
-2016-03-10 11:30:22,273 INFO LogInfo [main] test...20
-2016-03-10 11:30:23,279 INFO LogInfo [main] test...21
-2016-03-10 11:30:24,283 INFO LogInfo [main] test...22
-2016-03-10 11:30:25,289 INFO LogInfo [main] test...23
-2016-03-10 11:30:26,293 INFO LogInfo [main] test...24
-2016-03-10 11:30:27,296 INFO LogInfo [main] test...25
-2016-03-10 11:30:28,300 INFO LogInfo [main] test...26
-2016-03-10 11:30:29,304 INFO LogInfo [main] test...27
-2016-03-10 11:30:30,306 INFO LogInfo [main] test...28
-2016-03-10 11:30:31,309 INFO LogInfo [main] test...29
-2016-03-10 11:30:32,315 INFO LogInfo [main] test...30
-2016-03-10 11:33:20,077 INFO LogInfo [main] test...0
-2016-03-10 11:33:21,083 INFO LogInfo [main] test...1
-2016-03-10 11:33:22,086 INFO LogInfo [main] test...2
-2016-03-10 11:33:23,092 INFO LogInfo [main] test...3
-2016-03-10 11:33:24,095 INFO LogInfo [main] test...4
-2016-03-10 11:33:42,311 INFO LogInfo [main] test...0
-2016-03-10 11:33:43,321 INFO LogInfo [main] test...1
-2016-03-10 11:33:44,327 INFO LogInfo [main] test...2
-2016-03-10 11:33:45,332 INFO LogInfo [main] test...3
-2016-03-10 11:33:57,357 INFO LogInfo [main] test...0
-2016-03-10 11:33:58,362 INFO LogInfo [main] test...1
-2016-03-10 11:34:52,268 INFO LogInfo [main] test...0
-2016-03-10 11:34:53,274 INFO LogInfo [main] test...1
-2016-03-10 11:34:54,278 INFO LogInfo [main] test...2
-2016-03-10 11:34:55,282 INFO LogInfo [main] test...3
-2016-03-10 11:35:18,433 INFO LogInfo [main] test...0
-2016-03-10 11:35:19,438 INFO LogInfo [main] test...1
-2016-03-10 11:35:20,441 INFO LogInfo [main] test...2
-2016-03-10 11:35:21,446 INFO LogInfo [main] test...3
-2016-03-10 11:35:22,451 INFO LogInfo [main] test...4
-2016-03-10 11:35:23,456 INFO LogInfo [main] test...5
-2016-03-10 11:35:24,461 INFO LogInfo [main] test...6
-2016-03-10 11:35:25,465 INFO LogInfo [main] test...7
-2016-03-10 11:35:26,470 INFO LogInfo [main] test...8
-2016-03-10 11:35:27,476 INFO LogInfo [main] test...9
-2016-03-10 11:35:28,480 INFO LogInfo [main] test...10
-2016-03-10 11:35:29,484 INFO LogInfo [main] test...11
-2016-03-10 11:35:30,489 INFO LogInfo [main] test...12
-2016-03-10 11:35:31,494 INFO LogInfo [main] test...13
-2016-03-10 11:35:32,499 INFO LogInfo [main] test...14
-2016-03-10 11:35:33,504 INFO LogInfo [main] test...15
-2016-03-10 11:35:34,508 INFO LogInfo [main] test...16
-2016-03-10 11:35:35,513 INFO LogInfo [main] test...17
-2016-03-10 11:35:36,517 INFO LogInfo [main] test...18
-2016-03-10 11:35:37,520 INFO LogInfo [main] test...19
-2016-03-10 11:35:38,523 INFO LogInfo [main] test...20
-2016-03-10 11:35:39,528 INFO LogInfo [main] test...21
-2016-03-10 11:35:40,533 INFO LogInfo [main] test...22
-2016-03-10 11:35:41,537 INFO LogInfo [main] test...23
-2016-03-10 11:35:42,542 INFO LogInfo [main] test...24
-2016-03-10 11:35:43,545 INFO LogInfo [main] test...25
-2016-03-10 11:35:44,550 INFO LogInfo [main] test...26
-2016-03-10 11:35:45,554 INFO LogInfo [main] test...27
-2016-03-10 11:35:46,558 INFO LogInfo [main] test...28
-2016-03-10 11:35:47,563 INFO LogInfo [main] test...29
-2016-03-10 11:35:48,566 INFO LogInfo [main] test...30
-2016-03-10 11:35:49,568 INFO LogInfo [main] test...31
-2016-03-10 11:35:50,573 INFO LogInfo [main] test...32
-2016-03-10 11:35:51,575 INFO LogInfo [main] test...33
-2016-03-10 11:35:55,477 INFO LogInfo [main] test...0
-2016-03-10 11:35:55,532 INFO LogInfo [main] test...1
-2016-03-10 11:35:55,586 INFO LogInfo [main] test...2
-2016-03-10 11:35:55,639 INFO LogInfo [main] test...3
-2016-03-10 11:35:55,693 INFO LogInfo [main] test...4
-2016-03-10 11:35:55,746 INFO LogInfo [main] test...5
-2016-03-10 11:35:55,801 INFO LogInfo [main] test...6
-2016-03-10 11:35:55,854 INFO LogInfo [main] test...7
-2016-03-10 11:35:55,908 INFO LogInfo [main] test...8
-2016-03-10 11:35:55,961 INFO LogInfo [main] test...9
-2016-03-10 11:35:56,016 INFO LogInfo [main] test...10
-2016-03-10 11:35:56,070 INFO LogInfo [main] test...11
-2016-03-10 11:35:56,124 INFO LogInfo [main] test...12
-2016-03-10 11:35:56,178 INFO LogInfo [main] test...13
-2016-03-10 11:35:56,234 INFO LogInfo [main] test...14
-2016-03-10 11:35:56,285 INFO LogInfo [main] test...15
-2016-03-10 11:35:56,340 INFO LogInfo [main] test...16
-2016-03-10 11:35:56,394 INFO LogInfo [main] test...17
-2016-03-10 11:35:56,448 INFO LogInfo [main] test...18
-2016-03-10 11:35:56,502 INFO LogInfo [main] test...19
-2016-03-10 11:35:56,556 INFO LogInfo [main] test...20
-2016-03-10 11:35:56,610 INFO LogInfo [main] test...21
-2016-03-10 11:35:56,666 INFO LogInfo [main] test...22
-2016-03-10 11:35:56,719 INFO LogInfo [main] test...23
-2016-03-10 11:35:56,774 INFO LogInfo [main] test...24
-2016-03-10 11:35:56,828 INFO LogInfo [main] test...25
-2016-03-10 11:35:56,884 INFO LogInfo [main] test...26
-2016-03-10 11:35:56,938 INFO LogInfo [main] test...27
-2016-03-10 11:35:56,992 INFO LogInfo [main] test...28
-2016-03-10 11:35:57,046 INFO LogInfo [main] test...29
-2016-03-10 11:35:57,101 INFO LogInfo [main] test...30
-2016-03-10 11:35:57,156 INFO LogInfo [main] test...31
-2016-03-10 11:35:57,211 INFO LogInfo [main] test...32
-2016-03-10 11:35:57,266 INFO LogInfo [main] test...33
-2016-03-10 11:35:57,320 INFO LogInfo [main] test...34
-2016-03-10 11:35:57,374 INFO LogInfo [main] test...35
-2016-03-10 11:35:57,427 INFO LogInfo [main] test...36
-2016-03-10 11:35:57,482 INFO LogInfo [main] test...37
-2016-03-10 11:35:57,535 INFO LogInfo [main] test...38
-2016-03-10 11:35:57,589 INFO LogInfo [main] test...39
-2016-03-10 11:35:57,644 INFO LogInfo [main] test...40
-2016-03-10 11:35:57,698 INFO LogInfo [main] test...41
-2016-03-10 11:35:57,753 INFO LogInfo [main] test...42
-2016-03-10 11:35:57,806 INFO LogInfo [main] test...43
-2016-03-10 11:35:57,860 INFO LogInfo [main] test...44
-2016-03-10 11:35:57,914 INFO LogInfo [main] test...45
-2016-03-10 11:35:57,966 INFO LogInfo [main] test...46
-2016-03-10 11:35:58,019 INFO LogInfo [main] test...47
-2016-03-10 11:35:58,073 INFO LogInfo [main] test...48
-2016-03-10 11:35:58,127 INFO LogInfo [main] test...49
-2016-03-10 11:35:58,177 INFO LogInfo [main] test...50
-2016-03-10 11:35:58,229 INFO LogInfo [main] test...51
-2016-03-10 11:35:58,283 INFO LogInfo [main] test...52
-2016-03-10 11:35:58,334 INFO LogInfo [main] test...53
-2016-03-10 11:35:58,390 INFO LogInfo [main] test...54
-2016-03-10 11:35:58,440 INFO LogInfo [main] test...55
-2016-03-10 11:35:58,493 INFO LogInfo [main] test...56
-2016-03-10 11:35:58,545 INFO LogInfo [main] test...57
-2016-03-10 11:35:58,602 INFO LogInfo [main] test...58
-2016-03-10 11:35:58,654 INFO LogInfo [main] test...59
-2016-03-10 11:35:58,709 INFO LogInfo [main] test...60
-2016-03-10 11:35:58,763 INFO LogInfo [main] test...61
-2016-03-10 11:35:58,819 INFO LogInfo [main] test...62
-2016-03-10 11:35:58,873 INFO LogInfo [main] test...63
-2016-03-10 11:35:58,928 INFO LogInfo [main] test...64
-2016-03-10 11:35:58,982 INFO LogInfo [main] test...65
-2016-03-10 11:35:59,037 INFO LogInfo [main] test...66
-2016-03-10 11:35:59,090 INFO LogInfo [main] test...67
-2016-03-10 11:35:59,143 INFO LogInfo [main] test...68
-2016-03-10 11:35:59,198 INFO LogInfo [main] test...69
-2016-03-10 11:35:59,253 INFO LogInfo [main] test...70
-2016-03-10 11:35:59,305 INFO LogInfo [main] test...71
-2016-03-10 11:35:59,358 INFO LogInfo [main] test...72
-2016-03-10 11:35:59,411 INFO LogInfo [main] test...73
-2016-03-10 11:35:59,467 INFO LogInfo [main] test...74
-2016-03-10 11:35:59,517 INFO LogInfo [main] test...75
-2016-03-10 11:35:59,570 INFO LogInfo [main] test...76
-2016-03-10 11:35:59,625 INFO LogInfo [main] test...77
-2016-03-10 11:35:59,680 INFO LogInfo [main] test...78
-2016-03-10 11:35:59,735 INFO LogInfo [main] test...79
-2016-03-10 11:35:59,790 INFO LogInfo [main] test...80
-2016-03-10 11:35:59,845 INFO LogInfo [main] test...81
-2016-03-10 11:35:59,901 INFO LogInfo [main] test...82
-2016-03-10 11:35:59,955 INFO LogInfo [main] test...83
-2016-03-10 11:36:00,008 INFO LogInfo [main] test...84
-2016-03-10 11:36:00,062 INFO LogInfo [main] test...85
-2016-03-10 11:36:00,116 INFO LogInfo [main] test...86
-2016-03-10 11:36:00,171 INFO LogInfo [main] test...87
-2016-03-10 11:36:00,226 INFO LogInfo [main] test...88
-2016-03-10 11:36:00,279 INFO LogInfo [main] test...89
-2016-03-10 11:36:00,334 INFO LogInfo [main] test...90
-2016-03-10 11:36:00,388 INFO LogInfo [main] test...91
-2016-03-10 11:36:00,442 INFO LogInfo [main] test...92
-2016-03-10 11:36:00,496 INFO LogInfo [main] test...93
-2016-03-10 11:36:00,550 INFO LogInfo [main] test...94
-2016-03-10 11:36:00,604 INFO LogInfo [main] test...95
-2016-03-10 11:36:00,657 INFO LogInfo [main] test...96
-2016-03-10 11:36:00,712 INFO LogInfo [main] test...97
-2016-03-10 11:36:00,766 INFO LogInfo [main] test...98
-2016-03-10 11:36:00,820 INFO LogInfo [main] test...99
-2016-03-10 11:36:00,871 INFO LogInfo [main] test...100
-2016-03-10 11:36:00,926 INFO LogInfo [main] test...101
-2016-03-10 11:36:00,980 INFO LogInfo [main] test...102
-2016-03-10 11:36:01,034 INFO LogInfo [main] test...103
-2016-03-10 11:36:01,088 INFO LogInfo [main] test...104
-2016-03-10 11:36:01,143 INFO LogInfo [main] test...105
-2016-03-10 11:36:01,198 INFO LogInfo [main] test...106
-2016-03-10 11:36:01,249 INFO LogInfo [main] test...107
-2016-03-10 11:36:01,304 INFO LogInfo [main] test...108
-2016-03-10 11:36:01,357 INFO LogInfo [main] test...109
-2016-03-10 11:36:01,412 INFO LogInfo [main] test...110
-2016-03-10 11:36:01,467 INFO LogInfo [main] test...111
-2016-03-10 11:36:01,519 INFO LogInfo [main] test...112
-2016-03-10 11:36:01,574 INFO LogInfo [main] test...113
-2016-03-10 11:36:01,630 INFO LogInfo [main] test...114
-2016-03-10 11:36:01,685 INFO LogInfo [main] test...115
-2016-03-10 11:36:01,738 INFO LogInfo [main] test...116
-2016-03-10 11:36:01,792 INFO LogInfo [main] test...117
-2016-03-10 11:36:01,846 INFO LogInfo [main] test...118
-2016-03-10 11:36:01,901 INFO LogInfo [main] test...119
-2016-03-10 11:36:01,952 INFO LogInfo [main] test...120
-2016-03-10 11:36:02,006 INFO LogInfo [main] test...121
-2016-03-10 11:36:02,060 INFO LogInfo [main] test...122
-2016-03-10 11:36:02,115 INFO LogInfo [main] test...123
-2016-03-10 11:36:02,171 INFO LogInfo [main] test...124
-2016-03-10 11:36:02,225 INFO LogInfo [main] test...125
-2016-03-10 11:36:02,281 INFO LogInfo [main] test...126
-2016-03-10 11:36:02,335 INFO LogInfo [main] test...127
-2016-03-10 11:36:02,385 INFO LogInfo [main] test...128
-2016-03-10 11:36:02,439 INFO LogInfo [main] test...129
-2016-03-10 11:36:02,494 INFO LogInfo [main] test...130
-2016-03-10 11:36:02,546 INFO LogInfo [main] test...131
-2016-03-10 11:36:02,600 INFO LogInfo [main] test...132
-2016-03-10 11:36:02,669 INFO LogInfo [main] test...133
-2016-03-10 11:36:02,723 INFO LogInfo [main] test...134
-2016-03-10 11:36:02,775 INFO LogInfo [main] test...135
-2016-03-10 11:36:02,826 INFO LogInfo [main] test...136
-2016-03-10 11:36:02,881 INFO LogInfo [main] test...137
-2016-03-10 11:36:02,935 INFO LogInfo [main] test...138
-2016-03-10 11:36:02,990 INFO LogInfo [main] test...139
-2016-03-10 11:36:03,045 INFO LogInfo [main] test...140
-2016-03-10 11:36:03,099 INFO LogInfo [main] test...141
-2016-03-10 11:36:03,153 INFO LogInfo [main] test...142
-2016-03-10 11:36:03,204 INFO LogInfo [main] test...143
-2016-03-10 11:36:03,257 INFO LogInfo [main] test...144
-2016-03-10 11:36:03,312 INFO LogInfo [main] test...145
-2016-03-10 11:36:03,366 INFO LogInfo [main] test...146
-2016-03-10 11:36:03,419 INFO LogInfo [main] test...147
-2016-03-10 11:36:03,473 INFO LogInfo [main] test...148
-2016-03-10 11:36:03,525 INFO LogInfo [main] test...149
-2016-03-10 11:36:03,580 INFO LogInfo [main] test...150
-2016-03-10 11:36:03,631 INFO LogInfo [main] test...151
-2016-03-10 11:36:03,685 INFO LogInfo [main] test...152
-2016-03-10 11:36:03,740 INFO LogInfo [main] test...153
-2016-03-10 11:36:03,794 INFO LogInfo [main] test...154
-2016-03-10 11:36:03,847 INFO LogInfo [main] test...155
-2016-03-10 11:36:03,901 INFO LogInfo [main] test...156
-2016-03-10 11:36:03,956 INFO LogInfo [main] test...157
-2016-03-10 11:36:04,009 INFO LogInfo [main] test...158
-2016-03-10 11:36:04,064 INFO LogInfo [main] test...159
-2016-03-10 11:36:04,119 INFO LogInfo [main] test...160
-2016-03-10 11:36:04,173 INFO LogInfo [main] test...161
-2016-03-10 11:36:04,229 INFO LogInfo [main] test...162
-2016-03-10 11:36:04,283 INFO LogInfo [main] test...163
-2016-03-10 11:36:04,338 INFO LogInfo [main] test...164
-2016-03-10 11:36:04,390 INFO LogInfo [main] test...165
-2016-03-10 11:36:04,442 INFO LogInfo [main] test...166
-2016-03-10 11:36:04,497 INFO LogInfo [main] test...167
-2016-03-10 11:36:04,553 INFO LogInfo [main] test...168
-2016-03-10 11:36:04,606 INFO LogInfo [main] test...169
-2016-03-10 11:36:04,660 INFO LogInfo [main] test...170
-2016-03-10 11:36:04,714 INFO LogInfo [main] test...171
-2016-03-10 11:36:04,766 INFO LogInfo [main] test...172
-2016-03-10 11:36:04,821 INFO LogInfo [main] test...173
-2016-03-10 11:36:04,876 INFO LogInfo [main] test...174
-2016-03-10 11:36:04,931 INFO LogInfo [main] test...175
-2016-03-10 11:36:04,984 INFO LogInfo [main] test...176
-2016-03-10 11:36:05,037 INFO LogInfo [main] test...177
-2016-03-10 11:36:05,092 INFO LogInfo [main] test...178
-2016-03-10 11:36:05,146 INFO LogInfo [main] test...179
-2016-03-10 11:36:05,200 INFO LogInfo [main] test...180
-2016-03-10 11:36:05,252 INFO LogInfo [main] test...181
-2016-03-10 11:36:05,302 INFO LogInfo [main] test...182
-2016-03-10 11:36:05,357 INFO LogInfo [main] test...183
-2016-03-10 11:36:05,411 INFO LogInfo [main] test...184
-2016-03-10 11:36:05,466 INFO LogInfo [main] test...185
-2016-03-10 11:36:05,520 INFO LogInfo [main] test...186
-2016-03-10 11:36:05,574 INFO LogInfo [main] test...187
-2016-03-10 11:36:05,628 INFO LogInfo [main] test...188
-2016-03-10 11:36:05,682 INFO LogInfo [main] test...189
-2016-03-10 11:36:05,737 INFO LogInfo [main] test...190
-2016-03-10 11:36:05,790 INFO LogInfo [main] test...191
-2016-03-10 11:36:05,844 INFO LogInfo [main] test...192
-2016-03-10 11:36:05,899 INFO LogInfo [main] test...193
-2016-03-10 11:36:05,954 INFO LogInfo [main] test...194
-2016-03-10 11:36:06,007 INFO LogInfo [main] test...195
-2016-03-10 11:36:06,060 INFO LogInfo [main] test...196
-2016-03-10 11:36:06,115 INFO LogInfo [main] test...197
-2016-03-10 11:36:06,169 INFO LogInfo [main] test...198
-2016-03-10 11:36:06,224 INFO LogInfo [main] test...199
-2016-03-10 11:36:06,278 INFO LogInfo [main] test...200
-2016-03-10 11:36:06,331 INFO LogInfo [main] test...201
-2016-03-10 11:36:06,386 INFO LogInfo [main] test...202
-2016-03-10 11:36:06,441 INFO LogInfo [main] test...203
-2016-03-10 11:36:06,495 INFO LogInfo [main] test...204
-2016-03-10 11:36:06,549 INFO LogInfo [main] test...205
-2016-03-10 11:36:06,605 INFO LogInfo [main] test...206
-2016-03-10 11:36:06,659 INFO LogInfo [main] test...207
-2016-03-10 11:36:06,714 INFO LogInfo [main] test...208
-2016-03-10 11:36:06,768 INFO LogInfo [main] test...209
-2016-03-10 11:36:06,823 INFO LogInfo [main] test...210
-2016-03-10 11:36:06,877 INFO LogInfo [main] test...211
-2016-03-10 11:36:06,931 INFO LogInfo [main] test...212
-2016-03-10 11:36:06,983 INFO LogInfo [main] test...213
-2016-03-10 11:36:07,037 INFO LogInfo [main] test...214
-2016-03-10 11:36:07,090 INFO LogInfo [main] test...215
-2016-03-10 11:36:07,144 INFO LogInfo [main] test...216
-2016-03-10 11:36:07,198 INFO LogInfo [main] test...217
-2016-03-10 11:36:07,253 INFO LogInfo [main] test...218
-2016-03-10 11:36:07,305 INFO LogInfo [main] test...219
-2016-03-10 11:36:07,358 INFO LogInfo [main] test...220
-2016-03-10 11:36:07,413 INFO LogInfo [main] test...221
-2016-03-10 11:36:07,467 INFO LogInfo [main] test...222
-2016-03-10 11:36:07,518 INFO LogInfo [main] test...223
-2016-03-10 11:36:07,569 INFO LogInfo [main] test...224
-2016-03-10 11:36:07,623 INFO LogInfo [main] test...225
-2016-03-10 11:36:07,678 INFO LogInfo [main] test...226
-2016-03-10 11:36:07,733 INFO LogInfo [main] test...227
-2016-03-10 11:36:07,788 INFO LogInfo [main] test...228
-2016-03-10 11:36:07,842 INFO LogInfo [main] test...229
-2016-03-10 11:36:07,897 INFO LogInfo [main] test...230
-2016-03-10 11:36:07,952 INFO LogInfo [main] test...231
-2016-03-10 11:36:08,007 INFO LogInfo [main] test...232
-2016-03-10 11:36:08,060 INFO LogInfo [main] test...233
-2016-03-10 11:36:08,114 INFO LogInfo [main] test...234
-2016-03-10 11:36:08,169 INFO LogInfo [main] test...235
-2016-03-10 11:36:08,224 INFO LogInfo [main] test...236
-2016-03-10 11:36:08,278 INFO LogInfo [main] test...237
-2016-03-10 11:36:08,332 INFO LogInfo [main] test...238
-2016-03-10 11:36:08,387 INFO LogInfo [main] test...239
-2016-03-10 11:36:08,442 INFO LogInfo [main] test...240
-2016-03-10 11:36:08,496 INFO LogInfo [main] test...241
-2016-03-10 11:36:08,548 INFO LogInfo [main] test...242
-2016-03-10 11:36:08,602 INFO LogInfo [main] test...243
-2016-03-10 11:36:08,654 INFO LogInfo [main] test...244
-2016-03-10 11:36:08,704 INFO LogInfo [main] test...245
-2016-03-10 11:36:08,757 INFO LogInfo [main] test...246
-2016-03-10 11:36:08,808 INFO LogInfo [main] test...247
-2016-03-10 11:36:08,861 INFO LogInfo [main] test...248
-2016-03-10 11:36:08,914 INFO LogInfo [main] test...249
-2016-03-10 11:36:08,969 INFO LogInfo [main] test...250
-2016-03-10 11:36:09,022 INFO LogInfo [main] test...251
-2016-03-10 11:36:09,077 INFO LogInfo [main] test...252
-2016-03-10 11:36:09,132 INFO LogInfo [main] test...253
-2016-03-10 11:36:09,186 INFO LogInfo [main] test...254
-2016-03-10 11:36:09,242 INFO LogInfo [main] test...255
-2016-03-10 11:36:09,296 INFO LogInfo [main] test...256
-2016-03-10 11:36:09,350 INFO LogInfo [main] test...257
-2016-03-10 11:36:09,403 INFO LogInfo [main] test...258
-2016-03-10 11:36:09,459 INFO LogInfo [main] test...259
-2016-03-10 11:36:09,513 INFO LogInfo [main] test...260
-2016-03-10 11:36:09,568 INFO LogInfo [main] test...261
-2016-03-10 11:36:09,622 INFO LogInfo [main] test...262
-2016-03-10 11:36:09,674 INFO LogInfo [main] test...263
-2016-03-10 11:36:09,729 INFO LogInfo [main] test...264
-2016-03-10 11:36:09,783 INFO LogInfo [main] test...265
-2016-03-10 11:36:09,836 INFO LogInfo [main] test...266
-2016-03-10 11:36:09,890 INFO LogInfo [main] test...267
-2016-03-10 11:36:09,944 INFO LogInfo [main] test...268
-2016-03-10 11:36:09,998 INFO LogInfo [main] test...269
-2016-03-10 11:36:10,053 INFO LogInfo [main] test...270
-2016-03-10 11:36:10,108 INFO LogInfo [main] test...271
-2016-03-10 11:36:10,161 INFO LogInfo [main] test...272
-2016-03-10 11:36:10,215 INFO LogInfo [main] test...273
-2016-03-10 11:36:10,270 INFO LogInfo [main] test...274
-2016-03-10 11:36:10,323 INFO LogInfo [main] test...275
-2016-03-10 11:36:10,377 INFO LogInfo [main] test...276
-2016-03-10 11:36:10,432 INFO LogInfo [main] test...277
-2016-03-10 11:36:10,488 INFO LogInfo [main] test...278
-2016-03-10 11:36:10,541 INFO LogInfo [main] test...279
-2016-03-10 11:36:10,596 INFO LogInfo [main] test...280
-2016-03-10 11:36:10,651 INFO LogInfo [main] test...281
-2016-03-10 11:36:10,705 INFO LogInfo [main] test...282
-2016-03-10 11:36:10,759 INFO LogInfo [main] test...283
-2016-03-10 11:36:10,813 INFO LogInfo [main] test...284
-2016-03-10 11:36:10,867 INFO LogInfo [main] test...285
-2016-03-10 11:36:10,920 INFO LogInfo [main] test...286
-2016-03-10 11:36:10,975 INFO LogInfo [main] test...287
-2016-03-10 11:36:11,030 INFO LogInfo [main] test...288
-2016-03-10 11:36:11,085 INFO LogInfo [main] test...289
-2016-03-10 11:36:11,140 INFO LogInfo [main] test...290
-2016-03-10 11:36:11,194 INFO LogInfo [main] test...291
-2016-03-10 11:36:11,249 INFO LogInfo [main] test...292
-2016-03-10 11:36:11,304 INFO LogInfo [main] test...293
-2016-03-10 11:36:11,359 INFO LogInfo [main] test...294
-2016-03-10 11:36:11,413 INFO LogInfo [main] test...295
-2016-03-10 11:36:11,468 INFO LogInfo [main] test...296
-2016-03-10 11:36:11,521 INFO LogInfo [main] test...297
-2016-03-10 11:36:11,574 INFO LogInfo [main] test...298
-2016-03-10 11:36:11,628 INFO LogInfo [main] test...299
-2016-03-10 11:36:11,683 INFO LogInfo [main] test...300
-2016-03-10 11:36:11,736 INFO LogInfo [main] test...301
-2016-03-10 11:36:11,789 INFO LogInfo [main] test...302
-2016-03-10 11:36:11,843 INFO LogInfo [main] test...303
-2016-03-10 11:36:11,897 INFO LogInfo [main] test...304
-2016-03-10 11:36:11,953 INFO LogInfo [main] test...305
-2016-03-10 11:36:12,007 INFO LogInfo [main] test...306
-2016-03-10 11:36:12,061 INFO LogInfo [main] test...307
-2016-03-10 11:36:12,115 INFO LogInfo [main] test...308
-2016-03-10 11:36:12,167 INFO LogInfo [main] test...309
-2016-03-10 11:36:12,222 INFO LogInfo [main] test...310
-2016-03-10 11:36:12,277 INFO LogInfo [main] test...311
-2016-03-10 11:36:12,333 INFO LogInfo [main] test...312
-2016-03-10 11:36:12,387 INFO LogInfo [main] test...313
-2016-03-10 11:36:12,441 INFO LogInfo [main] test...314
-2016-03-10 11:36:12,496 INFO LogInfo [main] test...315
-2016-03-10 11:36:12,551 INFO LogInfo [main] test...316
-2016-03-10 11:36:12,606 INFO LogInfo [main] test...317
-2016-03-10 11:36:12,658 INFO LogInfo [main] test...318
-2016-03-10 11:36:12,712 INFO LogInfo [main] test...319
-2016-03-10 11:36:12,767 INFO LogInfo [main] test...320
-2016-03-10 11:36:12,823 INFO LogInfo [main] test...321
-2016-03-10 11:36:12,878 INFO LogInfo [main] test...322
-2016-03-10 11:36:12,933 INFO LogInfo [main] test...323
-2016-03-10 11:36:12,988 INFO LogInfo [main] test...324
-2016-03-10 11:36:13,039 INFO LogInfo [main] test...325
-2016-03-10 11:36:13,095 INFO LogInfo [main] test...326
-2016-03-10 11:36:13,147 INFO LogInfo [main] test...327
-2016-03-10 11:36:13,201 INFO LogInfo [main] test...328
-2016-03-10 11:36:13,257 INFO LogInfo [main] test...329
-2016-03-10 11:36:13,308 INFO LogInfo [main] test...330
-2016-03-10 11:36:13,364 INFO LogInfo [main] test...331
-2016-03-10 11:36:13,418 INFO LogInfo [main] test...332
-2016-03-10 11:36:13,472 INFO LogInfo [main] test...333
-2016-03-10 11:36:13,524 INFO LogInfo [main] test...334
-2016-03-10 11:36:13,578 INFO LogInfo [main] test...335
-2016-03-10 11:36:13,633 INFO LogInfo [main] test...336
-2016-03-10 11:36:13,687 INFO LogInfo [main] test...337
-2016-03-10 11:36:13,740 INFO LogInfo [main] test...338
-2016-03-10 11:36:13,794 INFO LogInfo [main] test...339
-2016-03-10 11:36:13,849 INFO LogInfo [main] test...340
-2016-03-10 11:36:13,902 INFO LogInfo [main] test...341
-2016-03-10 11:36:13,957 INFO LogInfo [main] test...342
-2016-03-10 11:36:14,011 INFO LogInfo [main] test...343
-2016-03-10 11:36:14,064 INFO LogInfo [main] test...344
-2016-03-10 11:36:14,118 INFO LogInfo [main] test...345
-2016-03-10 11:36:14,171 INFO LogInfo [main] test...346
-2016-03-10 11:36:14,225 INFO LogInfo [main] test...347
-2016-03-10 11:36:14,278 INFO LogInfo [main] test...348
-2016-03-10 11:36:14,332 INFO LogInfo [main] test...349
-2016-03-10 11:36:14,385 INFO LogInfo [main] test...350
-2016-03-10 11:36:14,437 INFO LogInfo [main] test...351
-2016-03-10 11:36:14,487 INFO LogInfo [main] test...352
-2016-03-10 11:36:14,541 INFO LogInfo [main] test...353
-2016-03-10 11:36:14,594 INFO LogInfo [main] test...354
-2016-03-10 11:36:14,648 INFO LogInfo [main] test...355
-2016-03-10 11:36:14,703 INFO LogInfo [main] test...356
-2016-03-10 11:36:14,758 INFO LogInfo [main] test...357
-2016-03-10 11:36:14,813 INFO LogInfo [main] test...358
-2016-03-10 11:36:14,868 INFO LogInfo [main] test...359
-2016-03-10 11:36:14,922 INFO LogInfo [main] test...360
-2016-03-10 11:36:14,976 INFO LogInfo [main] test...361
-2016-03-10 11:36:15,030 INFO LogInfo [main] test...362
-2016-03-10 11:36:15,084 INFO LogInfo [main] test...363
-2016-03-10 11:36:15,138 INFO LogInfo [main] test...364
-2016-03-10 11:36:15,193 INFO LogInfo [main] test...365
-2016-03-10 11:36:15,247 INFO LogInfo [main] test...366
-2016-03-10 11:36:15,302 INFO LogInfo [main] test...367
-2016-03-10 11:36:15,356 INFO LogInfo [main] test...368
-2016-03-10 11:36:15,411 INFO LogInfo [main] test...369
-2016-03-10 11:36:15,464 INFO LogInfo [main] test...370
-2016-03-10 11:36:15,519 INFO LogInfo [main] test...371
-2016-03-10 11:36:15,573 INFO LogInfo [main] test...372
-2016-03-10 11:36:15,626 INFO LogInfo [main] test...373
-2016-03-10 11:36:15,681 INFO LogInfo [main] test...374
-2016-03-10 11:36:15,736 INFO LogInfo [main] test...375
-2016-03-10 11:36:15,790 INFO LogInfo [main] test...376
-2016-03-10 11:36:15,844 INFO LogInfo [main] test...377
-2016-03-10 11:36:15,899 INFO LogInfo [main] test...378
-2016-03-10 11:36:15,953 INFO LogInfo [main] test...379
-2016-03-10 11:36:16,009 INFO LogInfo [main] test...380
-2016-03-10 11:36:16,062 INFO LogInfo [main] test...381
-2016-03-10 11:36:16,116 INFO LogInfo [main] test...382
-2016-03-10 11:36:16,170 INFO LogInfo [main] test...383
-2016-03-10 11:36:16,224 INFO LogInfo [main] test...384
-2016-03-10 11:36:16,279 INFO LogInfo [main] test...385
-2016-03-10 11:36:16,332 INFO LogInfo [main] test...386
-2016-03-10 11:36:16,390 INFO LogInfo [main] test...387
-2016-03-10 11:36:16,443 INFO LogInfo [main] test...388
-2016-03-10 11:36:16,498 INFO LogInfo [main] test...389
-2016-03-10 11:36:16,552 INFO LogInfo [main] test...390
-2016-03-10 11:36:16,604 INFO LogInfo [main] test...391
-2016-03-10 11:36:16,659 INFO LogInfo [main] test...392
-2016-03-10 11:36:16,713 INFO LogInfo [main] test...393
-2016-03-10 11:36:16,765 INFO LogInfo [main] test...394
-2016-03-10 11:36:16,817 INFO LogInfo [main] test...395
-2016-03-10 11:36:16,871 INFO LogInfo [main] test...396
-2016-03-10 11:36:16,923 INFO LogInfo [main] test...397
-2016-03-10 11:36:16,977 INFO LogInfo [main] test...398
-2016-03-10 11:36:17,030 INFO LogInfo [main] test...399
-2016-03-10 11:36:17,084 INFO LogInfo [main] test...400
-2016-03-10 11:36:17,136 INFO LogInfo [main] test...401
-2016-03-10 11:36:17,190 INFO LogInfo [main] test...402
-2016-03-10 11:36:17,245 INFO LogInfo [main] test...403
-2016-03-10 11:36:17,300 INFO LogInfo [main] test...404
-2016-03-10 11:36:17,353 INFO LogInfo [main] test...405
-2016-03-10 11:36:17,407 INFO LogInfo [main] test...406
-2016-03-10 11:36:17,462 INFO LogInfo [main] test...407
-2016-03-10 11:36:17,517 INFO LogInfo [main] test...408
-2016-03-10 11:36:17,571 INFO LogInfo [main] test...409
-2016-03-10 11:36:17,622 INFO LogInfo [main] test...410
-2016-03-10 11:36:17,677 INFO LogInfo [main] test...411
-2016-03-10 11:36:17,730 INFO LogInfo [main] test...412
-2016-03-10 11:36:17,785 INFO LogInfo [main] test...413
-2016-03-10 11:36:17,840 INFO LogInfo [main] test...414
-2016-03-10 11:36:17,894 INFO LogInfo [main] test...415
-2016-03-10 11:36:17,944 INFO LogInfo [main] test...416
-2016-03-10 11:36:17,995 INFO LogInfo [main] test...417
-2016-03-10 11:36:18,048 INFO LogInfo [main] test...418
-2016-03-10 11:36:18,101 INFO LogInfo [main] test...419
-2016-03-10 11:36:18,155 INFO LogInfo [main] test...420
-2016-03-10 11:36:18,210 INFO LogInfo [main] test...421
-2016-03-10 11:36:18,264 INFO LogInfo [main] test...422
-2016-03-10 11:36:18,317 INFO LogInfo [main] test...423
-2016-03-10 11:36:18,371 INFO LogInfo [main] test...424
-2016-03-10 11:36:18,424 INFO LogInfo [main] test...425
-2016-03-10 11:36:18,479 INFO LogInfo [main] test...426
-2016-03-10 11:36:18,534 INFO LogInfo [main] test...427
-2016-03-10 11:36:18,588 INFO LogInfo [main] test...428
-2016-03-10 11:36:18,643 INFO LogInfo [main] test...429
-2016-03-10 11:36:18,694 INFO LogInfo [main] test...430
-2016-03-10 11:36:18,749 INFO LogInfo [main] test...431
-2016-03-10 11:36:18,803 INFO LogInfo [main] test...432
-2016-03-10 11:36:18,858 INFO LogInfo [main] test...433
-2016-03-10 11:36:18,912 INFO LogInfo [main] test...434
-2016-03-10 11:36:18,965 INFO LogInfo [main] test...435
-2016-03-10 11:36:19,020 INFO LogInfo [main] test...436
-2016-03-10 11:36:19,074 INFO LogInfo [main] test...437
-2016-03-10 11:36:19,127 INFO LogInfo [main] test...438
-2016-03-10 11:36:19,181 INFO LogInfo [main] test...439
-2016-03-10 11:36:19,234 INFO LogInfo [main] test...440
-2016-03-10 11:36:19,288 INFO LogInfo [main] test...441
-2016-03-10 11:36:19,342 INFO LogInfo [main] test...442
-2016-03-10 11:36:19,397 INFO LogInfo [main] test...443
-2016-03-10 11:36:19,448 INFO LogInfo [main] test...444
-2016-03-10 11:36:19,502 INFO LogInfo [main] test...445
-2016-03-10 11:36:19,556 INFO LogInfo [main] test...446
-2016-03-10 11:36:19,611 INFO LogInfo [main] test...447
-2016-03-10 11:36:19,664 INFO LogInfo [main] test...448
-2016-03-10 11:36:19,716 INFO LogInfo [main] test...449
-2016-03-10 11:36:19,771 INFO LogInfo [main] test...450
-2016-03-10 11:36:19,825 INFO LogInfo [main] test...451
-2016-03-10 11:36:19,879 INFO LogInfo [main] test...452
-2016-03-10 11:36:19,932 INFO LogInfo [main] test...453
-2016-03-10 11:36:19,986 INFO LogInfo [main] test...454
-2016-03-10 11:36:20,041 INFO LogInfo [main] test...455
-2016-03-10 11:36:20,093 INFO LogInfo [main] test...456
-2016-03-10 11:36:20,147 INFO LogInfo [main] test...457
-2016-03-10 11:36:20,200 INFO LogInfo [main] test...458
-2016-03-10 11:36:20,255 INFO LogInfo [main] test...459
-2016-03-10 11:36:20,309 INFO LogInfo [main] test...460
-2016-03-10 11:36:20,362 INFO LogInfo [main] test...461
-2016-03-10 11:36:20,418 INFO LogInfo [main] test...462
-2016-03-10 11:36:20,469 INFO LogInfo [main] test...463
-2016-03-10 11:36:20,521 INFO LogInfo [main] test...464
-2016-03-10 11:36:20,576 INFO LogInfo [main] test...465
-2016-03-10 11:36:20,627 INFO LogInfo [main] test...466
-2016-03-10 11:36:20,680 INFO LogInfo [main] test...467
-2016-03-10 11:36:20,733 INFO LogInfo [main] test...468
-2016-03-10 11:36:20,787 INFO LogInfo [main] test...469
-2016-03-10 11:36:20,841 INFO LogInfo [main] test...470
-2016-03-10 11:36:20,895 INFO LogInfo [main] test...471
-2016-03-10 11:36:20,946 INFO LogInfo [main] test...472
-2016-03-10 11:36:21,001 INFO LogInfo [main] test...473
-2016-03-10 11:36:21,055 INFO LogInfo [main] test...474
-2016-03-10 11:36:21,107 INFO LogInfo [main] test...475
-2016-03-10 11:36:21,160 INFO LogInfo [main] test...476
-2016-03-10 11:36:21,215 INFO LogInfo [main] test...477
-2016-03-10 11:36:21,268 INFO LogInfo [main] test...478
-2016-03-10 11:36:21,323 INFO LogInfo [main] test...479
-2016-03-10 11:36:21,378 INFO LogInfo [main] test...480
-2016-03-10 11:36:21,432 INFO LogInfo [main] test...481
-2016-03-10 11:36:21,487 INFO LogInfo [main] test...482
-2016-03-10 11:36:21,540 INFO LogInfo [main] test...483
-2016-03-10 11:36:21,594 INFO LogInfo [main] test...484
-2016-03-10 11:36:21,649 INFO LogInfo [main] test...485
-2016-03-10 11:36:21,704 INFO LogInfo [main] test...486
-2016-03-10 11:36:21,754 INFO LogInfo [main] test...487
-2016-03-10 11:36:21,807 INFO LogInfo [main] test...488
-2016-03-10 11:36:21,860 INFO LogInfo [main] test...489
-2016-03-10 11:36:21,914 INFO LogInfo [main] test...490
-2016-03-10 11:36:21,969 INFO LogInfo [main] test...491
-2016-03-10 11:36:22,023 INFO LogInfo [main] test...492
-2016-03-10 11:36:22,075 INFO LogInfo [main] test...493
-2016-03-10 11:36:22,131 INFO LogInfo [main] test...494
-2016-03-10 11:36:22,186 INFO LogInfo [main] test...495
-2016-03-10 11:36:22,239 INFO LogInfo [main] test...496
-2016-03-10 11:36:22,292 INFO LogInfo [main] test...497
-2016-03-10 11:36:22,345 INFO LogInfo [main] test...498
-2016-03-10 11:36:22,400 INFO LogInfo [main] test...499
-2016-03-10 11:36:22,454 INFO LogInfo [main] test...500
-2016-03-10 11:36:22,506 INFO LogInfo [main] test...501
-2016-03-10 11:36:22,559 INFO LogInfo [main] test...502
-2016-03-10 11:36:22,613 INFO LogInfo [main] test...503
-2016-03-10 11:36:22,667 INFO LogInfo [main] test...504
-2016-03-10 11:36:22,720 INFO LogInfo [main] test...505
-2016-03-10 11:36:22,773 INFO LogInfo [main] test...506
-2016-03-10 11:36:22,827 INFO LogInfo [main] test...507
-2016-03-10 11:36:22,879 INFO LogInfo [main] test...508
-2016-03-10 11:36:22,934 INFO LogInfo [main] test...509
-2016-03-10 11:36:22,989 INFO LogInfo [main] test...510
-2016-03-10 11:36:23,042 INFO LogInfo [main] test...511
-2016-03-10 11:36:23,096 INFO LogInfo [main] test...512
-2016-03-10 11:36:23,148 INFO LogInfo [main] test...513
-2016-03-10 11:36:23,201 INFO LogInfo [main] test...514
-2016-03-10 11:36:23,255 INFO LogInfo [main] test...515
-2016-03-10 11:36:23,310 INFO LogInfo [main] test...516
-2016-03-10 11:36:23,365 INFO LogInfo [main] test...517
-2016-03-10 11:36:23,415 INFO LogInfo [main] test...518
-2016-03-10 11:36:23,471 INFO LogInfo [main] test...519
-2016-03-10 11:36:23,525 INFO LogInfo [main] test...520
-2016-03-10 11:36:23,580 INFO LogInfo [main] test...521
-2016-03-10 11:36:23,635 INFO LogInfo [main] test...522
-2016-03-10 11:36:23,689 INFO LogInfo [main] test...523
-2016-03-10 11:36:23,744 INFO LogInfo [main] test...524
-2016-03-10 11:36:23,799 INFO LogInfo [main] test...525
-2016-03-10 11:36:23,854 INFO LogInfo [main] test...526
-2016-03-10 11:36:23,906 INFO LogInfo [main] test...527
-2016-03-10 11:36:23,961 INFO LogInfo [main] test...528
-2016-03-10 11:36:24,014 INFO LogInfo [main] test...529
-2016-03-10 11:36:24,068 INFO LogInfo [main] test...530
-2016-03-10 11:36:24,123 INFO LogInfo [main] test...531
-2016-03-10 11:36:24,178 INFO LogInfo [main] test...532
-2016-03-10 11:36:24,231 INFO LogInfo [main] test...533
-2016-03-10 11:36:24,286 INFO LogInfo [main] test...534
-2016-03-10 11:36:24,340 INFO LogInfo [main] test...535
-2016-03-10 11:36:24,394 INFO LogInfo [main] test...536
-2016-03-10 11:36:24,448 INFO LogInfo [main] test...537
-2016-03-10 11:36:24,502 INFO LogInfo [main] test...538
-2016-03-10 11:36:24,557 INFO LogInfo [main] test...539
-2016-03-10 11:36:24,611 INFO LogInfo [main] test...540
-2016-03-10 11:36:24,663 INFO LogInfo [main] test...541
-2016-03-10 11:36:24,718 INFO LogInfo [main] test...542
-2016-03-10 11:36:24,772 INFO LogInfo [main] test...543
-2016-03-10 11:36:24,825 INFO LogInfo [main] test...544
-2016-03-10 11:36:24,879 INFO LogInfo [main] test...545
-2016-03-10 11:36:24,933 INFO LogInfo [main] test...546
-2016-03-10 11:36:24,987 INFO LogInfo [main] test...547
-2016-03-10 11:36:25,042 INFO LogInfo [main] test...548
-2016-03-10 11:36:25,094 INFO LogInfo [main] test...549
-2016-03-10 11:36:25,146 INFO LogInfo [main] test...550
-2016-03-10 11:36:25,201 INFO LogInfo [main] test...551
-2016-03-10 11:36:25,256 INFO LogInfo [main] test...552
-2016-03-10 11:36:25,309 INFO LogInfo [main] test...553
-2016-03-10 11:36:25,361 INFO LogInfo [main] test...554
-2016-03-10 11:36:25,416 INFO LogInfo [main] test...555
-2016-03-10 11:36:25,467 INFO LogInfo [main] test...556
-2016-03-10 11:36:25,522 INFO LogInfo [main] test...557
-2016-03-10 11:36:25,574 INFO LogInfo [main] test...558
-2016-03-10 11:36:25,629 INFO LogInfo [main] test...559
-2016-03-10 11:36:25,684 INFO LogInfo [main] test...560
-2016-03-10 11:36:25,734 INFO LogInfo [main] test...561
-2016-03-10 11:36:25,789 INFO LogInfo [main] test...562
-2016-03-10 11:36:25,843 INFO LogInfo [main] test...563
-2016-03-10 11:36:25,895 INFO LogInfo [main] test...564
-2016-03-10 11:36:25,949 INFO LogInfo [main] test...565
-2016-03-10 11:36:26,001 INFO LogInfo [main] test...566
-2016-03-10 11:36:26,055 INFO LogInfo [main] test...567
-2016-03-10 11:36:26,107 INFO LogInfo [main] test...568
-2016-03-10 11:36:26,160 INFO LogInfo [main] test...569
-2016-03-10 11:36:26,214 INFO LogInfo [main] test...570
-2016-03-10 11:36:26,267 INFO LogInfo [main] test...571
-2016-03-10 11:36:26,322 INFO LogInfo [main] test...572
-2016-03-10 11:36:26,374 INFO LogInfo [main] test...573
-2016-03-10 11:36:26,429 INFO LogInfo [main] test...574
-2016-03-10 11:36:26,479 INFO LogInfo [main] test...575
-2016-03-10 11:36:26,534 INFO LogInfo [main] test...576
-2016-03-10 11:36:26,585 INFO LogInfo [main] test...577
-2016-03-10 11:36:26,641 INFO LogInfo [main] test...578
-2016-03-10 11:36:26,694 INFO LogInfo [main] test...579
-2016-03-10 11:36:26,748 INFO LogInfo [main] test...580
-2016-03-10 11:36:26,800 INFO LogInfo [main] test...581
-2016-03-10 11:36:26,855 INFO LogInfo [main] test...582
-2016-03-10 11:36:26,909 INFO LogInfo [main] test...583
-2016-03-10 11:36:26,962 INFO LogInfo [main] test...584
-2016-03-10 11:36:27,015 INFO LogInfo [main] test...585
-2016-03-10 11:36:27,066 INFO LogInfo [main] test...586
-2016-03-10 11:36:27,119 INFO LogInfo [main] test...587
-2016-03-10 11:36:27,173 INFO LogInfo [main] test...588
-2016-03-10 11:36:27,228 INFO LogInfo [main] test...589
-2016-03-10 11:36:27,281 INFO LogInfo [main] test...590
-2016-03-10 11:36:27,335 INFO LogInfo [main] test...591
-2016-03-10 11:36:27,390 INFO LogInfo [main] test...592
-2016-03-10 11:36:27,444 INFO LogInfo [main] test...593
-2016-03-10 11:36:27,497 INFO LogInfo [main] test...594
-2016-03-10 11:36:27,551 INFO LogInfo [main] test...595
-2016-03-10 11:36:27,605 INFO LogInfo [main] test...596
-2016-03-10 11:36:27,658 INFO LogInfo [main] test...597
-2016-03-10 11:36:27,714 INFO LogInfo [main] test...598
-2016-03-10 11:36:27,768 INFO LogInfo [main] test...599
-2016-03-10 11:36:27,823 INFO LogInfo [main] test...600
-2016-03-10 11:36:27,877 INFO LogInfo [main] test...601
-2016-03-10 11:36:27,930 INFO LogInfo [main] test...602
-2016-03-10 11:36:27,982 INFO LogInfo [main] test...603
-2016-03-10 11:36:28,037 INFO LogInfo [main] test...604
-2016-03-10 11:36:28,090 INFO LogInfo [main] test...605
-2016-03-10 11:36:28,142 INFO LogInfo [main] test...606
-2016-03-10 11:36:28,194 INFO LogInfo [main] test...607
-2016-03-10 11:36:28,248 INFO LogInfo [main] test...608
-2016-03-10 11:36:28,303 INFO LogInfo [main] test...609
-2016-03-10 11:36:28,358 INFO LogInfo [main] test...610
-2016-03-10 11:36:28,412 INFO LogInfo [main] test...611
-2016-03-10 11:36:28,465 INFO LogInfo [main] test...612
-2016-03-10 11:36:28,518 INFO LogInfo [main] test...613
-2016-03-10 11:36:28,573 INFO LogInfo [main] test...614
-2016-03-10 11:36:28,628 INFO LogInfo [main] test...615
-2016-03-10 11:36:28,681 INFO LogInfo [main] test...616
-2016-03-10 11:36:28,736 INFO LogInfo [main] test...617
-2016-03-10 11:36:28,790 INFO LogInfo [main] test...618
-2016-03-10 11:36:28,844 INFO LogInfo [main] test...619
-2016-03-10 11:36:28,899 INFO LogInfo [main] test...620
-2016-03-10 11:36:28,954 INFO LogInfo [main] test...621
-2016-03-10 11:36:29,008 INFO LogInfo [main] test...622
-2016-03-10 11:36:29,062 INFO LogInfo [main] test...623
-2016-03-10 11:36:29,117 INFO LogInfo [main] test...624
-2016-03-10 11:36:29,171 INFO LogInfo [main] test...625
-2016-03-10 11:36:29,225 INFO LogInfo [main] test...626
-2016-03-10 11:36:29,279 INFO LogInfo [main] test...627
-2016-03-10 11:36:29,334 INFO LogInfo [main] test...628
-2016-03-10 11:36:29,389 INFO LogInfo [main] test...629
-2016-03-10 11:36:29,441 INFO LogInfo [main] test...630
-2016-03-10 11:36:29,496 INFO LogInfo [main] test...631
-2016-03-10 11:36:29,549 INFO LogInfo [main] test...632
-2016-03-10 11:36:29,603 INFO LogInfo [main] test...633
-2016-03-10 11:36:29,657 INFO LogInfo [main] test...634
-2016-03-10 11:36:29,710 INFO LogInfo [main] test...635
-2016-03-10 11:36:29,763 INFO LogInfo [main] test...636
-2016-03-10 11:36:29,818 INFO LogInfo [main] test...637
-2016-03-10 11:36:29,873 INFO LogInfo [main] test...638
-2016-03-10 11:36:29,927 INFO LogInfo [main] test...639
-2016-03-10 11:36:29,986 INFO LogInfo [main] test...640
-2016-03-10 12:05:47,385 INFO WatcherTest [main] test log0
-2016-03-10 12:05:47,389 INFO WatcherTest [main] test log1
-2016-03-10 12:05:47,390 INFO WatcherTest [main] test log2
-2016-03-10 12:05:47,390 INFO WatcherTest [main] test log3
-2016-03-10 12:05:47,390 INFO WatcherTest [main] test log4
-2016-03-10 12:05:47,391 INFO WatcherTest [main] test log5
-2016-03-10 12:05:47,391 INFO WatcherTest [main] test log6
-2016-03-10 12:05:47,391 INFO WatcherTest [main] test log7
-2016-03-10 12:05:47,392 INFO WatcherTest [main] test log8
-2016-03-10 12:05:47,392 INFO WatcherTest [main] test log9
-2016-03-10 12:08:31,393 INFO WatcherTest [main] test log0
-2016-03-10 12:08:31,394 INFO WatcherTest [main] test log1
-2016-03-10 12:08:31,395 INFO WatcherTest [main] test log2
-2016-03-10 12:08:31,395 INFO WatcherTest [main] test log3
-2016-03-10 12:08:31,395 INFO WatcherTest [main] test log4
-2016-03-10 12:08:31,396 INFO WatcherTest [main] test log5
-2016-03-10 12:08:31,398 INFO WatcherTest [main] test log6
-2016-03-10 12:08:31,399 INFO WatcherTest [main] test log7
-2016-03-10 12:08:31,399 INFO WatcherTest [main] test log8
-2016-03-10 12:08:31,400 INFO WatcherTest [main] test log9
-2016-03-10 12:08:31,400 INFO WatcherTest [main] test log10
-2016-03-10 12:08:31,400 INFO WatcherTest [main] test log11
-2016-03-10 12:08:31,400 INFO WatcherTest [main] test log12
-2016-03-10 12:08:31,400 INFO WatcherTest [main] test log13
-2016-03-10 12:08:31,401 INFO WatcherTest [main] test log14
-2016-03-10 12:08:31,401 INFO WatcherTest [main] test log15
-2016-03-10 12:08:31,402 INFO WatcherTest [main] test log16
-2016-03-10 12:08:31,402 INFO WatcherTest [main] test log17
-2016-03-10 12:08:31,402 INFO WatcherTest [main] test log18
-2016-03-10 12:08:31,402 INFO WatcherTest [main] test log19
-2016-03-10 12:08:31,403 INFO WatcherTest [main] test log20
-2016-03-10 12:08:31,403 INFO WatcherTest [main] test log21
-2016-03-10 12:08:31,403 INFO WatcherTest [main] test log22
-2016-03-10 12:08:31,404 INFO WatcherTest [main] test log23
-2016-03-10 12:08:31,405 INFO WatcherTest [main] test log24
-2016-03-10 12:08:31,405 INFO WatcherTest [main] test log25
-2016-03-10 12:08:31,405 INFO WatcherTest [main] test log26
-2016-03-10 12:08:31,406 INFO WatcherTest [main] test log27
-2016-03-10 12:08:31,406 INFO WatcherTest [main] test log28
-2016-03-10 12:08:31,407 INFO WatcherTest [main] test log29
-2016-03-10 12:08:31,407 INFO WatcherTest [main] test log30
-2016-03-10 12:08:31,408 INFO WatcherTest [main] test log31
-2016-03-10 12:08:31,408 INFO WatcherTest [main] test log32
-2016-03-10 12:08:31,409 INFO WatcherTest [main] test log33
-2016-03-10 12:08:31,409 INFO WatcherTest [main] test log34
-2016-03-10 12:08:31,410 INFO WatcherTest [main] test log35
-2016-03-10 12:08:31,410 INFO WatcherTest [main] test log36
-2016-03-10 12:08:31,410 INFO WatcherTest [main] test log37
-2016-03-10 12:08:31,411 INFO WatcherTest [main] test log38
-2016-03-10 12:08:31,412 INFO WatcherTest [main] test log39
-2016-03-10 12:08:31,412 INFO WatcherTest [main] test log40
-2016-03-10 12:08:31,413 INFO WatcherTest [main] test log41
-2016-03-10 12:08:31,415 INFO WatcherTest [main] test log42
-2016-03-10 12:08:31,416 INFO WatcherTest [main] test log43
-2016-03-10 12:08:31,416 INFO WatcherTest [main] test log44
-2016-03-10 12:08:31,416 INFO WatcherTest [main] test log45
-2016-03-10 12:08:31,416 INFO WatcherTest [main] test log46
-2016-03-10 12:08:31,416 INFO WatcherTest [main] test log47
-2016-03-10 12:08:31,417 INFO WatcherTest [main] test log48
-2016-03-10 12:08:31,418 INFO WatcherTest [main] test log49
-2016-03-10 12:08:31,418 INFO WatcherTest [main] test log50
-2016-03-10 12:08:31,419 INFO WatcherTest [main] test log51
-2016-03-10 12:08:31,419 INFO WatcherTest [main] test log52
-2016-03-10 12:08:31,419 INFO WatcherTest [main] test log53
-2016-03-10 12:08:31,419 INFO WatcherTest [main] test log54
-2016-03-10 12:08:31,419 INFO WatcherTest [main] test log55
-2016-03-10 12:08:31,419 INFO WatcherTest [main] test log56
-2016-03-10 12:08:31,420 INFO WatcherTest [main] test log57
-2016-03-10 12:08:31,420 INFO WatcherTest [main] test log58
-2016-03-10 12:08:31,420 INFO WatcherTest [main] test log59
-2016-03-10 12:08:31,420 INFO WatcherTest [main] test log60
-2016-03-10 12:08:31,420 INFO WatcherTest [main] test log61
-2016-03-10 12:08:31,420 INFO WatcherTest [main] test log62
-2016-03-10 12:08:31,420 INFO WatcherTest [main] test log63
-2016-03-10 12:08:31,421 INFO WatcherTest [main] test log64
-2016-03-10 12:08:31,421 INFO WatcherTest [main] test log65
-2016-03-10 12:08:31,421 INFO WatcherTest [main] test log66
-2016-03-10 12:08:31,422 INFO WatcherTest [main] test log67
-2016-03-10 12:08:31,422 INFO WatcherTest [main] test log68
-2016-03-10 12:08:31,422 INFO WatcherTest [main] test log69
-2016-03-10 12:08:31,422 INFO WatcherTest [main] test log70
-2016-03-10 12:08:31,422 INFO WatcherTest [main] test log71
-2016-03-10 12:08:31,422 INFO WatcherTest [main] test log72
-2016-03-10 12:08:31,423 INFO WatcherTest [main] test log73
-2016-03-10 12:08:31,424 INFO WatcherTest [main] test log74
-2016-03-10 12:08:31,424 INFO WatcherTest [main] test log75
-2016-03-10 12:08:31,424 INFO WatcherTest [main] test log76
-2016-03-10 12:08:31,424 INFO WatcherTest [main] test log77
-2016-03-10 12:08:31,428 INFO WatcherTest [main] test log78
-2016-03-10 12:08:31,428 INFO WatcherTest [main] test log79
-2016-03-10 12:08:31,428 INFO WatcherTest [main] test log80
-2016-03-10 12:08:31,429 INFO WatcherTest [main] test log81
-2016-03-10 12:08:31,429 INFO WatcherTest [main] test log82
-2016-03-10 12:08:31,429 INFO WatcherTest [main] test log83
-2016-03-10 12:08:31,429 INFO WatcherTest [main] test log84
-2016-03-10 12:08:31,429 INFO WatcherTest [main] test log85
-2016-03-10 12:08:31,430 INFO WatcherTest [main] test log86
-2016-03-10 12:08:31,431 INFO WatcherTest [main] test log87
-2016-03-10 12:08:31,432 INFO WatcherTest [main] test log88
-2016-03-10 12:08:31,432 INFO WatcherTest [main] test log89
-2016-03-10 12:08:31,432 INFO WatcherTest [main] test log90
-2016-03-10 12:08:31,432 INFO WatcherTest [main] test log91
-2016-03-10 12:08:31,432 INFO WatcherTest [main] test log92
-2016-03-10 12:08:31,433 INFO WatcherTest [main] test log93
-2016-03-10 12:08:31,434 INFO WatcherTest [main] test log94
-2016-03-10 12:08:31,434 INFO WatcherTest [main] test log95
-2016-03-10 12:08:31,434 INFO WatcherTest [main] test log96
-2016-03-10 12:08:31,436 INFO WatcherTest [main] test log97
-2016-03-10 12:08:31,436 INFO WatcherTest [main] test log98
-2016-03-10 12:08:31,436 INFO WatcherTest [main] test log99
-2016-03-10 13:54:47,801 INFO WatcherTest [main] test log0
-2016-03-10 13:54:47,807 INFO WatcherTest [main] test log1
-2016-03-10 13:54:47,808 INFO WatcherTest [main] test log2
-2016-03-10 13:54:47,808 INFO WatcherTest [main] test log3
-2016-03-10 13:54:47,808 INFO WatcherTest [main] test log4
-2016-03-10 13:54:47,808 INFO WatcherTest [main] test log5
-2016-03-10 13:54:47,809 INFO WatcherTest [main] test log6
-2016-03-10 13:54:47,809 INFO WatcherTest [main] test log7
-2016-03-10 13:54:47,809 INFO WatcherTest [main] test log8
-2016-03-10 13:54:47,810 INFO WatcherTest [main] test log9
-2016-03-10 13:54:47,811 INFO WatcherTest [main] test log10
-2016-03-10 13:54:47,811 INFO WatcherTest [main] test log11
-2016-03-10 13:54:47,812 INFO WatcherTest [main] test log12
-2016-03-10 13:54:47,812 INFO WatcherTest [main] test log13
-2016-03-10 13:54:47,812 INFO WatcherTest [main] test log14
-2016-03-10 13:54:47,812 INFO WatcherTest [main] test log15
-2016-03-10 13:54:47,813 INFO WatcherTest [main] test log16
-2016-03-10 13:54:47,813 INFO WatcherTest [main] test log17
-2016-03-10 13:54:47,813 INFO WatcherTest [main] test log18
-2016-03-10 13:54:47,813 INFO WatcherTest [main] test log19
-2016-03-10 13:54:47,813 INFO WatcherTest [main] test log20
-2016-03-10 13:54:47,814 INFO WatcherTest [main] test log21
-2016-03-10 13:54:47,814 INFO WatcherTest [main] test log22
-2016-03-10 13:54:47,814 INFO WatcherTest [main] test log23
-2016-03-10 13:54:47,814 INFO WatcherTest [main] test log24
-2016-03-10 13:54:47,814 INFO WatcherTest [main] test log25
-2016-03-10 13:54:47,815 INFO WatcherTest [main] test log26
-2016-03-10 13:54:47,815 INFO WatcherTest [main] test log27
-2016-03-10 13:54:47,815 INFO WatcherTest [main] test log28
-2016-03-10 13:54:47,815 INFO WatcherTest [main] test log29
-2016-03-10 13:54:47,815 INFO WatcherTest [main] test log30
-2016-03-10 13:54:47,816 INFO WatcherTest [main] test log31
-2016-03-10 13:54:47,816 INFO WatcherTest [main] test log32
-2016-03-10 13:54:47,816 INFO WatcherTest [main] test log33
-2016-03-10 13:54:47,817 INFO WatcherTest [main] test log34
-2016-03-10 13:54:47,817 INFO WatcherTest [main] test log35
-2016-03-10 13:54:47,817 INFO WatcherTest [main] test log36
-2016-03-10 13:54:47,818 INFO WatcherTest [main] test log37
-2016-03-10 13:54:47,818 INFO WatcherTest [main] test log38
-2016-03-10 13:54:47,818 INFO WatcherTest [main] test log39
-2016-03-10 13:54:47,818 INFO WatcherTest [main] test log40
-2016-03-10 13:54:47,818 INFO WatcherTest [main] test log41
-2016-03-10 13:54:47,819 INFO WatcherTest [main] test log42
-2016-03-10 13:54:47,819 INFO WatcherTest [main] test log43
-2016-03-10 13:54:47,819 INFO WatcherTest [main] test log44
-2016-03-10 13:54:47,819 INFO WatcherTest [main] test log45
-2016-03-10 13:54:47,819 INFO WatcherTest [main] test log46
-2016-03-10 13:54:47,819 INFO WatcherTest [main] test log47
-2016-03-10 13:54:47,819 INFO WatcherTest [main] test log48
-2016-03-10 13:54:47,820 INFO WatcherTest [main] test log49
-2016-03-10 13:54:47,820 INFO WatcherTest [main] test log50
-2016-03-10 13:54:47,820 INFO WatcherTest [main] test log51
-2016-03-10 13:54:47,820 INFO WatcherTest [main] test log52
-2016-03-10 13:54:47,820 INFO WatcherTest [main] test log53
-2016-03-10 13:54:47,821 INFO WatcherTest [main] test log54
-2016-03-10 13:54:47,821 INFO WatcherTest [main] test log55
-2016-03-10 13:54:47,821 INFO WatcherTest [main] test log56
-2016-03-10 13:54:47,821 INFO WatcherTest [main] test log57
-2016-03-10 13:54:47,821 INFO WatcherTest [main] test log58
-2016-03-10 13:54:47,822 INFO WatcherTest [main] test log59
-2016-03-10 13:54:47,822 INFO WatcherTest [main] test log60
-2016-03-10 13:54:47,822 INFO WatcherTest [main] test log61
-2016-03-10 13:54:47,822 INFO WatcherTest [main] test log62
-2016-03-10 13:54:47,822 INFO WatcherTest [main] test log63
-2016-03-10 13:54:47,822 INFO WatcherTest [main] test log64
-2016-03-10 13:54:47,823 INFO WatcherTest [main] test log65
-2016-03-10 13:54:47,823 INFO WatcherTest [main] test log66
-2016-03-10 13:54:47,823 INFO WatcherTest [main] test log67
-2016-03-10 13:54:47,823 INFO WatcherTest [main] test log68
-2016-03-10 13:54:47,823 INFO WatcherTest [main] test log69
-2016-03-10 13:54:47,824 INFO WatcherTest [main] test log70
-2016-03-10 13:54:47,824 INFO WatcherTest [main] test log71
-2016-03-10 13:54:47,824 INFO WatcherTest [main] test log72
-2016-03-10 13:54:47,824 INFO WatcherTest [main] test log73
-2016-03-10 13:54:47,824 INFO WatcherTest [main] test log74
-2016-03-10 13:54:47,825 INFO WatcherTest [main] test log75
-2016-03-10 13:54:47,825 INFO WatcherTest [main] test log76
-2016-03-10 13:54:47,825 INFO WatcherTest [main] test log77
-2016-03-10 13:54:47,828 INFO WatcherTest [main] test log78
-2016-03-10 13:54:47,828 INFO WatcherTest [main] test log79
-2016-03-10 13:54:47,828 INFO WatcherTest [main] test log80
-2016-03-10 13:54:47,828 INFO WatcherTest [main] test log81
-2016-03-10 13:54:47,829 INFO WatcherTest [main] test log82
-2016-03-10 13:54:47,829 INFO WatcherTest [main] test log83
-2016-03-10 13:54:47,829 INFO WatcherTest [main] test log84
-2016-03-10 13:54:47,829 INFO WatcherTest [main] test log85
-2016-03-10 13:54:47,829 INFO WatcherTest [main] test log86
-2016-03-10 13:54:47,829 INFO WatcherTest [main] test log87
-2016-03-10 13:54:47,829 INFO WatcherTest [main] test log88
-2016-03-10 13:54:47,829 INFO WatcherTest [main] test log89
-2016-03-10 13:54:47,830 INFO WatcherTest [main] test log90
-2016-03-10 13:54:47,830 INFO WatcherTest [main] test log91
-2016-03-10 13:54:47,830 INFO WatcherTest [main] test log92
-2016-03-10 13:54:47,830 INFO WatcherTest [main] test log93
-2016-03-10 13:54:47,830 INFO WatcherTest [main] test log94
-2016-03-10 13:54:47,830 INFO WatcherTest [main] test log95
-2016-03-10 13:54:47,830 INFO WatcherTest [main] test log96
-2016-03-10 13:54:47,831 INFO WatcherTest [main] test log97
-2016-03-10 13:54:47,831 INFO WatcherTest [main] test log98
-2016-03-10 13:54:47,831 INFO WatcherTest [main] test log99
-2016-03-10 13:55:46,363 INFO WatcherTest [main] test log0
-2016-03-10 13:55:46,364 INFO WatcherTest [main] test log1
-2016-03-10 13:55:46,364 INFO WatcherTest [main] test log2
-2016-03-10 13:55:46,365 INFO WatcherTest [main] test log3
-2016-03-10 13:55:46,365 INFO WatcherTest [main] test log4
-2016-03-10 13:55:46,365 INFO WatcherTest [main] test log5
-2016-03-10 13:55:46,365 INFO WatcherTest [main] test log6
-2016-03-10 13:55:46,366 INFO WatcherTest [main] test log7
-2016-03-10 13:55:46,366 INFO WatcherTest [main] test log8
-2016-03-10 13:55:46,366 INFO WatcherTest [main] test log9
-2016-03-10 13:55:46,366 INFO WatcherTest [main] test log10
-2016-03-10 13:55:46,367 INFO WatcherTest [main] test log11
-2016-03-10 13:55:46,367 INFO WatcherTest [main] test log12
-2016-03-10 13:55:46,367 INFO WatcherTest [main] test log13
-2016-03-10 13:55:46,367 INFO WatcherTest [main] test log14
-2016-03-10 13:55:46,368 INFO WatcherTest [main] test log15
-2016-03-10 13:55:46,368 INFO WatcherTest [main] test log16
-2016-03-10 13:55:46,368 INFO WatcherTest [main] test log17
-2016-03-10 13:55:46,372 INFO WatcherTest [main] test log18
-2016-03-10 13:55:46,373 INFO WatcherTest [main] test log19
-2016-03-10 13:55:46,373 INFO WatcherTest [main] test log20
-2016-03-10 13:55:46,373 INFO WatcherTest [main] test log21
-2016-03-10 13:55:46,373 INFO WatcherTest [main] test log22
-2016-03-10 13:55:46,374 INFO WatcherTest [main] test log23
-2016-03-10 13:55:46,374 INFO WatcherTest [main] test log24
-2016-03-10 13:55:46,374 INFO WatcherTest [main] test log25
-2016-03-10 13:55:46,374 INFO WatcherTest [main] test log26
-2016-03-10 13:55:46,374 INFO WatcherTest [main] test log27
-2016-03-10 13:55:46,374 INFO WatcherTest [main] test log28
-2016-03-10 13:55:46,374 INFO WatcherTest [main] test log29
-2016-03-10 13:55:46,374 INFO WatcherTest [main] test log30
-2016-03-10 13:55:46,374 INFO WatcherTest [main] test log31
-2016-03-10 13:55:46,374 INFO WatcherTest [main] test log32
-2016-03-10 13:55:46,375 INFO WatcherTest [main] test log33
-2016-03-10 13:55:46,375 INFO WatcherTest [main] test log34
-2016-03-10 13:55:46,375 INFO WatcherTest [main] test log35
-2016-03-10 13:55:46,375 INFO WatcherTest [main] test log36
-2016-03-10 13:55:46,375 INFO WatcherTest [main] test log37
-2016-03-10 13:55:46,376 INFO WatcherTest [main] test log38
-2016-03-10 13:55:46,376 INFO WatcherTest [main] test log39
-2016-03-10 13:55:46,376 INFO WatcherTest [main] test log40
-2016-03-10 13:55:46,376 INFO WatcherTest [main] test log41
-2016-03-10 13:55:46,376 INFO WatcherTest [main] test log42
-2016-03-10 13:55:46,376 INFO WatcherTest [main] test log43
-2016-03-10 13:55:46,377 INFO WatcherTest [main] test log44
-2016-03-10 13:55:46,377 INFO WatcherTest [main] test log45
-2016-03-10 13:55:46,377 INFO WatcherTest [main] test log46
-2016-03-10 13:55:46,377 INFO WatcherTest [main] test log47
-2016-03-10 13:55:46,379 INFO WatcherTest [main] test log48
-2016-03-10 13:55:46,380 INFO WatcherTest [main] test log49
-2016-03-10 13:55:46,380 INFO WatcherTest [main] test log50
-2016-03-10 13:55:46,381 INFO WatcherTest [main] test log51
-2016-03-10 13:55:46,381 INFO WatcherTest [main] test log52
-2016-03-10 13:55:46,381 INFO WatcherTest [main] test log53
-2016-03-10 13:55:46,382 INFO WatcherTest [main] test log54
-2016-03-10 13:55:46,382 INFO WatcherTest [main] test log55
-2016-03-10 13:55:46,382 INFO WatcherTest [main] test log56
-2016-03-10 13:55:46,382 INFO WatcherTest [main] test log57
-2016-03-10 13:55:46,382 INFO WatcherTest [main] test log58
-2016-03-10 13:55:46,382 INFO WatcherTest [main] test log59
-2016-03-10 13:55:46,382 INFO WatcherTest [main] test log60
-2016-03-10 13:55:46,383 INFO WatcherTest [main] test log61
-2016-03-10 13:55:46,384 INFO WatcherTest [main] test log62
-2016-03-10 13:55:46,384 INFO WatcherTest [main] test log63
-2016-03-10 13:55:46,384 INFO WatcherTest [main] test log64
-2016-03-10 13:55:46,385 INFO WatcherTest [main] test log65
-2016-03-10 13:55:46,385 INFO WatcherTest [main] test log66
-2016-03-10 13:55:46,385 INFO WatcherTest [main] test log67
-2016-03-10 13:55:46,385 INFO WatcherTest [main] test log68
-2016-03-10 13:55:46,385 INFO WatcherTest [main] test log69
-2016-03-10 13:55:46,386 INFO WatcherTest [main] test log70
-2016-03-10 13:55:46,386 INFO WatcherTest [main] test log71
-2016-03-10 13:55:46,386 INFO WatcherTest [main] test log72
-2016-03-10 13:55:46,386 INFO WatcherTest [main] test log73
-2016-03-10 13:55:46,386 INFO WatcherTest [main] test log74
-2016-03-10 13:55:46,386 INFO WatcherTest [main] test log75
-2016-03-10 13:55:46,386 INFO WatcherTest [main] test log76
-2016-03-10 13:55:46,386 INFO WatcherTest [main] test log77
-2016-03-10 13:55:46,389 INFO WatcherTest [main] test log78
-2016-03-10 13:55:46,389 INFO WatcherTest [main] test log79
-2016-03-10 13:55:46,389 INFO WatcherTest [main] test log80
-2016-03-10 13:55:46,389 INFO WatcherTest [main] test log81
-2016-03-10 13:55:46,389 INFO WatcherTest [main] test log82
-2016-03-10 13:55:46,389 INFO WatcherTest [main] test log83
-2016-03-10 13:55:46,389 INFO WatcherTest [main] test log84
-2016-03-10 13:55:46,390 INFO WatcherTest [main] test log85
-2016-03-10 13:55:46,390 INFO WatcherTest [main] test log86
-2016-03-10 13:55:46,390 INFO WatcherTest [main] test log87
-2016-03-10 13:55:46,390 INFO WatcherTest [main] test log88
-2016-03-10 13:55:46,390 INFO WatcherTest [main] test log89
-2016-03-10 13:55:46,390 INFO WatcherTest [main] test log90
-2016-03-10 13:55:46,390 INFO WatcherTest [main] test log91
-2016-03-10 13:55:46,391 INFO WatcherTest [main] test log92
-2016-03-10 13:55:46,391 INFO WatcherTest [main] test log93
-2016-03-10 13:55:46,391 INFO WatcherTest [main] test log94
-2016-03-10 13:55:46,391 INFO WatcherTest [main] test log95
-2016-03-10 13:55:46,391 INFO WatcherTest [main] test log96
-2016-03-10 13:55:46,391 INFO WatcherTest [main] test log97
-2016-03-10 13:55:46,391 INFO WatcherTest [main] test log98
-2016-03-10 13:55:46,392 INFO WatcherTest [main] test log99
-2016-03-10 13:59:08,929 ~INFO~ !WatcherTest! [main] test log0
-2016-03-10 13:59:08,930 ~INFO~ !WatcherTest! [main] test log1
-2016-03-10 13:59:08,930 ~INFO~ !WatcherTest! [main] test log2
-2016-03-10 13:59:08,930 ~INFO~ !WatcherTest! [main] test log3
-2016-03-10 13:59:08,930 ~INFO~ !WatcherTest! [main] test log4
-2016-03-10 13:59:08,931 ~INFO~ !WatcherTest! [main] test log5
-2016-03-10 13:59:08,931 ~INFO~ !WatcherTest! [main] test log6
-2016-03-10 13:59:08,931 ~INFO~ !WatcherTest! [main] test log7
-2016-03-10 13:59:08,931 ~INFO~ !WatcherTest! [main] test log8
-2016-03-10 13:59:08,932 ~INFO~ !WatcherTest! [main] test log9
-2016-03-10 13:59:08,932 ~INFO~ !WatcherTest! [main] test log10
-2016-03-10 13:59:08,933 ~INFO~ !WatcherTest! [main] test log11
-2016-03-10 13:59:08,933 ~INFO~ !WatcherTest! [main] test log12
-2016-03-10 13:59:08,933 ~INFO~ !WatcherTest! [main] test log13
-2016-03-10 13:59:08,933 ~INFO~ !WatcherTest! [main] test log14
-2016-03-10 13:59:08,933 ~INFO~ !WatcherTest! [main] test log15
-2016-03-10 13:59:08,934 ~INFO~ !WatcherTest! [main] test log16
-2016-03-10 13:59:08,934 ~INFO~ !WatcherTest! [main] test log17
-2016-03-10 13:59:08,934 ~INFO~ !WatcherTest! [main] test log18
-2016-03-10 13:59:08,934 ~INFO~ !WatcherTest! [main] test log19
-2016-03-10 13:59:08,934 ~INFO~ !WatcherTest! [main] test log20
-2016-03-10 13:59:08,934 ~INFO~ !WatcherTest! [main] test log21
-2016-03-10 13:59:08,935 ~INFO~ !WatcherTest! [main] test log22
-2016-03-10 13:59:08,935 ~INFO~ !WatcherTest! [main] test log23
-2016-03-10 13:59:08,935 ~INFO~ !WatcherTest! [main] test log24
-2016-03-10 13:59:08,935 ~INFO~ !WatcherTest! [main] test log25
-2016-03-10 13:59:08,935 ~INFO~ !WatcherTest! [main] test log26
-2016-03-10 13:59:08,935 ~INFO~ !WatcherTest! [main] test log27
-2016-03-10 13:59:08,936 ~INFO~ !WatcherTest! [main] test log28
-2016-03-10 13:59:08,936 ~INFO~ !WatcherTest! [main] test log29
-2016-03-10 13:59:08,936 ~INFO~ !WatcherTest! [main] test log30
-2016-03-10 13:59:08,936 ~INFO~ !WatcherTest! [main] test log31
-2016-03-10 13:59:08,936 ~INFO~ !WatcherTest! [main] test log32
-2016-03-10 13:59:08,937 ~INFO~ !WatcherTest! [main] test log33
-2016-03-10 13:59:08,937 ~INFO~ !WatcherTest! [main] test log34
-2016-03-10 13:59:08,937 ~INFO~ !WatcherTest! [main] test log35
-2016-03-10 13:59:08,937 ~INFO~ !WatcherTest! [main] test log36
-2016-03-10 13:59:08,937 ~INFO~ !WatcherTest! [main] test log37
-2016-03-10 13:59:08,937 ~INFO~ !WatcherTest! [main] test log38
-2016-03-10 13:59:08,937 ~INFO~ !WatcherTest! [main] test log39
-2016-03-10 13:59:08,938 ~INFO~ !WatcherTest! [main] test log40
-2016-03-10 13:59:08,938 ~INFO~ !WatcherTest! [main] test log41
-2016-03-10 13:59:08,938 ~INFO~ !WatcherTest! [main] test log42
-2016-03-10 13:59:08,938 ~INFO~ !WatcherTest! [main] test log43
-2016-03-10 13:59:08,938 ~INFO~ !WatcherTest! [main] test log44
-2016-03-10 13:59:08,938 ~INFO~ !WatcherTest! [main] test log45
-2016-03-10 13:59:08,938 ~INFO~ !WatcherTest! [main] test log46
-2016-03-10 13:59:08,939 ~INFO~ !WatcherTest! [main] test log47
-2016-03-10 13:59:08,939 ~INFO~ !WatcherTest! [main] test log48
-2016-03-10 13:59:08,939 ~INFO~ !WatcherTest! [main] test log49
-2016-03-10 13:59:08,939 ~INFO~ !WatcherTest! [main] test log50
-2016-03-10 13:59:08,939 ~INFO~ !WatcherTest! [main] test log51
-2016-03-10 13:59:08,939 ~INFO~ !WatcherTest! [main] test log52
-2016-03-10 13:59:08,940 ~INFO~ !WatcherTest! [main] test log53
-2016-03-10 13:59:08,940 ~INFO~ !WatcherTest! [main] test log54
-2016-03-10 13:59:08,940 ~INFO~ !WatcherTest! [main] test log55
-2016-03-10 13:59:08,940 ~INFO~ !WatcherTest! [main] test log56
-2016-03-10 13:59:08,940 ~INFO~ !WatcherTest! [main] test log57
-2016-03-10 13:59:08,940 ~INFO~ !WatcherTest! [main] test log58
-2016-03-10 13:59:08,940 ~INFO~ !WatcherTest! [main] test log59
-2016-03-10 13:59:08,940 ~INFO~ !WatcherTest! [main] test log60
-2016-03-10 13:59:08,941 ~INFO~ !WatcherTest! [main] test log61
-2016-03-10 13:59:08,941 ~INFO~ !WatcherTest! [main] test log62
-2016-03-10 13:59:08,941 ~INFO~ !WatcherTest! [main] test log63
-2016-03-10 13:59:08,941 ~INFO~ !WatcherTest! [main] test log64
-2016-03-10 13:59:08,941 ~INFO~ !WatcherTest! [main] test log65
-2016-03-10 13:59:08,941 ~INFO~ !WatcherTest! [main] test log66
-2016-03-10 13:59:08,941 ~INFO~ !WatcherTest! [main] test log67
-2016-03-10 13:59:08,942 ~INFO~ !WatcherTest! [main] test log68
-2016-03-10 13:59:08,942 ~INFO~ !WatcherTest! [main] test log69
-2016-03-10 13:59:08,942 ~INFO~ !WatcherTest! [main] test log70
-2016-03-10 13:59:08,942 ~INFO~ !WatcherTest! [main] test log71
-2016-03-10 13:59:08,942 ~INFO~ !WatcherTest! [main] test log72
-2016-03-10 13:59:08,942 ~INFO~ !WatcherTest! [main] test log73
-2016-03-10 13:59:08,942 ~INFO~ !WatcherTest! [main] test log74
-2016-03-10 13:59:08,943 ~INFO~ !WatcherTest! [main] test log75
-2016-03-10 13:59:08,943 ~INFO~ !WatcherTest! [main] test log76
-2016-03-10 13:59:08,943 ~INFO~ !WatcherTest! [main] test log77
-2016-03-10 13:59:08,945 ~INFO~ !WatcherTest! [main] test log78
-2016-03-10 13:59:08,946 ~INFO~ !WatcherTest! [main] test log79
-2016-03-10 13:59:08,946 ~INFO~ !WatcherTest! [main] test log80
-2016-03-10 13:59:08,946 ~INFO~ !WatcherTest! [main] test log81
-2016-03-10 13:59:08,946 ~INFO~ !WatcherTest! [main] test log82
-2016-03-10 13:59:08,946 ~INFO~ !WatcherTest! [main] test log83
-2016-03-10 13:59:08,946 ~INFO~ !WatcherTest! [main] test log84
-2016-03-10 13:59:08,947 ~INFO~ !WatcherTest! [main] test log85
-2016-03-10 13:59:08,947 ~INFO~ !WatcherTest! [main] test log86
-2016-03-10 13:59:08,947 ~INFO~ !WatcherTest! [main] test log87
-2016-03-10 13:59:08,947 ~INFO~ !WatcherTest! [main] test log88
-2016-03-10 13:59:08,947 ~INFO~ !WatcherTest! [main] test log89
-2016-03-10 13:59:08,947 ~INFO~ !WatcherTest! [main] test log90
-2016-03-10 13:59:08,947 ~INFO~ !WatcherTest! [main] test log91
-2016-03-10 13:59:08,948 ~INFO~ !WatcherTest! [main] test log92
-2016-03-10 13:59:08,948 ~INFO~ !WatcherTest! [main] test log93
-2016-03-10 13:59:08,948 ~INFO~ !WatcherTest! [main] test log94
-2016-03-10 13:59:08,948 ~INFO~ !WatcherTest! [main] test log95
-2016-03-10 13:59:08,948 ~INFO~ !WatcherTest! [main] test log96
-2016-03-10 13:59:08,948 ~INFO~ !WatcherTest! [main] test log97
-2016-03-10 13:59:08,949 ~INFO~ !WatcherTest! [main] test log98
-2016-03-10 13:59:08,949 ~INFO~ !WatcherTest! [main] test log99
-2016-03-10 14:15:05,689 INFO WatcherTest [main] test log0
-2016-03-10 14:15:05,691 INFO WatcherTest [main] test log1
-2016-03-10 14:15:05,692 INFO WatcherTest [main] test log2
-2016-03-10 14:15:05,692 INFO WatcherTest [main] test log3
-2016-03-10 14:15:05,694 INFO WatcherTest [main] test log4
-2016-03-10 14:15:05,694 INFO WatcherTest [main] test log5
-2016-03-10 14:15:05,695 INFO WatcherTest [main] test log6
-2016-03-10 14:15:05,695 INFO WatcherTest [main] test log7
-2016-03-10 14:15:05,698 INFO WatcherTest [main] test log8
-2016-03-10 14:15:05,698 INFO WatcherTest [main] test log9
-2016-03-10 14:15:05,700 INFO WatcherTest [main] test log10
-2016-03-10 14:15:05,700 INFO WatcherTest [main] test log11
-2016-03-10 14:15:05,700 INFO WatcherTest [main] test log12
-2016-03-10 14:15:05,701 INFO WatcherTest [main] test log13
-2016-03-10 14:15:05,701 INFO WatcherTest [main] test log14
-2016-03-10 14:15:05,701 INFO WatcherTest [main] test log15
-2016-03-10 14:15:05,701 INFO WatcherTest [main] test log16
-2016-03-10 14:15:05,701 INFO WatcherTest [main] test log17
-2016-03-10 14:15:05,702 INFO WatcherTest [main] test log18
-2016-03-10 14:15:05,702 INFO WatcherTest [main] test log19
-2016-03-10 14:15:05,702 INFO WatcherTest [main] test log20
-2016-03-10 14:15:05,702 INFO WatcherTest [main] test log21
-2016-03-10 14:15:05,702 INFO WatcherTest [main] test log22
-2016-03-10 14:15:05,702 INFO WatcherTest [main] test log23
-2016-03-10 14:15:05,703 INFO WatcherTest [main] test log24
-2016-03-10 14:15:05,703 INFO WatcherTest [main] test log25
-2016-03-10 14:15:05,703 INFO WatcherTest [main] test log26
-2016-03-10 14:15:05,704 INFO WatcherTest [main] test log27
-2016-03-10 14:15:05,704 INFO WatcherTest [main] test log28
-2016-03-10 14:15:05,704 INFO WatcherTest [main] test log29
-2016-03-10 14:15:05,705 INFO WatcherTest [main] test log30
-2016-03-10 14:15:05,705 INFO WatcherTest [main] test log31
-2016-03-10 14:15:05,705 INFO WatcherTest [main] test log32
-2016-03-10 14:15:05,705 INFO WatcherTest [main] test log33
-2016-03-10 14:15:05,705 INFO WatcherTest [main] test log34
-2016-03-10 14:15:05,705 INFO WatcherTest [main] test log35
-2016-03-10 14:15:05,706 INFO WatcherTest [main] test log36
-2016-03-10 14:15:05,706 INFO WatcherTest [main] test log37
-2016-03-10 14:15:05,706 INFO WatcherTest [main] test log38
-2016-03-10 14:15:05,707 INFO WatcherTest [main] test log39
-2016-03-10 14:15:05,708 INFO WatcherTest [main] test log40
-2016-03-10 14:15:05,708 INFO WatcherTest [main] test log41
-2016-03-10 14:15:05,708 INFO WatcherTest [main] test log42
-2016-03-10 14:15:05,709 INFO WatcherTest [main] test log43
-2016-03-10 14:15:05,709 INFO WatcherTest [main] test log44
-2016-03-10 14:15:05,710 INFO WatcherTest [main] test log45
-2016-03-10 14:15:05,710 INFO WatcherTest [main] test log46
-2016-03-10 14:15:05,711 INFO WatcherTest [main] test log47
-2016-03-10 14:15:05,711 INFO WatcherTest [main] test log48
-2016-03-10 14:15:05,712 INFO WatcherTest [main] test log49
-2016-03-10 14:15:05,712 INFO WatcherTest [main] test log50
-2016-03-10 14:15:05,712 INFO WatcherTest [main] test log51
-2016-03-10 14:15:05,712 INFO WatcherTest [main] test log52
-2016-03-10 14:15:05,713 INFO WatcherTest [main] test log53
-2016-03-10 14:15:05,713 INFO WatcherTest [main] test log54
-2016-03-10 14:15:05,713 INFO WatcherTest [main] test log55
-2016-03-10 14:15:05,713 INFO WatcherTest [main] test log56
-2016-03-10 14:15:05,713 INFO WatcherTest [main] test log57
-2016-03-10 14:15:05,714 INFO WatcherTest [main] test log58
-2016-03-10 14:15:05,714 INFO WatcherTest [main] test log59
-2016-03-10 14:15:05,714 INFO WatcherTest [main] test log60
-2016-03-10 14:15:05,714 INFO WatcherTest [main] test log61
-2016-03-10 14:15:05,714 INFO WatcherTest [main] test log62
-2016-03-10 14:15:05,715 INFO WatcherTest [main] test log63
-2016-03-10 14:15:05,715 INFO WatcherTest [main] test log64
-2016-03-10 14:15:05,715 INFO WatcherTest [main] test log65
-2016-03-10 14:15:05,716 INFO WatcherTest [main] test log66
-2016-03-10 14:15:05,716 INFO WatcherTest [main] test log67
-2016-03-10 14:15:05,716 INFO WatcherTest [main] test log68
-2016-03-10 14:15:05,716 INFO WatcherTest [main] test log69
-2016-03-10 14:15:05,716 INFO WatcherTest [main] test log70
-2016-03-10 14:15:05,716 INFO WatcherTest [main] test log71
-2016-03-10 14:15:05,717 INFO WatcherTest [main] test log72
-2016-03-10 14:15:05,717 INFO WatcherTest [main] test log73
-2016-03-10 14:15:05,717 INFO WatcherTest [main] test log74
-2016-03-10 14:15:05,717 INFO WatcherTest [main] test log75
-2016-03-10 14:15:05,717 INFO WatcherTest [main] test log76
-2016-03-10 14:15:05,717 INFO WatcherTest [main] test log77
-2016-03-10 14:15:05,720 INFO WatcherTest [main] test log78
-2016-03-10 14:15:05,720 INFO WatcherTest [main] test log79
-2016-03-10 14:15:05,720 INFO WatcherTest [main] test log80
-2016-03-10 14:15:05,720 INFO WatcherTest [main] test log81
-2016-03-10 14:15:05,720 INFO WatcherTest [main] test log82
-2016-03-10 14:15:05,720 INFO WatcherTest [main] test log83
-2016-03-10 14:15:05,720 INFO WatcherTest [main] test log84
-2016-03-10 14:15:05,720 INFO WatcherTest [main] test log85
-2016-03-10 14:15:05,721 INFO WatcherTest [main] test log86
-2016-03-10 14:15:05,721 INFO WatcherTest [main] test log87
-2016-03-10 14:15:05,721 INFO WatcherTest [main] test log88
-2016-03-10 14:15:05,722 INFO WatcherTest [main] test log89
-2016-03-10 14:15:05,723 INFO WatcherTest [main] test log90
-2016-03-10 14:15:05,724 INFO WatcherTest [main] test log91
-2016-03-10 14:15:05,725 INFO WatcherTest [main] test log92
-2016-03-10 14:15:05,725 INFO WatcherTest [main] test log93
-2016-03-10 14:15:05,725 INFO WatcherTest [main] test log94
-2016-03-10 14:15:05,725 INFO WatcherTest [main] test log95
-2016-03-10 14:15:05,727 INFO WatcherTest [main] test log96
-2016-03-10 14:15:05,727 INFO WatcherTest [main] test log97
-2016-03-10 14:15:05,727 INFO WatcherTest [main] test log98
-2016-03-10 14:15:05,728 INFO WatcherTest [main] test log99
-2016-03-10 14:16:40,990 INFO WatcherTest [main] test log0
-2016-03-10 14:16:40,991 INFO WatcherTest [main] test log1
-2016-03-10 14:16:40,992 INFO WatcherTest [main] test log2
-2016-03-10 14:16:40,992 INFO WatcherTest [main] test log3
-2016-03-10 14:16:40,992 INFO WatcherTest [main] test log4
-2016-03-10 14:16:40,992 INFO WatcherTest [main] test log5
-2016-03-10 14:16:40,993 INFO WatcherTest [main] test log6
-2016-03-10 14:16:40,993 INFO WatcherTest [main] test log7
-2016-03-10 14:16:40,993 INFO WatcherTest [main] test log8
-2016-03-10 14:16:40,994 INFO WatcherTest [main] test log9
-2016-03-10 14:16:40,994 INFO WatcherTest [main] test log10
-2016-03-10 14:16:40,995 INFO WatcherTest [main] test log11
-2016-03-10 14:16:40,995 INFO WatcherTest [main] test log12
-2016-03-10 14:16:40,996 INFO WatcherTest [main] test log13
-2016-03-10 14:16:40,998 INFO WatcherTest [main] test log14
-2016-03-10 14:16:40,999 INFO WatcherTest [main] test log15
-2016-03-10 14:16:41,000 INFO WatcherTest [main] test log16
-2016-03-10 14:16:41,000 INFO WatcherTest [main] test log17
-2016-03-10 14:16:41,000 INFO WatcherTest [main] test log18
-2016-03-10 14:16:41,001 INFO WatcherTest [main] test log19
-2016-03-10 14:16:41,002 INFO WatcherTest [main] test log20
-2016-03-10 14:16:41,002 INFO WatcherTest [main] test log21
-2016-03-10 14:16:41,002 INFO WatcherTest [main] test log22
-2016-03-10 14:16:41,003 INFO WatcherTest [main] test log23
-2016-03-10 14:16:41,003 INFO WatcherTest [main] test log24
-2016-03-10 14:16:41,003 INFO WatcherTest [main] test log25
-2016-03-10 14:16:41,003 INFO WatcherTest [main] test log26
-2016-03-10 14:16:41,004 INFO WatcherTest [main] test log27
-2016-03-10 14:16:41,004 INFO WatcherTest [main] test log28
-2016-03-10 14:16:41,004 INFO WatcherTest [main] test log29
-2016-03-10 14:16:41,004 INFO WatcherTest [main] test log30
-2016-03-10 14:16:41,004 INFO WatcherTest [main] test log31
-2016-03-10 14:16:41,005 INFO WatcherTest [main] test log32
-2016-03-10 14:16:41,005 INFO WatcherTest [main] test log33
-2016-03-10 14:16:41,005 INFO WatcherTest [main] test log34
-2016-03-10 14:16:41,005 INFO WatcherTest [main] test log35
-2016-03-10 14:16:41,006 INFO WatcherTest [main] test log36
-2016-03-10 14:16:41,006 INFO WatcherTest [main] test log37
-2016-03-10 14:16:41,006 INFO WatcherTest [main] test log38
-2016-03-10 14:16:41,006 INFO WatcherTest [main] test log39
-2016-03-10 14:16:41,006 INFO WatcherTest [main] test log40
-2016-03-10 14:16:41,007 INFO WatcherTest [main] test log41
-2016-03-10 14:16:41,007 INFO WatcherTest [main] test log42
-2016-03-10 14:16:41,007 INFO WatcherTest [main] test log43
-2016-03-10 14:16:41,007 INFO WatcherTest [main] test log44
-2016-03-10 14:16:41,007 INFO WatcherTest [main] test log45
-2016-03-10 14:16:41,008 INFO WatcherTest [main] test log46
-2016-03-10 14:16:41,008 INFO WatcherTest [main] test log47
-2016-03-10 14:16:41,008 INFO WatcherTest [main] test log48
-2016-03-10 14:16:41,008 INFO WatcherTest [main] test log49
-2016-03-10 14:16:41,008 INFO WatcherTest [main] test log50
-2016-03-10 14:16:41,009 INFO WatcherTest [main] test log51
-2016-03-10 14:16:41,009 INFO WatcherTest [main] test log52
-2016-03-10 14:16:41,009 INFO WatcherTest [main] test log53
-2016-03-10 14:16:41,009 INFO WatcherTest [main] test log54
-2016-03-10 14:16:41,010 INFO WatcherTest [main] test log55
-2016-03-10 14:16:41,010 INFO WatcherTest [main] test log56
-2016-03-10 14:16:41,010 INFO WatcherTest [main] test log57
-2016-03-10 14:16:41,010 INFO WatcherTest [main] test log58
-2016-03-10 14:16:41,010 INFO WatcherTest [main] test log59
-2016-03-10 14:16:41,010 INFO WatcherTest [main] test log60
-2016-03-10 14:16:41,011 INFO WatcherTest [main] test log61
-2016-03-10 14:16:41,012 INFO WatcherTest [main] test log62
-2016-03-10 14:16:41,012 INFO WatcherTest [main] test log63
-2016-03-10 14:16:41,013 INFO WatcherTest [main] test log64
-2016-03-10 14:16:41,013 INFO WatcherTest [main] test log65
-2016-03-10 14:16:41,013 INFO WatcherTest [main] test log66
-2016-03-10 14:16:41,014 INFO WatcherTest [main] test log67
-2016-03-10 14:16:41,014 INFO WatcherTest [main] test log68
-2016-03-10 14:16:41,014 INFO WatcherTest [main] test log69
-2016-03-10 14:16:41,015 INFO WatcherTest [main] test log70
-2016-03-10 14:16:41,015 INFO WatcherTest [main] test log71
-2016-03-10 14:16:41,015 INFO WatcherTest [main] test log72
-2016-03-10 14:16:41,015 INFO WatcherTest [main] test log73
-2016-03-10 14:16:41,016 INFO WatcherTest [main] test log74
-2016-03-10 14:16:41,016 INFO WatcherTest [main] test log75
-2016-03-10 14:16:41,016 INFO WatcherTest [main] test log76
-2016-03-10 14:16:41,016 INFO WatcherTest [main] test log77
-2016-03-10 14:16:41,020 INFO WatcherTest [main] test log78
-2016-03-10 14:16:41,020 INFO WatcherTest [main] test log79
-2016-03-10 14:16:41,020 INFO WatcherTest [main] test log80
-2016-03-10 14:16:41,020 INFO WatcherTest [main] test log81
-2016-03-10 14:16:41,020 INFO WatcherTest [main] test log82
-2016-03-10 14:16:41,020 INFO WatcherTest [main] test log83
-2016-03-10 14:16:41,020 INFO WatcherTest [main] test log84
-2016-03-10 14:16:41,021 INFO WatcherTest [main] test log85
-2016-03-10 14:16:41,021 INFO WatcherTest [main] test log86
-2016-03-10 14:16:41,021 INFO WatcherTest [main] test log87
-2016-03-10 14:16:41,021 INFO WatcherTest [main] test log88
-2016-03-10 14:16:41,021 INFO WatcherTest [main] test log89
-2016-03-10 14:16:41,021 INFO WatcherTest [main] test log90
-2016-03-10 14:16:41,022 INFO WatcherTest [main] test log91
-2016-03-10 14:16:41,022 INFO WatcherTest [main] test log92
-2016-03-10 14:16:41,022 INFO WatcherTest [main] test log93
-2016-03-10 14:16:41,022 INFO WatcherTest [main] test log94
-2016-03-10 14:16:41,022 INFO WatcherTest [main] test log95
-2016-03-10 14:16:41,022 INFO WatcherTest [main] test log96
-2016-03-10 14:16:41,022 INFO WatcherTest [main] test log97
-2016-03-10 14:16:41,022 INFO WatcherTest [main] test log98
-2016-03-10 14:16:41,023 INFO WatcherTest [main] test log99
-2016-03-10 14:17:28,275 INFO WatcherTest [main] test log0[
-]2016-03-10 14:17:28,276 INFO WatcherTest [main] test log1[
-]2016-03-10 14:17:28,277 INFO WatcherTest [main] test log2[
-]2016-03-10 14:17:28,278 INFO WatcherTest [main] test log3[
-]2016-03-10 14:17:28,279 INFO WatcherTest [main] test log4[
-]2016-03-10 14:17:28,280 INFO WatcherTest [main] test log5[
-]2016-03-10 14:17:28,280 INFO WatcherTest [main] test log6[
-]2016-03-10 14:17:28,282 INFO WatcherTest [main] test log7[
-]2016-03-10 14:17:28,283 INFO WatcherTest [main] test log8[
-]2016-03-10 14:17:28,284 INFO WatcherTest [main] test log9[
-]2016-03-10 14:17:28,284 INFO WatcherTest [main] test log10[
-]2016-03-10 14:17:28,284 INFO WatcherTest [main] test log11[
-]2016-03-10 14:17:28,284 INFO WatcherTest [main] test log12[
-]2016-03-10 14:17:28,287 INFO WatcherTest [main] test log13[
-]2016-03-10 14:17:28,287 INFO WatcherTest [main] test log14[
-]2016-03-10 14:17:28,287 INFO WatcherTest [main] test log15[
-]2016-03-10 14:17:28,287 INFO WatcherTest [main] test log16[
-]2016-03-10 14:17:28,287 INFO WatcherTest [main] test log17[
-]2016-03-10 14:17:28,287 INFO WatcherTest [main] test log18[
-]2016-03-10 14:17:28,288 INFO WatcherTest [main] test log19[
-]2016-03-10 14:17:28,288 INFO WatcherTest [main] test log20[
-]2016-03-10 14:17:28,288 INFO WatcherTest [main] test log21[
-]2016-03-10 14:17:28,288 INFO WatcherTest [main] test log22[
-]2016-03-10 14:17:28,288 INFO WatcherTest [main] test log23[
-]2016-03-10 14:17:28,289 INFO WatcherTest [main] test log24[
-]2016-03-10 14:17:28,289 INFO WatcherTest [main] test log25[
-]2016-03-10 14:17:28,290 INFO WatcherTest [main] test log26[
-]2016-03-10 14:17:28,291 INFO WatcherTest [main] test log27[
-]2016-03-10 14:17:28,291 INFO WatcherTest [main] test log28[
-]2016-03-10 14:17:28,291 INFO WatcherTest [main] test log29[
-]2016-03-10 14:17:28,292 INFO WatcherTest [main] test log30[
-]2016-03-10 14:17:28,292 INFO WatcherTest [main] test log31[
-]2016-03-10 14:17:28,292 INFO WatcherTest [main] test log32[
-]2016-03-10 14:17:28,292 INFO WatcherTest [main] test log33[
-]2016-03-10 14:17:28,293 INFO WatcherTest [main] test log34[
-]2016-03-10 14:17:28,294 INFO WatcherTest [main] test log35[
-]2016-03-10 14:17:28,294 INFO WatcherTest [main] test log36[
-]2016-03-10 14:17:28,295 INFO WatcherTest [main] test log37[
-]2016-03-10 14:17:28,295 INFO WatcherTest [main] test log38[
-]2016-03-10 14:17:28,295 INFO WatcherTest [main] test log39[
-]2016-03-10 14:17:28,296 INFO WatcherTest [main] test log40[
-]2016-03-10 14:17:28,296 INFO WatcherTest [main] test log41[
-]2016-03-10 14:17:28,296 INFO WatcherTest [main] test log42[
-]2016-03-10 14:17:28,296 INFO WatcherTest [main] test log43[
-]2016-03-10 14:17:28,297 INFO WatcherTest [main] test log44[
-]2016-03-10 14:17:28,300 INFO WatcherTest [main] test log45[
-]2016-03-10 14:17:28,300 INFO WatcherTest [main] test log46[
-]2016-03-10 14:17:28,300 INFO WatcherTest [main] test log47[
-]2016-03-10 14:17:28,300 INFO WatcherTest [main] test log48[
-]2016-03-10 14:17:28,300 INFO WatcherTest [main] test log49[
-]2016-03-10 14:17:28,300 INFO WatcherTest [main] test log50[
-]2016-03-10 14:17:28,301 INFO WatcherTest [main] test log51[
-]2016-03-10 14:17:28,301 INFO WatcherTest [main] test log52[
-]2016-03-10 14:17:28,301 INFO WatcherTest [main] test log53[
-]2016-03-10 14:17:28,301 INFO WatcherTest [main] test log54[
-]2016-03-10 14:17:28,301 INFO WatcherTest [main] test log55[
-]2016-03-10 14:17:28,302 INFO WatcherTest [main] test log56[
-]2016-03-10 14:17:28,302 INFO WatcherTest [main] test log57[
-]2016-03-10 14:17:28,302 INFO WatcherTest [main] test log58[
-]2016-03-10 14:17:28,302 INFO WatcherTest [main] test log59[
-]2016-03-10 14:17:28,302 INFO WatcherTest [main] test log60[
-]2016-03-10 14:17:28,302 INFO WatcherTest [main] test log61[
-]2016-03-10 14:17:28,302 INFO WatcherTest [main] test log62[
-]2016-03-10 14:17:28,302 INFO WatcherTest [main] test log63[
-]2016-03-10 14:17:28,302 INFO WatcherTest [main] test log64[
-]2016-03-10 14:17:28,302 INFO WatcherTest [main] test log65[
-]2016-03-10 14:17:28,303 INFO WatcherTest [main] test log66[
-]2016-03-10 14:17:28,303 INFO WatcherTest [main] test log67[
-]2016-03-10 14:17:28,303 INFO WatcherTest [main] test log68[
-]2016-03-10 14:17:28,303 INFO WatcherTest [main] test log69[
-]2016-03-10 14:17:28,303 INFO WatcherTest [main] test log70[
-]2016-03-10 14:17:28,303 INFO WatcherTest [main] test log71[
-]2016-03-10 14:17:28,304 INFO WatcherTest [main] test log72[
-]2016-03-10 14:17:28,304 INFO WatcherTest [main] test log73[
-]2016-03-10 14:17:28,304 INFO WatcherTest [main] test log74[
-]2016-03-10 14:17:28,304 INFO WatcherTest [main] test log75[
-]2016-03-10 14:17:28,305 INFO WatcherTest [main] test log76[
-]2016-03-10 14:17:28,305 INFO WatcherTest [main] test log77[
-]2016-03-10 14:17:28,307 INFO WatcherTest [main] test log78[
-]2016-03-10 14:17:28,307 INFO WatcherTest [main] test log79[
-]2016-03-10 14:17:28,307 INFO WatcherTest [main] test log80[
-]2016-03-10 14:17:28,307 INFO WatcherTest [main] test log81[
-]2016-03-10 14:17:28,307 INFO WatcherTest [main] test log82[
-]2016-03-10 14:17:28,308 INFO WatcherTest [main] test log83[
-]2016-03-10 14:17:28,308 INFO WatcherTest [main] test log84[
-]2016-03-10 14:17:28,308 INFO WatcherTest [main] test log85[
-]2016-03-10 14:17:28,308 INFO WatcherTest [main] test log86[
-]2016-03-10 14:17:28,308 INFO WatcherTest [main] test log87[
-]2016-03-10 14:17:28,308 INFO WatcherTest [main] test log88[
-]2016-03-10 14:17:28,308 INFO WatcherTest [main] test log89[
-]2016-03-10 14:17:28,309 INFO WatcherTest [main] test log90[
-]2016-03-10 14:17:28,309 INFO WatcherTest [main] test log91[
-]2016-03-10 14:17:28,309 INFO WatcherTest [main] test log92[
-]2016-03-10 14:17:28,309 INFO WatcherTest [main] test log93[
-]2016-03-10 14:17:28,309 INFO WatcherTest [main] test log94[
-]2016-03-10 14:17:28,309 INFO WatcherTest [main] test log95[
-]2016-03-10 14:17:28,309 INFO WatcherTest [main] test log96[
-]2016-03-10 14:17:28,310 INFO WatcherTest [main] test log97[
-]2016-03-10 14:17:28,310 INFO WatcherTest [main] test log98[
-]2016-03-10 14:17:28,310 INFO WatcherTest [main] test log99[
-]2016-03-10 14:17:52,033INFOWatcherTest[main]test log0[
-]2016-03-10 14:17:52,034INFOWatcherTest[main]test log1[
-]2016-03-10 14:17:52,035INFOWatcherTest[main]test log2[
-]2016-03-10 14:17:52,035INFOWatcherTest[main]test log3[
-]2016-03-10 14:17:52,036INFOWatcherTest[main]test log4[
-]2016-03-10 14:17:52,036INFOWatcherTest[main]test log5[
-]2016-03-10 14:17:52,037INFOWatcherTest[main]test log6[
-]2016-03-10 14:17:52,037INFOWatcherTest[main]test log7[
-]2016-03-10 14:17:52,037INFOWatcherTest[main]test log8[
-]2016-03-10 14:17:52,038INFOWatcherTest[main]test log9[
-]2016-03-10 14:17:52,042INFOWatcherTest[main]test log10[
-]2016-03-10 14:17:52,042INFOWatcherTest[main]test log11[
-]2016-03-10 14:17:52,042INFOWatcherTest[main]test log12[
-]2016-03-10 14:17:52,042INFOWatcherTest[main]test log13[
-]2016-03-10 14:17:52,043INFOWatcherTest[main]test log14[
-]2016-03-10 14:17:52,043INFOWatcherTest[main]test log15[
-]2016-03-10 14:17:52,043INFOWatcherTest[main]test log16[
-]2016-03-10 14:17:52,043INFOWatcherTest[main]test log17[
-]2016-03-10 14:17:52,043INFOWatcherTest[main]test log18[
-]2016-03-10 14:17:52,043INFOWatcherTest[main]test log19[
-]2016-03-10 14:17:52,044INFOWatcherTest[main]test log20[
-]2016-03-10 14:17:52,046INFOWatcherTest[main]test log21[
-]2016-03-10 14:17:52,047INFOWatcherTest[main]test log22[
-]2016-03-10 14:17:52,047INFOWatcherTest[main]test log23[
-]2016-03-10 14:17:52,047INFOWatcherTest[main]test log24[
-]2016-03-10 14:17:52,048INFOWatcherTest[main]test log25[
-]2016-03-10 14:17:52,048INFOWatcherTest[main]test log26[
-]2016-03-10 14:17:52,048INFOWatcherTest[main]test log27[
-]2016-03-10 14:17:52,048INFOWatcherTest[main]test log28[
-]2016-03-10 14:17:52,048INFOWatcherTest[main]test log29[
-]2016-03-10 14:17:52,049INFOWatcherTest[main]test log30[
-]2016-03-10 14:17:52,049INFOWatcherTest[main]test log31[
-]2016-03-10 14:17:52,049INFOWatcherTest[main]test log32[
-]2016-03-10 14:17:52,049INFOWatcherTest[main]test log33[
-]2016-03-10 14:17:52,049INFOWatcherTest[main]test log34[
-]2016-03-10 14:17:52,050INFOWatcherTest[main]test log35[
-]2016-03-10 14:17:52,050INFOWatcherTest[main]test log36[
-]2016-03-10 14:17:52,051INFOWatcherTest[main]test log37[
-]2016-03-10 14:17:52,051INFOWatcherTest[main]test log38[
-]2016-03-10 14:17:52,051INFOWatcherTest[main]test log39[
-]2016-03-10 14:17:52,051INFOWatcherTest[main]test log40[
-]2016-03-10 14:17:52,051INFOWatcherTest[main]test log41[
-]2016-03-10 14:17:52,051INFOWatcherTest[main]test log42[
-]2016-03-10 14:17:52,051INFOWatcherTest[main]test log43[
-]2016-03-10 14:17:52,051INFOWatcherTest[main]test log44[
-]2016-03-10 14:17:52,053INFOWatcherTest[main]test log45[
-]2016-03-10 14:17:52,053INFOWatcherTest[main]test log46[
-]2016-03-10 14:17:52,054INFOWatcherTest[main]test log47[
-]2016-03-10 14:17:52,054INFOWatcherTest[main]test log48[
-]2016-03-10 14:17:52,054INFOWatcherTest[main]test log49[
-]2016-03-10 14:17:52,054INFOWatcherTest[main]test log50[
-]2016-03-10 14:17:52,054INFOWatcherTest[main]test log51[
-]2016-03-10 14:17:52,054INFOWatcherTest[main]test log52[
-]2016-03-10 14:17:52,055INFOWatcherTest[main]test log53[
-]2016-03-10 14:17:52,055INFOWatcherTest[main]test log54[
-]2016-03-10 14:17:52,055INFOWatcherTest[main]test log55[
-]2016-03-10 14:17:52,055INFOWatcherTest[main]test log56[
-]2016-03-10 14:17:52,055INFOWatcherTest[main]test log57[
-]2016-03-10 14:17:52,055INFOWatcherTest[main]test log58[
-]2016-03-10 14:17:52,056INFOWatcherTest[main]test log59[
-]2016-03-10 14:17:52,056INFOWatcherTest[main]test log60[
-]2016-03-10 14:17:52,057INFOWatcherTest[main]test log61[
-]2016-03-10 14:17:52,057INFOWatcherTest[main]test log62[
-]2016-03-10 14:17:52,057INFOWatcherTest[main]test log63[
-]2016-03-10 14:17:52,058INFOWatcherTest[main]test log64[
-]2016-03-10 14:17:52,058INFOWatcherTest[main]test log65[
-]2016-03-10 14:17:52,058INFOWatcherTest[main]test log66[
-]2016-03-10 14:17:52,059INFOWatcherTest[main]test log67[
-]2016-03-10 14:17:52,059INFOWatcherTest[main]test log68[
-]2016-03-10 14:17:52,059INFOWatcherTest[main]test log69[
-]2016-03-10 14:17:52,060INFOWatcherTest[main]test log70[
-]2016-03-10 14:17:52,060INFOWatcherTest[main]test log71[
-]2016-03-10 14:17:52,060INFOWatcherTest[main]test log72[
-]2016-03-10 14:17:52,060INFOWatcherTest[main]test log73[
-]2016-03-10 14:17:52,060INFOWatcherTest[main]test log74[
-]2016-03-10 14:17:52,061INFOWatcherTest[main]test log75[
-]2016-03-10 14:17:52,061INFOWatcherTest[main]test log76[
-]2016-03-10 14:17:52,061INFOWatcherTest[main]test log77[
-]2016-03-10 14:17:52,063INFOWatcherTest[main]test log78[
-]2016-03-10 14:17:52,063INFOWatcherTest[main]test log79[
-]2016-03-10 14:17:52,064INFOWatcherTest[main]test log80[
-]2016-03-10 14:17:52,064INFOWatcherTest[main]test log81[
-]2016-03-10 14:17:52,064INFOWatcherTest[main]test log82[
-]2016-03-10 14:17:52,064INFOWatcherTest[main]test log83[
-]2016-03-10 14:17:52,064INFOWatcherTest[main]test log84[
-]2016-03-10 14:17:52,064INFOWatcherTest[main]test log85[
-]2016-03-10 14:17:52,064INFOWatcherTest[main]test log86[
-]2016-03-10 14:17:52,064INFOWatcherTest[main]test log87[
-]2016-03-10 14:17:52,064INFOWatcherTest[main]test log88[
-]2016-03-10 14:17:52,065INFOWatcherTest[main]test log89[
-]2016-03-10 14:17:52,065INFOWatcherTest[main]test log90[
-]2016-03-10 14:17:52,065INFOWatcherTest[main]test log91[
-]2016-03-10 14:17:52,065INFOWatcherTest[main]test log92[
-]2016-03-10 14:17:52,065INFOWatcherTest[main]test log93[
-]2016-03-10 14:17:52,065INFOWatcherTest[main]test log94[
-]2016-03-10 14:17:52,065INFOWatcherTest[main]test log95[
-]2016-03-10 14:17:52,065INFOWatcherTest[main]test log96[
-]2016-03-10 14:17:52,066INFOWatcherTest[main]test log97[
-]2016-03-10 14:17:52,066INFOWatcherTest[main]test log98[
-]2016-03-10 14:17:52,066INFOWatcherTest[main]test log99[
-]2016-03-10 14:19:34,990INFO WatcherTest [main] test log0
-2016-03-10 14:19:34,991INFO WatcherTest [main] test log1
-2016-03-10 14:19:34,991INFO WatcherTest [main] test log2
-2016-03-10 14:19:34,992INFO WatcherTest [main] test log3
-2016-03-10 14:19:34,992INFO WatcherTest [main] test log4
-2016-03-10 14:19:34,992INFO WatcherTest [main] test log5
-2016-03-10 14:19:34,992INFO WatcherTest [main] test log6
-2016-03-10 14:19:34,992INFO WatcherTest [main] test log7
-2016-03-10 14:19:34,993INFO WatcherTest [main] test log8
-2016-03-10 14:19:34,993INFO WatcherTest [main] test log9
-2016-03-10 14:19:34,993INFO WatcherTest [main] test log10
-2016-03-10 14:19:34,993INFO WatcherTest [main] test log11
-2016-03-10 14:19:34,993INFO WatcherTest [main] test log12
-2016-03-10 14:19:34,993INFO WatcherTest [main] test log13
-2016-03-10 14:19:34,994INFO WatcherTest [main] test log14
-2016-03-10 14:19:34,994INFO WatcherTest [main] test log15
-2016-03-10 14:19:34,994INFO WatcherTest [main] test log16
-2016-03-10 14:19:34,994INFO WatcherTest [main] test log17
-2016-03-10 14:19:34,994INFO WatcherTest [main] test log18
-2016-03-10 14:19:34,995INFO WatcherTest [main] test log19
-2016-03-10 14:19:34,995INFO WatcherTest [main] test log20
-2016-03-10 14:19:34,996INFO WatcherTest [main] test log21
-2016-03-10 14:19:34,996INFO WatcherTest [main] test log22
-2016-03-10 14:19:34,997INFO WatcherTest [main] test log23
-2016-03-10 14:19:34,997INFO WatcherTest [main] test log24
-2016-03-10 14:19:34,997INFO WatcherTest [main] test log25
-2016-03-10 14:19:34,997INFO WatcherTest [main] test log26
-2016-03-10 14:19:34,997INFO WatcherTest [main] test log27
-2016-03-10 14:19:34,998INFO WatcherTest [main] test log28
-2016-03-10 14:19:34,998INFO WatcherTest [main] test log29
-2016-03-10 14:19:34,998INFO WatcherTest [main] test log30
-2016-03-10 14:19:34,998INFO WatcherTest [main] test log31
-2016-03-10 14:19:34,998INFO WatcherTest [main] test log32
-2016-03-10 14:19:34,998INFO WatcherTest [main] test log33
-2016-03-10 14:19:34,998INFO WatcherTest [main] test log34
-2016-03-10 14:19:34,999INFO WatcherTest [main] test log35
-2016-03-10 14:19:34,999INFO WatcherTest [main] test log36
-2016-03-10 14:19:34,999INFO WatcherTest [main] test log37
-2016-03-10 14:19:34,999INFO WatcherTest [main] test log38
-2016-03-10 14:19:34,999INFO WatcherTest [main] test log39
-2016-03-10 14:19:35,000INFO WatcherTest [main] test log40
-2016-03-10 14:19:35,000INFO WatcherTest [main] test log41
-2016-03-10 14:19:35,001INFO WatcherTest [main] test log42
-2016-03-10 14:19:35,001INFO WatcherTest [main] test log43
-2016-03-10 14:19:35,001INFO WatcherTest [main] test log44
-2016-03-10 14:19:35,001INFO WatcherTest [main] test log45
-2016-03-10 14:19:35,001INFO WatcherTest [main] test log46
-2016-03-10 14:19:35,001INFO WatcherTest [main] test log47
-2016-03-10 14:19:35,002INFO WatcherTest [main] test log48
-2016-03-10 14:19:35,002INFO WatcherTest [main] test log49
-2016-03-10 14:19:35,002INFO WatcherTest [main] test log50
-2016-03-10 14:19:35,002INFO WatcherTest [main] test log51
-2016-03-10 14:19:35,003INFO WatcherTest [main] test log52
-2016-03-10 14:19:35,003INFO WatcherTest [main] test log53
-2016-03-10 14:19:35,003INFO WatcherTest [main] test log54
-2016-03-10 14:19:35,003INFO WatcherTest [main] test log55
-2016-03-10 14:19:35,004INFO WatcherTest [main] test log56
-2016-03-10 14:19:35,004INFO WatcherTest [main] test log57
-2016-03-10 14:19:35,004INFO WatcherTest [main] test log58
-2016-03-10 14:19:35,004INFO WatcherTest [main] test log59
-2016-03-10 14:19:35,005INFO WatcherTest [main] test log60
-2016-03-10 14:19:35,005INFO WatcherTest [main] test log61
-2016-03-10 14:19:35,005INFO WatcherTest [main] test log62
-2016-03-10 14:19:35,005INFO WatcherTest [main] test log63
-2016-03-10 14:19:35,006INFO WatcherTest [main] test log64
-2016-03-10 14:19:35,006INFO WatcherTest [main] test log65
-2016-03-10 14:19:35,006INFO WatcherTest [main] test log66
-2016-03-10 14:19:35,006INFO WatcherTest [main] test log67
-2016-03-10 14:19:35,007INFO WatcherTest [main] test log68
-2016-03-10 14:19:35,007INFO WatcherTest [main] test log69
-2016-03-10 14:19:35,007INFO WatcherTest [main] test log70
-2016-03-10 14:19:35,007INFO WatcherTest [main] test log71
-2016-03-10 14:19:35,008INFO WatcherTest [main] test log72
-2016-03-10 14:19:35,008INFO WatcherTest [main] test log73
-2016-03-10 14:19:35,008INFO WatcherTest [main] test log74
-2016-03-10 14:19:35,009INFO WatcherTest [main] test log75
-2016-03-10 14:19:35,009INFO WatcherTest [main] test log76
-2016-03-10 14:19:35,009INFO WatcherTest [main] test log77
-2016-03-10 14:19:35,012INFO WatcherTest [main] test log78
-2016-03-10 14:19:35,012INFO WatcherTest [main] test log79
-2016-03-10 14:19:35,012INFO WatcherTest [main] test log80
-2016-03-10 14:19:35,012INFO WatcherTest [main] test log81
-2016-03-10 14:19:35,012INFO WatcherTest [main] test log82
-2016-03-10 14:19:35,012INFO WatcherTest [main] test log83
-2016-03-10 14:19:35,012INFO WatcherTest [main] test log84
-2016-03-10 14:19:35,013INFO WatcherTest [main] test log85
-2016-03-10 14:19:35,013INFO WatcherTest [main] test log86
-2016-03-10 14:19:35,013INFO WatcherTest [main] test log87
-2016-03-10 14:19:35,013INFO WatcherTest [main] test log88
-2016-03-10 14:19:35,013INFO WatcherTest [main] test log89
-2016-03-10 14:19:35,013INFO WatcherTest [main] test log90
-2016-03-10 14:19:35,013INFO WatcherTest [main] test log91
-2016-03-10 14:19:35,013INFO WatcherTest [main] test log92
-2016-03-10 14:19:35,013INFO WatcherTest [main] test log93
-2016-03-10 14:19:35,013INFO WatcherTest [main] test log94
-2016-03-10 14:19:35,014INFO WatcherTest [main] test log95
-2016-03-10 14:19:35,014INFO WatcherTest [main] test log96
-2016-03-10 14:19:35,014INFO WatcherTest [main] test log97
-2016-03-10 14:19:35,014INFO WatcherTest [main] test log98
-2016-03-10 14:19:35,014INFO WatcherTest [main] test log99
-2016-03-10 14:20:17,648 INFO WatcherTest [main] test log0
-2016-03-10 14:20:17,649 INFO WatcherTest [main] test log1
-2016-03-10 14:20:17,649 INFO WatcherTest [main] test log2
-2016-03-10 14:20:17,650 INFO WatcherTest [main] test log3
-2016-03-10 14:20:17,650 INFO WatcherTest [main] test log4
-2016-03-10 14:20:17,650 INFO WatcherTest [main] test log5
-2016-03-10 14:20:17,650 INFO WatcherTest [main] test log6
-2016-03-10 14:20:17,651 INFO WatcherTest [main] test log7
-2016-03-10 14:20:17,651 INFO WatcherTest [main] test log8
-2016-03-10 14:20:17,651 INFO WatcherTest [main] test log9
-2016-03-10 14:20:17,651 INFO WatcherTest [main] test log10
-2016-03-10 14:20:17,651 INFO WatcherTest [main] test log11
-2016-03-10 14:20:17,652 INFO WatcherTest [main] test log12
-2016-03-10 14:20:17,652 INFO WatcherTest [main] test log13
-2016-03-10 14:20:17,652 INFO WatcherTest [main] test log14
-2016-03-10 14:20:17,652 INFO WatcherTest [main] test log15
-2016-03-10 14:20:17,652 INFO WatcherTest [main] test log16
-2016-03-10 14:20:17,653 INFO WatcherTest [main] test log17
-2016-03-10 14:20:17,653 INFO WatcherTest [main] test log18
-2016-03-10 14:20:17,653 INFO WatcherTest [main] test log19
-2016-03-10 14:20:17,653 INFO WatcherTest [main] test log20
-2016-03-10 14:20:17,653 INFO WatcherTest [main] test log21
-2016-03-10 14:20:17,653 INFO WatcherTest [main] test log22
-2016-03-10 14:20:17,654 INFO WatcherTest [main] test log23
-2016-03-10 14:20:17,654 INFO WatcherTest [main] test log24
-2016-03-10 14:20:17,654 INFO WatcherTest [main] test log25
-2016-03-10 14:20:17,655 INFO WatcherTest [main] test log26
-2016-03-10 14:20:17,656 INFO WatcherTest [main] test log27
-2016-03-10 14:20:17,656 INFO WatcherTest [main] test log28
-2016-03-10 14:20:17,656 INFO WatcherTest [main] test log29
-2016-03-10 14:20:17,657 INFO WatcherTest [main] test log30
-2016-03-10 14:20:17,657 INFO WatcherTest [main] test log31
-2016-03-10 14:20:17,657 INFO WatcherTest [main] test log32
-2016-03-10 14:20:17,657 INFO WatcherTest [main] test log33
-2016-03-10 14:20:17,657 INFO WatcherTest [main] test log34
-2016-03-10 14:20:17,657 INFO WatcherTest [main] test log35
-2016-03-10 14:20:17,658 INFO WatcherTest [main] test log36
-2016-03-10 14:20:17,658 INFO WatcherTest [main] test log37
-2016-03-10 14:20:17,658 INFO WatcherTest [main] test log38
-2016-03-10 14:20:17,658 INFO WatcherTest [main] test log39
-2016-03-10 14:20:17,658 INFO WatcherTest [main] test log40
-2016-03-10 14:20:17,659 INFO WatcherTest [main] test log41
-2016-03-10 14:20:17,659 INFO WatcherTest [main] test log42
-2016-03-10 14:20:17,660 INFO WatcherTest [main] test log43
-2016-03-10 14:20:17,660 INFO WatcherTest [main] test log44
-2016-03-10 14:20:17,660 INFO WatcherTest [main] test log45
-2016-03-10 14:20:17,660 INFO WatcherTest [main] test log46
-2016-03-10 14:20:17,661 INFO WatcherTest [main] test log47
-2016-03-10 14:20:17,661 INFO WatcherTest [main] test log48
-2016-03-10 14:20:17,661 INFO WatcherTest [main] test log49
-2016-03-10 14:20:17,661 INFO WatcherTest [main] test log50
-2016-03-10 14:20:17,661 INFO WatcherTest [main] test log51
-2016-03-10 14:20:17,661 INFO WatcherTest [main] test log52
-2016-03-10 14:20:17,661 INFO WatcherTest [main] test log53
-2016-03-10 14:20:17,661 INFO WatcherTest [main] test log54
-2016-03-10 14:20:17,661 INFO WatcherTest [main] test log55
-2016-03-10 14:20:17,662 INFO WatcherTest [main] test log56
-2016-03-10 14:20:17,662 INFO WatcherTest [main] test log57
-2016-03-10 14:20:17,662 INFO WatcherTest [main] test log58
-2016-03-10 14:20:17,662 INFO WatcherTest [main] test log59
-2016-03-10 14:20:17,662 INFO WatcherTest [main] test log60
-2016-03-10 14:20:17,662 INFO WatcherTest [main] test log61
-2016-03-10 14:20:17,662 INFO WatcherTest [main] test log62
-2016-03-10 14:20:17,663 INFO WatcherTest [main] test log63
-2016-03-10 14:20:17,663 INFO WatcherTest [main] test log64
-2016-03-10 14:20:17,664 INFO WatcherTest [main] test log65
-2016-03-10 14:20:17,664 INFO WatcherTest [main] test log66
-2016-03-10 14:20:17,664 INFO WatcherTest [main] test log67
-2016-03-10 14:20:17,664 INFO WatcherTest [main] test log68
-2016-03-10 14:20:17,665 INFO WatcherTest [main] test log69
-2016-03-10 14:20:17,665 INFO WatcherTest [main] test log70
-2016-03-10 14:20:17,665 INFO WatcherTest [main] test log71
-2016-03-10 14:20:17,665 INFO WatcherTest [main] test log72
-2016-03-10 14:20:17,665 INFO WatcherTest [main] test log73
-2016-03-10 14:20:17,665 INFO WatcherTest [main] test log74
-2016-03-10 14:20:17,665 INFO WatcherTest [main] test log75
-2016-03-10 14:20:17,666 INFO WatcherTest [main] test log76
-2016-03-10 14:20:17,666 INFO WatcherTest [main] test log77
-2016-03-10 14:20:17,668 INFO WatcherTest [main] test log78
-2016-03-10 14:20:17,668 INFO WatcherTest [main] test log79
-2016-03-10 14:20:17,668 INFO WatcherTest [main] test log80
-2016-03-10 14:20:17,668 INFO WatcherTest [main] test log81
-2016-03-10 14:20:17,669 INFO WatcherTest [main] test log82
-2016-03-10 14:20:17,669 INFO WatcherTest [main] test log83
-2016-03-10 14:20:17,669 INFO WatcherTest [main] test log84
-2016-03-10 14:20:17,669 INFO WatcherTest [main] test log85
-2016-03-10 14:20:17,669 INFO WatcherTest [main] test log86
-2016-03-10 14:20:17,670 INFO WatcherTest [main] test log87
-2016-03-10 14:20:17,670 INFO WatcherTest [main] test log88
-2016-03-10 14:20:17,670 INFO WatcherTest [main] test log89
-2016-03-10 14:20:17,671 INFO WatcherTest [main] test log90
-2016-03-10 14:20:17,671 INFO WatcherTest [main] test log91
-2016-03-10 14:20:17,672 INFO WatcherTest [main] test log92
-2016-03-10 14:20:17,672 INFO WatcherTest [main] test log93
-2016-03-10 14:20:17,672 INFO WatcherTest [main] test log94
-2016-03-10 14:20:17,672 INFO WatcherTest [main] test log95
-2016-03-10 14:20:17,672 INFO WatcherTest [main] test log96
-2016-03-10 14:20:17,672 INFO WatcherTest [main] test log97
-2016-03-10 14:20:17,673 INFO WatcherTest [main] test log98
-2016-03-10 14:20:17,673 INFO WatcherTest [main] test log99
-2016-03-10 17:07:03,002 WARN c.k.h.w.FilterChain [main] filter chain has no filter added!
-2016-03-10 17:07:03,007 WARN c.k.h.w.FilterChain [main] filter chain has no filter added!
-2016-03-10 17:07:03,008 WARN c.k.h.w.FilterChain [main] filter chain has no filter added!
-2016-03-10 17:07:03,009 WARN c.k.h.w.FilterChain [main] filter chain has no filter added!
+	at com.sun.mail.smtp.SMTPTransport.mailFrom(SMTPTransport.java:1700) ~[javax.mail-1.5.2.jar:1.5.2]
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1194) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send0(Transport.java:254) ~[javax.mail-1.5.2.jar:1.5.2]
+	at javax.mail.Transport.send(Transport.java:124) ~[javax.mail-1.5.2.jar:1.5.2]
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1411) ~[commons-email-1.4.jar:1.4]
+	... 30 more

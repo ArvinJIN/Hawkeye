@@ -1,5 +1,6 @@
 package com.king.hawkeye.watcher;
 
+import com.king.hawkeye.config.ConfigPaser;
 import org.junit.Test;
 
 import java.io.IOException;
