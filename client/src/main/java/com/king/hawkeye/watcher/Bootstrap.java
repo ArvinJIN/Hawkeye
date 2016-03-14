@@ -49,7 +49,7 @@ public class Bootstrap {
             return;
         }
         System.out.println("Hawkeye init...");
-//        Bootstrap.start();
+        Bootstrap.start();
     }
 
     public static void init() throws Exception {

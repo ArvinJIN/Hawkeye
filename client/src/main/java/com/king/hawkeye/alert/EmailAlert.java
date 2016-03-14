@@ -14,10 +14,10 @@ import org.apache.logging.log4j.Logger;
  */
 public class EmailAlert implements ILogAlert {
 
-    private static final String SENDER_ADDRESS = "";
+    private static final String SENGER_EMAIL = "";
     private static final String SENDER_PWD = "";
-    private static final String ALERT_SUBJECT = "";
-    private static final String SENDER_HOST = "";
+    private static final String ALERT_SUBJECT = "日志监控报警";
+    private static final String SENDER_HOST = "smtp.qq.com";
     private Logger logger = LogManager.getLogger(EmailAlert.class);
 
     private String emailAddress;
@@ -30,6 +30,7 @@ public class EmailAlert implements ILogAlert {
     public void alert(String message) {
         try {
             sendEmail(message, emailAddress);
+            logger.error("email alert ! message: " + message);
         } catch (EmailException e) {
             logger.error("send email error. email address is {} and message is {}", emailAddress, message, e);
         }
@@ -39,10 +40,10 @@ public class EmailAlert implements ILogAlert {
         Email email = new SimpleEmail();
         email.setHostName(SENDER_HOST);
         email.setSmtpPort(465);
-        email.setAuthenticator(new DefaultAuthenticator(SENDER_ADDRESS, SENDER_PWD));
+        email.setAuthenticator(new DefaultAuthenticator(SENGER_EMAIL, SENDER_PWD));
         email.setSSLOnConnect(true);
         email.setCharset("UTF-8");
-        email.setFrom(SENDER_ADDRESS);
+        email.setFrom(SENGER_EMAIL);
         email.setSubject(ALERT_SUBJECT);
         email.setMsg(message);
         email.addTo(emailAddress);
