@@ -37,6 +37,12 @@
             <artifactId>commons-email</artifactId>
             <version>1.4</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.king.hawkeye</groupId>
+            <artifactId>remote</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

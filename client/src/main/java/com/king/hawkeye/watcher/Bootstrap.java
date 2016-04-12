@@ -3,6 +3,7 @@ package com.king.hawkeye.watcher;
 import com.king.hawkeye.alert.BlankAlert;
 import com.king.hawkeye.alert.EmailAlert;
 import com.king.hawkeye.alert.ILogAlert;
+import com.king.hawkeye.alert.UploadAlert;
 import com.king.hawkeye.channel.DefaultLogChannel;
 import com.king.hawkeye.channel.ILogChannel;
 import com.king.hawkeye.config.ConfigPaser;
@@ -82,7 +83,7 @@ public class Bootstrap {
         isRunning = false;
     }
 
-    private static void initAlert() {
+    private static void initAlert() throws Exception {
         Map<String, Object> alertConfig = config.getAlertConfig();
         String type = ((String) alertConfig.get("type")).toLowerCase();
         String value = ((String) alertConfig.get("value")).toLowerCase();
@@ -90,6 +91,9 @@ public class Bootstrap {
             logAlert = new EmailAlert(value);
         } else if (type.equals("blank")) {
             logAlert = new BlankAlert();
+        } else if (type.equals("upload")) {
+            String[] hostAndPort = value.split(":");
+            logAlert = new UploadAlert(hostAndPort[0], Integer.valueOf(hostAndPort[1]));
         } else {
             logger.warn("type of {} is not adapted.", type);
         }

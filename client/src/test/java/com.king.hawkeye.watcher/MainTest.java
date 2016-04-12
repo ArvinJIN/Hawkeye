@@ -43,7 +43,7 @@ public class MainTest {
                         logger.error("error info.");
                     } else if (currentTime % 17 == 2) {
                         logger.error("error and keyword king.", new Exception("test exception..."));
-                    } else if (currentTime% 77 == 1) {
+                    } else if (currentTime% 11 == 0) {
                         logger.error("Exception come out..");
                     } else {
                         logger.info("...");

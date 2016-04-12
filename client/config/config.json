@@ -1,0 +1,16 @@
+{
+  "file_path": "/Users/King/Work/code58/hawkeye/client/logs/app.log",
+  "chain": [
+    {
+      "type": "level",
+      "value": "error"
+    },{
+      "type": "keyword",
+      "value": "Exception"
+    }
+  ],
+  "alert": {
+    "type": "upload",
+    "value": "127.0.0.1:9527"
+  }
+}

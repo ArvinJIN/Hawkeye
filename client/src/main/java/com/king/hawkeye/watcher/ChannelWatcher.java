@@ -20,7 +20,7 @@ public class ChannelWatcher extends Thread {
         while(isWatching){
             String logInfo = channel.take();
 //            System.out.println("channel watched : " + logInfo);
-            alert.alert("logInfo come : " + logInfo);
+            alert.alert(logInfo);
         }
     }
 
