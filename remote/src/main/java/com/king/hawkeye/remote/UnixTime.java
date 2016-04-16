@@ -1,4 +1,4 @@
-package com.king.hawkeye.server;
+package com.king.hawkeye.remote;
 
 import java.util.Date;
 

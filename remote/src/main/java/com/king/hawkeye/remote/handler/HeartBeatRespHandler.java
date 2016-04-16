@@ -1,8 +1,8 @@
-package com.king.hawkeye.server.handler;
+package com.king.hawkeye.remote.handler;
 
-import com.king.hawkeye.server.protocal.Header;
-import com.king.hawkeye.server.protocal.MessageType;
-import com.king.hawkeye.server.protocal.NettyMessage;
+import com.king.hawkeye.remote.protocal.Header;
+import com.king.hawkeye.remote.protocal.MessageType;
+import com.king.hawkeye.remote.protocal.NettyMessage;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 
@@ -15,9 +15,9 @@ public class HeartBeatRespHandler extends ChannelHandlerAdapter {
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         NettyMessage message = (NettyMessage) msg;
         if(message.getHeader() != null && message.getHeader().getType() == MessageType.HEARTBEAT_REQ.value()) {
-            System.out.println("receive client heart beat messge : " + message);
+//            System.out.println("receive client heart beat messge : " + message);
             NettyMessage heartBeat = buildHeatBeat();
-            System.out.println("send heart beat response message to client : " + heartBeat);
+//            System.out.println("send heart beat response message to client : " + heartBeat);
             ctx.writeAndFlush(heartBeat);
         } else {
             ctx.fireChannelRead(msg);

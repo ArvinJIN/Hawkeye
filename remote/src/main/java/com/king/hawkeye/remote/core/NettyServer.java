@@ -1,15 +1,11 @@
-package com.king.hawkeye.server.core;
+package com.king.hawkeye.remote.core;
 
-import com.king.hawkeye.server.handler.HeartBeatRespHandler;
-import com.king.hawkeye.server.handler.LoginAuthRespHandler;
-import com.king.hawkeye.server.handler.MessageReqHandler;
-import com.king.hawkeye.server.protocal.NettyMessageDecoder;
-import com.king.hawkeye.server.protocal.NettyMessageEncoder;
+import com.king.hawkeye.remote.handler.HeartBeatRespHandler;
+import com.king.hawkeye.remote.handler.LoginAuthRespHandler;
+import com.king.hawkeye.remote.handler.MessageReqHandler;
+import com.king.hawkeye.remote.protocal.*;
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelInitializer;
-import io.netty.channel.ChannelOption;
-import io.netty.channel.EventLoopGroup;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
@@ -18,20 +14,25 @@ import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.timeout.ReadTimeoutHandler;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Created by King on 16/3/31.
  */
 public class NettyServer {
 
-    private static final Log LOG = LogFactory.getLog(NettyServer.class);
+    private static final Logger LOG = LogManager.getLogger(NettyServer.class);
 
     private int port = 9527;
 
     private ProcessHandler handler;
 
-    public NettyServer(int port) {
+    private Channel channel;
+
+    public NettyServer(int port, ProcessHandler handler) {
         this.port = port;
+        this.handler = handler;
     }
 
     public void start() throws InterruptedException {
@@ -45,21 +46,36 @@ public class NettyServer {
                 .handler(new LoggingHandler(LogLevel.INFO))
                 .childHandler(new ChannelInitializer<SocketChannel>() {
                     protected void initChannel(SocketChannel ch) throws Exception {
-//                        ch.pipeline().addLast(new NettyMessageDecoder(1024 * 1024, 4, 4));
+                        ch.pipeline().addLast(new ReadTimeoutHandler(60));
                         ch.pipeline().addLast(new NettyMessageDecoder(1024 * 1024, 4, 4, -8, 0));
                         ch.pipeline().addLast(new NettyMessageEncoder());
-                        ch.pipeline().addLast("readTimeoutHandler", new ReadTimeoutHandler(500));
                         ch.pipeline().addLast(new LoginAuthRespHandler());
                         ch.pipeline().addLast("HeartBeatHandler", new HeartBeatRespHandler());
                         ch.pipeline().addLast("MessageReqHandler", new MessageReqHandler(handler));
                     }
                 });
         ChannelFuture future = bootstrap.bind(port).sync();
-        System.out.println("netty server started : port = " +  port);
-        future.channel().closeFuture().sync();
+        System.out.println("netty remote started : port = " +  port);
+        channel = future.channel();
+//        future.channel().closeFuture().sync();
+    }
+
+    public boolean send(String hostAndPort, Object obj) {
+        Channel clientChannel = ClientCollector.getChannel(hostAndPort);
+
+        NettyMessage message = new NettyMessage();
+        Header header = new Header();
+        header.setType(MessageType.MESSAGE_REQ.value());
+        message.setHeader(header);
+        message.setBody(obj);
+        System.out.println("message : " + message);
+
+        ChannelFuture future = clientChannel.writeAndFlush(message);
+
+        return true;
     }
 
     public static void main(String[] args) throws InterruptedException {
-        new NettyServer(9527).start();
+//        new NettyServer(9527).start();
     }
 }

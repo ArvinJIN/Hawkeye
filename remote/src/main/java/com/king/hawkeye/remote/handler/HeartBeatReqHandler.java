@@ -1,8 +1,8 @@
-package com.king.hawkeye.server.handler;
+package com.king.hawkeye.remote.handler;
 
-import com.king.hawkeye.server.protocal.Header;
-import com.king.hawkeye.server.protocal.MessageType;
-import com.king.hawkeye.server.protocal.NettyMessage;
+import com.king.hawkeye.remote.protocal.Header;
+import com.king.hawkeye.remote.protocal.MessageType;
+import com.king.hawkeye.remote.protocal.NettyMessage;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.util.concurrent.ScheduledFuture;
@@ -21,7 +21,7 @@ public class HeartBeatReqHandler extends ChannelHandlerAdapter {
         if(message.getHeader() != null && message.getHeader().getType() == MessageType.LOGIN_RESP.value()) {
             heartBeat = ctx.executor().scheduleAtFixedRate(new HeartBeatReqHandler.HeartBeatTask(ctx), 0, 5000, TimeUnit.MILLISECONDS);
         } else if (message.getHeader() != null && message.getHeader().getType() == MessageType.HEARTBEAT_RESP.value()) {
-            System.out.println("client receive server beat messge : " + message);
+//            System.out.println("client receive remote beat messge : " + message);
         } else {
             ctx.fireChannelRead(ctx);
         }
@@ -35,7 +35,7 @@ public class HeartBeatReqHandler extends ChannelHandlerAdapter {
 
         public void run() {
             NettyMessage heartBeat = buildHeatBeat();
-            System.out.println("client send heart beat message to server : " + heartBeat);
+//            System.out.println("client send heart beat message to remote : " + heartBeat);
             ctx.writeAndFlush(heartBeat);
         }
     }

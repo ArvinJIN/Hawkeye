@@ -1,8 +1,8 @@
-package com.king.hawkeye.server.handler;
+package com.king.hawkeye.remote.handler;
 
-import com.king.hawkeye.server.protocal.Header;
-import com.king.hawkeye.server.protocal.MessageType;
-import com.king.hawkeye.server.protocal.NettyMessage;
+import com.king.hawkeye.remote.protocal.Header;
+import com.king.hawkeye.remote.protocal.MessageType;
+import com.king.hawkeye.remote.protocal.NettyMessage;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 
@@ -10,6 +10,12 @@ import io.netty.channel.ChannelHandlerContext;
  * Created by King on 16/3/31.
  */
 public class LoginAuthReqHandler extends ChannelHandlerAdapter {
+
+    private String projectName;
+
+    public LoginAuthReqHandler(String projectName) {
+        this.projectName = projectName;
+    }
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
@@ -38,6 +44,7 @@ public class LoginAuthReqHandler extends ChannelHandlerAdapter {
         Header header = new Header();
         header.setType(MessageType.LOGIN_REQ.value());
         message.setHeader(header);
+        message.setBody(projectName);
         return message;
     }
 

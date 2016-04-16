@@ -1,4 +1,4 @@
-package com.king.hawkeye.server.protocal;
+package com.king.hawkeye.remote.protocal;
 
 import java.util.HashMap;
 import java.util.Map;

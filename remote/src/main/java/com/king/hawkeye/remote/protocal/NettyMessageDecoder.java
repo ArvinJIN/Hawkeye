@@ -1,4 +1,4 @@
-package com.king.hawkeye.server.protocal;
+package com.king.hawkeye.remote.protocal;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

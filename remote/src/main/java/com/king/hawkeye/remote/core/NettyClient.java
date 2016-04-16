@@ -1,28 +1,28 @@
-package com.king.hawkeye.server.core;
+package com.king.hawkeye.remote.core;
 
-import com.king.hawkeye.server.handler.HeartBeatReqHandler;
-import com.king.hawkeye.server.handler.LoginAuthReqHandler;
-import com.king.hawkeye.server.protocal.*;
+import com.king.hawkeye.remote.handler.HeartBeatReqHandler;
+import com.king.hawkeye.remote.handler.LoginAuthReqHandler;
+import com.king.hawkeye.remote.protocal.*;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import io.netty.handler.codec.EncoderException;
 import io.netty.handler.timeout.ReadTimeoutHandler;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.net.InetSocketAddress;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by King on 16/3/31.
  */
 public class NettyClient {
-    private static final Log LOG = LogFactory.getLog(NettyClient.class);
+    private static final Logger LOG = LogManager.getLogger(NettyClient.class);
 
     private ScheduledExecutorService executor = Executors.newScheduledThreadPool(1);
 
@@ -32,11 +32,17 @@ public class NettyClient {
 
     private int clientPort;
 
-    public NettyClient() {
+    private String projectName;
+
+    public NettyClient(){}
+
+    public NettyClient(String projectName) {
+        this.projectName = projectName;
     }
 
-    public NettyClient(int clientPort) {
+    public NettyClient(int clientPort, String projectName) {
         this.clientPort = clientPort;
+        this.projectName = projectName;
     }
 
     public void connect(int port, String host) throws Exception {
@@ -50,8 +56,8 @@ public class NettyClient {
                         protected void initChannel(SocketChannel ch) throws Exception {
                             ch.pipeline().addLast(new NettyMessageDecoder(1024 * 1024, 4, 4, -8, 0));
                             ch.pipeline().addLast("MessageEncoder", new NettyMessageEncoder());
-                            ch.pipeline().addLast("readTimeoutHandler", new ReadTimeoutHandler(500));
-                            ch.pipeline().addLast("LoginAuthHandler", new LoginAuthReqHandler());
+                            ch.pipeline().addLast("readTimeoutHandler", new ReadTimeoutHandler(60));
+                            ch.pipeline().addLast("LoginAuthHandler", new LoginAuthReqHandler(projectName));
                             ch.pipeline().addLast("HeartBeatHandler", new HeartBeatReqHandler());
                         }
                     });

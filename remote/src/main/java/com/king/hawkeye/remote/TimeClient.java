@@ -1,4 +1,4 @@
-package com.king.hawkeye.server;
+package com.king.hawkeye.remote;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;

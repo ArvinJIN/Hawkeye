@@ -1,6 +1,5 @@
-package com.king.hawkeye.server.protocal;
+package com.king.hawkeye.remote.protocal;
 
-import com.esotericsoftware.kryo.Kryo;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;

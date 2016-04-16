@@ -1,4 +1,4 @@
-package com.king.hawkeye.server.protocal;
+package com.king.hawkeye.remote.protocal;
 
 /**
  * Created by King on 16/3/30.
