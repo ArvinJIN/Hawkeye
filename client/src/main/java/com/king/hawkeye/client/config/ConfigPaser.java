@@ -1,4 +1,4 @@
-package com.king.hawkeye.config;
+package com.king.hawkeye.client.config;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;

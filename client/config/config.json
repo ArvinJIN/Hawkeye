@@ -10,7 +10,7 @@
     }
   ],
   "alert": {
-    "type": "upload",
+    "type": "blank",
     "value": "127.0.0.1:9527"
   }
 }

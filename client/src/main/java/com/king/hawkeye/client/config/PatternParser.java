@@ -1,4 +1,4 @@
-package com.king.hawkeye.config;
+package com.king.hawkeye.client.config;
 
 /**
  * 配置文件 解析器
@@ -15,8 +15,6 @@ public class PatternParser {
     public String get(Pattern pattern) {
         return null;
     }
-
-
 
     public enum Pattern {
 

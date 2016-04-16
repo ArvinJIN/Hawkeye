@@ -1,4 +1,4 @@
-package com.king.hawkeye.config;
+package com.king.hawkeye.client.config;
 
 import java.util.List;
 import java.util.Map;

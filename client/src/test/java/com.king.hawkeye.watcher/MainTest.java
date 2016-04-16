@@ -1,5 +1,6 @@
 package com.king.hawkeye.watcher;
 
+import com.king.hawkeye.client.boot.Bootstrap;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
@@ -35,21 +36,21 @@ public class MainTest {
             public void run() {
                 while(true){
                     long currentTime = System.currentTimeMillis();
-                    if(currentTime % 16 == 0){
-                        logger.info("log for keyword test : keyword is King. ");
-                    } else if (currentTime % 48 == 1){
-                        logger.debug("log for level test : level is debug.");
-                    } else if (currentTime % 16 == 1){
-                        logger.error("error info.");
-                    } else if (currentTime % 17 == 2) {
-                        logger.error("error and keyword king.", new Exception("test exception..."));
-                    } else if (currentTime% 11 == 0) {
+//                    if(currentTime % 16 == 0){
+//                        logger.info("log for keyword test : keyword is King. ");
+//                    } else if (currentTime % 48 == 1){
+//                        logger.debug("log for level test : level is debug.");
+//                    } else if (currentTime % 16 == 1){
+//                        logger.error("error info.");
+//                    } else if (currentTime % 17 == 2) {
+//                        logger.error("error and keyword king.", new Exception("test exception..."));
+//                    } else if (currentTime% 11 == 0) {
                         logger.error("Exception come out..");
-                    } else {
-                        logger.info("...");
-                    }
+//                    } else {
+//                        logger.info("...");
+//                    }
                     try {
-                        Thread.sleep(1000 + new Random().nextInt(2000));
+                        Thread.sleep(1000 + new Random().nextInt(15000));
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }

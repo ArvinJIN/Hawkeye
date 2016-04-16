@@ -1,4 +1,4 @@
-package com.king.hawkeye.demo;
+package com.king.hawkeye.client.demo;
 
 import java.io.IOException;
 import java.nio.file.FileSystems;

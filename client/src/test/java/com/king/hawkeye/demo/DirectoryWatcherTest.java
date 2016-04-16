@@ -1,5 +1,7 @@
 package com.king.hawkeye.demo;
 
+import com.king.hawkeye.client.demo.DirectoryWatcher;
+import com.king.hawkeye.client.demo.FileSystemEventArgs;
 import org.apache.logging.log4j.LogManager;
 import org.junit.Test;
 
