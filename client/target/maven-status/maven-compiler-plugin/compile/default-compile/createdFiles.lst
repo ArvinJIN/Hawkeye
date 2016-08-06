@@ -1,9 +1,0 @@
-com/king/hawkeye/client/boot/Bootstrap.class
-com/king/hawkeye/client/demo/DirectoryWatcher$1.class
-com/king/hawkeye/client/demo/DirectoryWatcher.class
-com/king/hawkeye/client/demo/FileSystemEventArgs.class
-com/king/hawkeye/client/config/ConfigPaser.class
-com/king/hawkeye/client/config/PatternParser.class
-com/king/hawkeye/client/sink/UploadSink.class
-com/king/hawkeye/client/config/HawkeyeConfig.class
-com/king/hawkeye/client/config/PatternParser$Pattern.class
