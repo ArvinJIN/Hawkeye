@@ -3,16 +3,20 @@ package com.king.hawkeye.client.boot;
 import com.king.hawkeye.client.sink.UploadSink;
 import com.king.hawkeye.client.config.ConfigPaser;
 import com.king.hawkeye.client.config.HawkeyeConfig;
+import com.king.hawkeye.router.Router;
+import com.king.hawkeye.router.channel.AbstractRouterChannel;
 import com.king.hawkeye.router.channel.DefaultRouterChannel;
-import com.king.hawkeye.router.channel.IRouterChannel;
-import com.king.hawkeye.router.filter.FilterChain;
+import com.king.hawkeye.router.filter.AbstractFilterChain;
 import com.king.hawkeye.router.filter.KeyWordFilter;
 import com.king.hawkeye.router.filter.LevelFilter;
 import com.king.hawkeye.router.filter.RegexFilter;
 import com.king.hawkeye.router.sink.AbstractSink;
 import com.king.hawkeye.router.sink.BlankSink;
 import com.king.hawkeye.router.sink.EmailSink;
+import com.king.hawkeye.router.sink.SinkChain;
+import com.king.hawkeye.router.source.AbstractSource;
 import com.king.hawkeye.router.source.FileSource;
+import com.king.hawkeye.router.source.TestSource;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -30,11 +34,7 @@ public class Bootstrap {
 
     private static HawkeyeConfig config;
 
-    private static FileSource source;
-
-    private static AbstractSink sink;
-
-    private static IRouterChannel channel;
+    private static Router<String> nettyRouter;
 
     private static final String CONFIG_FILE_PATH = System.getProperty("user.dir") + "/config/config.json";
     private static boolean isRunning = true;
@@ -55,30 +55,41 @@ public class Bootstrap {
 
     public static void init() throws Exception {
         readConfigAndInit();
-        initChannel();
-        initSource();
-        initSink();
-    }
 
-    private static void initSink() throws Exception {
+//        initChannel();
+        DefaultRouterChannel channel = new DefaultRouterChannel();
+        AbstractFilterChain<String> chain = channel.getFilterChain();
+        initChain(chain);
+        channel.setAbstractFilterChain(chain);
+
+//        initSource();
+        AbstractSource source = null;
+        String logFilePath = config.getLogFilePath();
+        source = new FileSource(logFilePath, channel);
+        // TODO: 16/4/23  测试用
+//        source = new TestSource(channel, 3000, "[ERROR] Exception: second this is test log !!!!!");
+
+//        initSink();
+        AbstractSink<String> sink = null;
         Map<String, Object> alertConfig = config.getAlertConfig();
         String type = ((String) alertConfig.get("type")).toLowerCase();
         String value = ((String) alertConfig.get("value")).toLowerCase();
         if (type.equals("email")) {
-            sink = new EmailSink(channel, value);
+            sink = new EmailSink(value);
         } else if (type.equals("blank")) {
-            sink = new BlankSink(channel);
+            sink = new BlankSink();
         } else if (type.equals("upload")) {
             String[] hostAndPort = value.split(":");
-            sink = new UploadSink(channel, hostAndPort[0], Integer.valueOf(hostAndPort[1]));
+            sink = new UploadSink(config.getProject(), channel, hostAndPort[0], Integer.valueOf(hostAndPort[1]));
         } else {
             logger.warn("type of {} is not adapted.", type);
         }
+
+        nettyRouter = new Router<String>(source, channel, sink);
     }
 
     public static void start() {
-        source.start();
-        sink.start();
+        nettyRouter.start();
         while (isRunning) {
             try {
                 Thread.sleep(1000);
@@ -89,8 +100,7 @@ public class Bootstrap {
     }
 
     public void stop() {
-        source.stopWatching();
-        sink.stopWatching();
+        nettyRouter.stop();
         isRunning = false;
     }
 
@@ -99,20 +109,7 @@ public class Bootstrap {
         config = configPaser.parseAndInit();
     }
 
-    private static void initSource() throws IOException {
-        String logFilePath = config.getLogFilePath();
-        source = new FileSource(logFilePath, channel);
-    }
-
-    private static void initChannel() throws Exception {
-        DefaultRouterChannel defaultLogChannel = new DefaultRouterChannel();
-        FilterChain chain = defaultLogChannel.getFilterChain();
-        initChain(chain);
-        defaultLogChannel.setFilterChain(chain);
-        channel = defaultLogChannel;
-    }
-
-    private static void initChain(FilterChain chain) throws Exception {
+    private static void initChain(AbstractFilterChain<String> chain) throws Exception {
         List<Map<String, Object>> chainConfig = config.getChainConfig();
         for (int i = 0; i < chainConfig.size(); i++) {
             String type = ((String) chainConfig.get(i).get("type")).toLowerCase();
@@ -127,22 +124,6 @@ public class Bootstrap {
                 logger.warn("type of {} is not adapted.", type);
             }
         }
-    }
-
-    public static FileSource getSource() {
-        return source;
-    }
-
-    public static void setSource(FileSource source) {
-        Bootstrap.source = source;
-    }
-
-    public static IRouterChannel getChannel() {
-        return channel;
-    }
-
-    public static void setChannel(IRouterChannel channel) {
-        Bootstrap.channel = channel;
     }
 
 }

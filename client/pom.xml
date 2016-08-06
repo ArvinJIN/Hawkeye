@@ -47,7 +47,7 @@
     </dependencies>
 
     <build>
-        <finalName>hawkeye</finalName>
+        <finalName>hawkeye-client</finalName>
         <plugins>
 
             <plugin>
@@ -87,7 +87,7 @@
                 </configuration>
             </plugin>
 
-            <!-- 拷贝工程jar包到制定路径 -->
+            <!-- 拷贝依赖jar包到制定路径 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -100,7 +100,7 @@
                         </goals>
                         <configuration>
                             <outputDirectory>
-                                /Users/King/hawkeye/lib
+                                /Users/King/hawkeye_client/lib
                             </outputDirectory>
                         </configuration>
                     </execution>
@@ -117,7 +117,7 @@
                         <configuration>
                             <tasks>
                                 <!-- <delete dir="src/main/webapp/WEB-INF/lib" />-->
-                                <copy todir="/Users/King/hawkeye">
+                                <copy todir="/Users/King/hawkeye_client">
                                     <fileset dir="target/">
                                         <include name="*.jar" />
                                     </fileset>

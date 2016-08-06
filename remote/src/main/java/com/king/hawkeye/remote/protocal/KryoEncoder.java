@@ -14,7 +14,6 @@ import org.apache.logging.log4j.Logger;
  */
 public class KryoEncoder {
     private static final Logger LOG = LogManager.getLogger(KryoEncoder.class);
-
     private static final byte[] LENGTH_PLACEHOLDER = new byte[4];
     Kryo kryo;
 
@@ -41,5 +40,4 @@ public class KryoEncoder {
             output.close();
         }
     }
-
 }

@@ -1,273 +1,505 @@
-2016-04-11 13:29:50,326 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"blank","value":""}}
-2016-04-11 13:30:20,412 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:22,550 ERROR c.k.h.w.MainTest [main] error and keyword king.
-java.lang.Exception: test exception...
-	at com.king.hawkeye.watcher.MainTest$1.run(MainTest.java:45) [test-classes/:?]
-	at com.king.hawkeye.watcher.MainTest.log(MainTest.java:58) [test-classes/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119) [junit-rt.jar:?]
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42) [junit-rt.jar:?]
-	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234) [junit-rt.jar:?]
-	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74) [junit-rt.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
-2016-04-11 13:30:25,176 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:34,268 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:37,205 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:38,551 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:39,866 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:42,374 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:43,646 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:46,143 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:48,410 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:50,666 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:52,953 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:55,721 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:56,922 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:30:58,158 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:00,025 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:02,334 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:03,558 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:04,802 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:06,599 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:09,079 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:11,706 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:13,764 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:15,500 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:17,348 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:31,781 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:33,919 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:36,643 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:38,295 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:39,437 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:41,333 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:44,192 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
-2016-04-11 13:31:46,144 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
-2016-04-11 13:31:48,357 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:49,765 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:52,521 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:55,294 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:57,126 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:58,795 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:31:59,933 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:02,057 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:04,520 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:07,157 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:09,437 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:10,593 ERROR c.k.h.w.MainTest [main] error info.
-2016-04-11 13:32:13,469 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:15,777 ERROR c.k.h.w.MainTest [main] error info.
-2016-04-11 13:32:17,212 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:20,044 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:22,259 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:24,243 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:25,792 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
-2016-04-11 13:32:27,636 ERROR c.k.h.w.MainTest [main] error and keyword king.
-java.lang.Exception: test exception...
-	at com.king.hawkeye.watcher.MainTest$1.run(MainTest.java:45) [test-classes/:?]
-	at com.king.hawkeye.watcher.MainTest.log(MainTest.java:58) [test-classes/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119) [junit-rt.jar:?]
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42) [junit-rt.jar:?]
-	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234) [junit-rt.jar:?]
-	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74) [junit-rt.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
-2016-04-11 13:32:29,404 ERROR c.k.h.w.MainTest [main] error and keyword king.
-java.lang.Exception: test exception...
-	at com.king.hawkeye.watcher.MainTest$1.run(MainTest.java:45) [test-classes/:?]
-	at com.king.hawkeye.watcher.MainTest.log(MainTest.java:58) [test-classes/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119) [junit-rt.jar:?]
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42) [junit-rt.jar:?]
-	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234) [junit-rt.jar:?]
-	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74) [junit-rt.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
-2016-04-11 13:32:30,929 ERROR c.k.h.w.MainTest [main] error info.
-2016-04-11 13:32:33,392 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
-2016-04-11 13:32:35,210 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:44,965 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:46,178 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:47,331 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:50,087 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:51,850 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:53,474 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:32:55,584 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
-2016-04-11 13:32:58,065 ERROR c.k.h.w.MainTest [main] error info.
-2016-04-11 13:33:00,180 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:33:01,525 ERROR c.k.h.w.MainTest [main] Exception come out..
-2016-04-11 13:33:03,576 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:33:05,998 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:33:07,618 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:33:10,599 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:37:03,913 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"blank","value":""}}
-2016-04-11 13:37:34,737 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
-2016-04-11 13:37:49,940 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:37:52,131 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:37:54,804 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:37:56,637 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:37:57,818 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:37:58,855 ERROR c.k.h.w.MainTest [main] Exception come out..
-2016-04-11 13:38:00,191 ERROR c.k.h.w.MainTest [main] error and keyword king.
-java.lang.Exception: test exception...
-	at com.king.hawkeye.watcher.MainTest$1.run(MainTest.java:45) [test-classes/:?]
-	at com.king.hawkeye.watcher.MainTest.log(MainTest.java:58) [test-classes/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119) [junit-rt.jar:?]
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42) [junit-rt.jar:?]
-	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234) [junit-rt.jar:?]
-	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74) [junit-rt.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
-2016-04-11 13:38:02,669 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:05,222 ERROR c.k.h.w.MainTest [main] error and keyword king.
-java.lang.Exception: test exception...
-	at com.king.hawkeye.watcher.MainTest$1.run(MainTest.java:45) [test-classes/:?]
-	at com.king.hawkeye.watcher.MainTest.log(MainTest.java:58) [test-classes/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119) [junit-rt.jar:?]
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42) [junit-rt.jar:?]
-	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234) [junit-rt.jar:?]
-	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74) [junit-rt.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40]
-	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
-2016-04-11 13:38:06,949 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:08,019 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:09,936 INFO c.k.h.w.MainTest [main] log for keyword test : keyword is King. 
-2016-04-11 13:38:11,843 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:13,698 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:14,802 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:16,931 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:18,631 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:20,635 ERROR c.k.h.w.MainTest [main] Exception come out..
-2016-04-11 13:38:23,560 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:25,215 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:27,886 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:29,148 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:32,040 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:35,037 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:36,821 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:38,633 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:40,678 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:41,695 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:44,179 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:45,935 ERROR c.k.h.w.MainTest [main] Exception come out..
-2016-04-11 13:38:48,396 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:50,471 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:52,801 DEBUG c.k.h.w.MainTest [main] log for level test : level is debug.
-2016-04-11 13:38:54,306 ERROR c.k.h.w.MainTest [main] Exception come out..
-2016-04-11 13:38:56,288 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:57,575 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:38:59,499 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:39:02,281 ERROR c.k.h.w.MainTest [main] Exception come out..
-2016-04-11 13:39:04,516 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:39:05,564 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:39:07,912 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:39:09,354 ERROR c.k.h.w.MainTest [main] Exception come out..
-2016-04-11 13:39:11,687 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:39:13,896 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:39:15,140 ERROR c.k.h.w.MainTest [main] Exception come out..
-2016-04-11 13:39:17,556 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:39:19,094 INFO c.k.h.w.MainTest [main] ...
-2016-04-11 13:39:20,565 INFO c.k.h.w.MainTest [main] ...
+2016-04-14 15:41:06,698 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 15:41:18,183 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 15:41:21,703 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 15:41:25,118 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 15:41:29,478 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 15:41:32,857 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 15:41:37,183 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 15:41:41,068 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 15:47:42,643 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 15:48:00,389 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 15:48:03,939 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 15:48:07,314 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 15:48:11,097 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:20:39,518 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 16:20:53,112 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:21:11,703 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:23:33,664 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 16:23:49,343 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:24:05,811 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:24:20,347 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:24:35,607 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:24:46,301 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:24:54,442 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:25:06,919 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:25:25,785 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:25:35,901 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:26:58,944 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 16:27:07,891 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:27:13,893 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:27:26,476 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:27:30,787 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:27:43,720 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:27:44,836 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:27:46,595 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:28:02,369 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:28:04,751 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:32:25,319 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 16:32:34,690 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:32:39,104 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:32:42,494 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:32:50,739 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 16:50:41,299 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 16:50:47,646 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:06:55,659 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 17:07:00,446 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:11:39,067 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 17:11:51,009 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:14:02,306 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:14:29,747 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:22:11,620 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 17:22:21,673 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:30:59,343 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 17:31:32,491 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 17:31:37,040 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:33:32,905 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 17:33:38,622 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:51:17,025 DEBUG c.k.h.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-14 17:51:52,450 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:51:54,155 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:52:01,228 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:52:10,344 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:52:18,900 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:52:32,880 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:52:45,309 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:52:52,151 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:53:04,153 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:53:14,472 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:53:26,556 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:53:36,727 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:53:52,513 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:54:07,456 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:54:17,411 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:54:20,029 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:54:26,858 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:54:31,952 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:54:33,675 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:54:42,208 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:54:55,746 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:54:58,135 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:55:08,809 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:55:23,406 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:55:26,098 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:55:30,150 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:55:35,696 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:55:36,888 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:55:44,381 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:55:58,504 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:56:07,441 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:56:09,155 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:56:17,082 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:56:29,394 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:56:45,099 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:56:46,424 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:57:00,841 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:57:11,416 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:57:27,375 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:57:32,563 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:57:40,398 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:57:53,908 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:57:56,689 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:58:04,690 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:58:14,684 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:58:24,084 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:58:28,878 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:58:33,146 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:58:39,874 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:58:53,586 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:59:03,771 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:59:13,684 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:59:26,064 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:59:40,679 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:59:55,238 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 17:59:56,931 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:00:05,497 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:00:08,443 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:00:21,053 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:00:35,998 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:00:47,576 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:00:50,902 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:00:54,256 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:00:57,454 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:00:59,800 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:01:11,891 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:01:21,283 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:01:30,581 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:01:35,742 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:01:50,979 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:02:03,660 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:02:09,716 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:02:21,935 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:02:25,225 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:02:37,294 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:02:51,514 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:03:03,986 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:03:10,575 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:03:24,745 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:03:37,425 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:03:47,195 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:03:54,370 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:04:01,620 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:04:09,927 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:04:15,687 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:04:20,131 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:04:30,572 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:04:37,290 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:04:45,003 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:04:59,622 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:05:13,883 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:05:23,025 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:05:31,831 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:05:34,031 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:05:44,540 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:05:54,862 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:05:58,129 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:06:05,701 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:06:14,883 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:06:19,623 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:06:29,400 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:06:36,120 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:06:38,008 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:06:46,759 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:06:59,284 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:07:01,659 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:07:17,176 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:07:26,426 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:07:40,426 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:07:53,536 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:08:09,276 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:08:14,911 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:08:26,034 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:08:33,140 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:08:46,056 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:08:54,845 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:09:06,295 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:09:09,104 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:09:21,869 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:09:29,986 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:09:44,181 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:09:49,940 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:09:55,480 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:10:02,329 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:10:08,589 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:10:22,495 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:10:31,123 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:10:46,914 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:10:52,527 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:11:08,174 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:11:15,252 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:11:24,875 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:11:36,860 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:11:38,899 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:11:43,234 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:11:55,682 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:12:10,828 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:12:12,572 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:12:18,173 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:12:20,035 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:12:21,044 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:12:31,236 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:12:33,345 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:12:35,145 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:12:50,253 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:12:55,056 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:12:57,233 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:13:05,221 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:13:12,943 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:13:19,050 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:13:27,654 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:13:40,547 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:13:50,770 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:13:56,507 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:14:06,697 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:14:16,320 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:14:29,232 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:14:41,012 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:14:52,289 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:15:05,256 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:15:11,981 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:15:18,317 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:15:25,358 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:15:40,786 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:15:49,787 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:15:53,809 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:15:55,597 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:16:07,963 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:16:20,649 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:16:36,546 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:16:43,346 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:16:55,924 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:17:04,724 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:17:08,484 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:17:13,190 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:17:26,601 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:17:27,759 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:17:39,634 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:17:51,172 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:17:55,975 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:17:57,341 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:18:00,448 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:18:07,319 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:18:16,436 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:18:22,402 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:18:38,002 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:18:52,161 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:18:53,885 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:19:03,470 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:19:16,961 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:19:18,712 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:19:23,469 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:19:24,712 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:19:30,607 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:19:32,188 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:19:33,865 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:19:36,312 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:19:49,960 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:20:00,230 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:20:11,392 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:20:25,248 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:20:30,572 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:20:43,977 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:20:53,463 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:20:55,455 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:21:02,668 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:21:14,927 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:21:22,988 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:21:35,230 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:21:44,692 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:21:54,343 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:22:08,959 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:22:21,118 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:22:22,996 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:22:28,026 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:22:36,768 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:22:44,956 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:22:49,776 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:22:56,392 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:23:08,222 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:23:11,594 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:23:24,411 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:23:26,814 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:23:34,235 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:23:46,250 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:23:48,706 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:23:58,386 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:23:59,580 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:24:11,106 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:24:13,779 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:24:21,830 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:24:26,916 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:24:36,266 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:24:51,967 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:25:01,942 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:25:09,813 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:25:19,120 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:25:32,362 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:25:46,462 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-14 18:25:52,543 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-16 20:00:50,759 ERROR c.k.h.w.MainTest [main] Exception come out..
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"blank","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"blank","value":"127.0.0.1:9527"}}
+2016-04-16 20:08:08,512 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-16 20:08:10,722 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-16 20:13:50,873 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-16 20:13:52,206 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-16 20:13:59,718 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-16 20:14:12,255 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-16 20:14:27,933 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-16 20:14:35,557 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-16 20:14:45,146 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-16 20:14:51,187 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-16 20:14:55,055 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-16 20:15:06,702 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-18 15:32:57,579 DEBUG c.k.h.c.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"blank","value":"127.0.0.1:9527"}}
+2016-04-18 15:33:06,695 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-18 15:33:21,617 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-18 15:33:34,371 DEBUG c.k.h.c.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-18 15:33:38,846 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-18 15:33:53,177 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-18 15:34:06,600 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-18 15:34:14,618 DEBUG c.k.h.c.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-04-18 15:35:35,205 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-04-18 15:35:50,388 ERROR c.k.h.w.MainTest [main] Exception come out..
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+java.net.ConnectException: Connection refused: /127.0.0.1:9527
+Hawkeye client init error.
+java.net.ConnectException: Connection refused: /127.0.0.1:9527
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_40]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_40]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:223) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:276) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:531) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+java.net.ConnectException: Connection refused: /127.0.0.1:9527
+Hawkeye client init error.
+java.net.ConnectException: Connection refused: /127.0.0.1:9527
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_40]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_40]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:223) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:276) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:531) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+java.net.ConnectException: Connection refused: /127.0.0.1:9527
+Hawkeye client init error.
+java.net.ConnectException: Connection refused: /127.0.0.1:9527
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_40]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_40]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:223) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:276) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:531) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"second"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"secondFilter"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"secondFilter"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"second"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"second"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"second"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"second"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-05-09 15:20:35,761 DEBUG c.k.h.c.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"second"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-05-09 15:21:37,835 DEBUG c.k.h.c.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"second"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-05-09 15:23:34,019 DEBUG c.k.h.c.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"second"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-05-09 15:25:12,554 DEBUG c.k.h.c.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"second"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-05-09 15:31:28,813 DEBUG c.k.h.c.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"second"}],"alert":{"type":"upload","value":"127.0.0.1:9527"}}
+2016-06-02 18:06:19,003 DEBUG c.k.h.c.c.ConfigPaser [main] totalConfig: {"file_path":"/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"localhost:8927"}}
+2016-06-02 18:06:46,431 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-06-02 18:06:54,008 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-06-02 18:07:00,257 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-06-02 18:07:09,279 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-06-02 18:07:15,846 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-06-04 14:50:47,845 DEBUG c.k.h.c.c.ConfigPaser [main] totalConfig: {"file_path":"/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"localhost:8927"}}
+2016-06-04 14:50:59,746 ERROR c.k.h.w.MainTest [main] Exception come out..
+2016-06-05 20:51:09,202 DEBUG c.k.h.c.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"localhost:8927"}}
+2016-06-05 20:53:19,704 DEBUG c.k.h.c.c.ConfigPaser [main] totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"localhost:8927"}}
+2016-06-05 20:53:46,837 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:53:49,021 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:53:52,471 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:53:59,292 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:54:24,598 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:54:33,176 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:54:35,081 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"upload","value":"localhost:8927"}}
+2016-06-05 20:56:20,677 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:56:24,275 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:56:28,026 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:56:35,963 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:56:38,972 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:56:46,468 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:56:57,055 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+2016-06-05 20:57:28,624 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:57:32,163 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:57:37,704 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:57:42,806 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:57:50,710 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:57:59,681 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:58:05,089 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+log info: Log error info : target Exception come out ..Log error info : target Exception come out ..Log error info : target Exception come out ..Log error info : target Exception come out ..out ..
+2016-06-05 20:58:08,766 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+log info: Log error info : target Exception come out ..
+2016-06-05 20:58:17,826 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+log info: Log error info : target Exception come out ..
+2016-06-05 20:58:21,182 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+log info: Log error info : target Exception come out ..
+2016-06-05 20:58:30,701 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+log info: Log error info : target Exception come out ..
+2016-06-05 20:58:37,029 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+log info: Log error info : target Exception come out ..
+2016-06-05 20:58:40,511 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+log info: Log error info : target Exception come out ..
+2016-06-05 20:58:44,213 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:58:47,574 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:58:49,104 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:58:54,192 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:58:59,584 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:59:05,095 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:59:07,556 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:59:14,844 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:59:18,440 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:59:26,760 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:59:34,647 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:59:45,229 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:59:52,806 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:59:57,774 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 20:59:59,725 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 21:00:06,354 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+
+2016-06-05 21:00:08,989 ERROR c.k.h.w.MainTest [main] Log error info : target Exception come out ..
+

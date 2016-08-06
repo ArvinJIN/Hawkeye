@@ -13,9 +13,7 @@ import org.apache.logging.log4j.Logger;
  * Created by King on 16/3/31.
  */
 public class KryoDecoder {
-
     private static final Logger LOG = LogManager.getLogger(KryoDecoder.class);
-
     private Kryo kryo;
 
     public KryoDecoder() {
@@ -39,22 +37,5 @@ public class KryoDecoder {
         } finally {
             input.close();
         }
-    }
-
-
-    public static void main(String[] args) {
-        KryoDecoder decoder = new KryoDecoder();
-        KryoEncoder encoder = new KryoEncoder();
-        String str = "abc";
-        ByteBuf buf = Unpooled.buffer();
-        encoder.encode(str, buf);
-        Object obj = null;
-        try {
-            obj = decoder.decode(buf);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        System.out.println(obj instanceof String);
-        System.out.println(obj);
     }
 }

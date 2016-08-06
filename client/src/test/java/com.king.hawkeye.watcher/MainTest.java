@@ -5,6 +5,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Random;
 
@@ -13,6 +15,7 @@ import java.util.Random;
  */
 public class MainTest {
     private static final Logger logger = LogManager.getLogger(MainTest.class);
+
     @Test
     public void testInit() throws Exception {
         Bootstrap.init();
@@ -31,26 +34,30 @@ public class MainTest {
     @Test
     public void log() throws InterruptedException, IOException {
         final boolean running = true;
-        new Runnable(){
+        File file = new File("/Users/King/app.log");
+        final FileWriter fw = new FileWriter(file);
+        new Runnable() {
             @Override
             public void run() {
-                while(true){
+                while (true) {
                     long currentTime = System.currentTimeMillis();
-//                    if(currentTime % 16 == 0){
-//                        logger.info("log for keyword test : keyword is King. ");
-//                    } else if (currentTime % 48 == 1){
-//                        logger.debug("log for level test : level is debug.");
-//                    } else if (currentTime % 16 == 1){
-//                        logger.error("error info.");
-//                    } else if (currentTime % 17 == 2) {
-//                        logger.error("error and keyword king.", new Exception("test exception..."));
-//                    } else if (currentTime% 11 == 0) {
-                        logger.error("Exception come out..");
-//                    } else {
-//                        logger.info("...");
-//                    }
                     try {
-                        Thread.sleep(1000 + new Random().nextInt(15000));
+                        if (currentTime % 5 == 1) {
+                            fw.write("Log error info : target Exception come out ..\n");
+                            fw.flush();
+                        } else if (currentTime % 5 == 2) {
+                            fw.write("Log error info : target Important come out..\n");
+                            fw.flush();
+                        } else {
+                            fw.write("Log error info : this is a normal log..\n");
+                            fw.flush();
+                        }
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
+                    try {
+                        Thread.sleep(1000 + new Random().nextInt(10000));
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }

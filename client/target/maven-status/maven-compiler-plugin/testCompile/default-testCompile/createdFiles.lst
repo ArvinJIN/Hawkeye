@@ -1,12 +1,7 @@
 com/king/hawkeye/demo/BlockingQueueTest.class
+com/king/hawkeye/watcher/MainTest.class
+com/king/hawkeye/demo/FastJsonTest.class
 com/king/hawkeye/watcher/MainTest$1.class
 com/king/hawkeye/demo/DirectoryWatcherTest$Logger.class
 com/king/hawkeye/watcher/HawkeyeConfigParserTest.class
-com/king/hawkeye/watcher/FilterChainTest.class
 com/king/hawkeye/demo/DirectoryWatcherTest.class
-com/king/hawkeye/watcher/FilterTest.class
-com/king/hawkeye/watcher/MainTest.class
-com/king/hawkeye/watcher/WatcherTest$1.class
-com/king/hawkeye/watcher/AlertTest.class
-com/king/hawkeye/watcher/WatcherTest.class
-com/king/hawkeye/demo/FastJsonTest.class

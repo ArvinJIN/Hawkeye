@@ -37,6 +37,9 @@ public class ConfigPaser {
      * @throws IOException the config in configFile in not complete.
      */
     public HawkeyeConfig parseAndInit() throws IOException {
+        if (!isContainKeyAndNotNull(totalConfig, "project")) {
+            throw new IOException("缺少project");
+        }
         if (!isContainKeyAndNotNull(totalConfig, "file_path")) {
             throw new IOException("缺少file_path.");
         }
@@ -46,15 +49,31 @@ public class ConfigPaser {
         if (!isContainKeyAndNotNull(totalConfig, "alert")) {
             throw new IOException("缺少alert.");
         }
+        String project = parseProjectName(totalConfig.get("project"));
         String logFilePath = parseFilePath(totalConfig.get("file_path"));
         List<Map<String, Object>> chainConfig = parseChain(totalConfig.get("chain"));
         Map<String, Object> alertConfig = parseAlert(totalConfig.get("alert"));
 
         HawkeyeConfig config = new HawkeyeConfig();
+        config.setProject(project);
         config.setLogFilePath(logFilePath);
         config.setChainConfig(chainConfig);
         config.setAlertConfig(alertConfig);
         return config;
+    }
+
+    /**
+     * parse project name
+     *
+     * @param config : project value in totalConfig
+     * @return log project name
+     * @throws IOException type of input is not String
+     */
+    private String parseProjectName(Object config) throws IOException {
+        if (!(config instanceof String)) {
+            throw new IOException("project config is not a String.");
+        }
+        return (String) config;
     }
 
     /**

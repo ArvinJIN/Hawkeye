@@ -9,11 +9,21 @@ import java.util.Map;
  */
 public class HawkeyeConfig {
 
+    private String project;
+
     private String logFilePath;
 
     private List<Map<String, Object>> chainConfig;
 
     private Map<String, Object> alertConfig;
+
+    public String getProject() {
+        return project;
+    }
+
+    public void setProject(String project) {
+        this.project = project;
+    }
 
     public String getLogFilePath() {
         return logFilePath;

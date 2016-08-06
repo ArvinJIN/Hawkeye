@@ -1,5 +1,6 @@
 {
-  "file_path": "/Users/King/Work/code58/hawkeye/client/logs/app.log",
+  "project": "hawkeye",
+  "file_path": "/Users/King/app.log",
   "chain": [
     {
       "type": "level",
@@ -10,7 +11,10 @@
     }
   ],
   "alert": {
-    "type": "blank",
-    "value": "127.0.0.1:9527"
+    "type": "upload",
+    "value": "localhost:8927"
   }
 }
+
+
+
