@@ -11,7 +11,7 @@
 //
 //    @Test
 //    public void emailAlertTest() {
-//        AbstractSink alert = new EmailSink("jinleihao@58ganji.com");
+//        AbstractSink alert = new EmailSink("");
 //        alert.alert("test alert...");
 //    }
 //}
