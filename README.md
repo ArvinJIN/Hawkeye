@@ -28,7 +28,7 @@
 
 文档在[document](https://github.com/LittleLory/Hawkeye/tree/master/document)中，这里包含了：
 
-* [论文]([document](https://github.com/LittleLory/Hawkeye/tree/master/document/基于java的日志监控分析工具的设计与实现.docx))：这就是毕业论文了。
+* [论文](https://github.com/LittleLory/Hawkeye/tree/master/document/基于java的日志监控分析工具的设计与实现.docx)：这就是毕业论文了。
 * [程序包](https://github.com/LittleLory/Hawkeye/tree/master/document/程序包)：我不敢保证能顺利运行，当然了，当时是没有问题的。
 * [答辩PPT](https://github.com/LittleLory/Hawkeye/tree/master/document/答辩ppt.ppt)：如果你是一个有审美追求的人，就忽略它。
 * [ElasticSearch索引](https://github.com/LittleLory/Hawkeye/tree/master/document/ElasticSearch索引.txt)：如名字。
