@@ -1,0 +1,28 @@
+"mappings": {
+    "logMsg": {
+        "_ttl": {
+            "enabled": false
+        },
+        "properties": {
+            "date": {
+                "format": "strict_date_optional_time||epoch_millis",
+                "type": "date"
+            },
+            "clientName": {
+                "type": "string"
+            },
+            "log": {
+                "type": "string"
+            },
+            "source": {
+                "type": "string"
+            },
+            "projectName": {
+                "type": "string"
+            },
+            "info": {
+                "type": "string"
+            }
+        }
+    }
+}

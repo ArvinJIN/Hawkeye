@@ -1,0 +1,66 @@
+2016-06-05 23:37:28,027 main ERROR layout PatternLayout has no parameter that matches element PatternLayout
+Hawkeye client init...
+23:37:28.472 [main] DEBUG com.king.hawkeye.client.config.ConfigPaser - totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"127.0.0.1:8927"},"project":"nodejs"}
+Hawkeye client start...
+output bytes : [B@39d56a82, size : 8
+Login is ok : NettyMessage{header=Header{crcCode=-1410399999, length=30, sessionID=0, type=4, priority=0, attachment={}}, body=0}
+23:39:03.087 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: s a normal log..
+23:39:08.981 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:39:16.713 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Important come out..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+output bytes : [B@1003541d, size : 46
+23:39:20.358 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Exception come out ..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Exception come out ..}
+output bytes : [B@73ed8c17, size : 47
+23:39:28.478 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:39:37.004 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:39:44.323 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Exception come out ..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Exception come out ..}
+output bytes : [B@355f7cd9, size : 47
+23:39:54.873 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:39:57.100 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Important come out..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+output bytes : [B@4ce2dcff, size : 46
+23:40:00.744 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:40:07.220 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Important come out..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+output bytes : [B@12511c19, size : 46
+23:40:11.065 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:40:19.207 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:40:27.554 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:40:29.577 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Important come out..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+output bytes : [B@22167331, size : 46
+23:40:31.197 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:40:35.666 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:40:43.362 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Important come out..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+output bytes : [B@632b790a, size : 46
+23:40:53.747 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:41:03.471 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Important come out..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+output bytes : [B@ddfd6c4, size : 46
+23:41:05.500 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Important come out..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+output bytes : [B@3c987bd5, size : 46
+23:41:10.772 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Important come out..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+output bytes : [B@5282de4d, size : 46
+23:41:19.898 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Exception come out ..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Exception come out ..}
+output bytes : [B@3048645, size : 47
+23:41:30.447 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:41:40.989 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:41:45.460 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : this is a normal log..
+23:41:49.735 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Exception come out ..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Exception come out ..}
+output bytes : [B@6df0298b, size : 47
+23:41:55.835 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Important come out..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+output bytes : [B@4ee4a028, size : 46
+23:42:05.981 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Important come out..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+output bytes : [B@69beb0c2, size : 46
+23:42:09.033 [Thread-1] INFO  com.king.hawkeye.router.source.FileSource - log info: Log error info : target Exception come out ..
+message : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Exception come out ..}
+output bytes : [B@5aad7097, size : 47

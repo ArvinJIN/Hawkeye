@@ -1,0 +1,114 @@
+[32m23:16:00.840 [main] DEBUG com.king.hawkeye.server.core.ServerBootstrap - init alertClient init..
+[m[36m23:16:00.879 [main] INFO  com.king.hawkeye.server.dao.BaseDao - database properties: jdbc:mysql://127.0.0.1:3306/hawkeye,root,
+[m[32m23:16:01.621 [main] DEBUG com.king.hawkeye.server.alert.AlertClient - creating filter chain..
+[m[32m23:16:01.621 [main] DEBUG com.king.hawkeye.server.alert.AlertClient - add level filter..
+[m[32m23:16:01.621 [main] DEBUG com.king.hawkeye.server.alert.AlertClient - add keyword filter..
+[m[32m23:16:01.622 [main] DEBUG com.king.hawkeye.server.alert.AlertClient - create blank alert..
+[m[32m23:16:01.622 [main] DEBUG com.king.hawkeye.server.alert.AlertClient - creating filter chain..
+[m[32m23:16:01.622 [main] DEBUG com.king.hawkeye.server.alert.AlertClient - add level filter..
+[m[32m23:16:01.622 [main] DEBUG com.king.hawkeye.server.alert.AlertClient - add keyword filter..
+[m[32m23:16:01.622 [main] DEBUG com.king.hawkeye.server.alert.AlertClient - create blank alert..
+[m[32m23:16:01.622 [main] DEBUG com.king.hawkeye.server.core.ServerBootstrap - remote info channel init..
+[mnetty remote started : port = 8927
+[32m23:16:01.955 [main] DEBUG com.king.hawkeye.server.core.ServerBootstrap - init es sink..
+[m[32m23:16:01.957 [main] DEBUG com.king.hawkeye.server.core.ServerBootstrap - init channel sink..
+[m[32m23:16:01.958 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[m[36m23:30:08.700 [nioEventLoopGroup-1-0] INFO  com.king.hawkeye.remote.handler.LoginAuthRespHandler - client regist : localhost:50729 null
+[m[36m23:30:08.700 [nioEventLoopGroup-1-0] INFO  com.king.hawkeye.remote.core.ClientCollector - client regist : localhost:50729 null
+[mThe login response is : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=4, priority=0, attachment={}}, body=0}body [ 0 ]
+output bytes : [B@32cf1af6, size : 2
+[36m23:37:28.829 [nioEventLoopGroup-1-2] INFO  com.king.hawkeye.remote.handler.LoginAuthRespHandler - client regist : localhost:51127 nodejs
+[m[36m23:37:28.829 [nioEventLoopGroup-1-2] INFO  com.king.hawkeye.remote.core.ClientCollector - client regist : localhost:51127 nodejs
+[mThe login response is : NettyMessage{header=Header{crcCode=-1410399999, length=0, sessionID=0, type=4, priority=0, attachment={}}, body=0}body [ 0 ]
+output bytes : [B@50cf3937, size : 2
+msg : NettyMessage{header=Header{crcCode=-1410399999, length=118, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+get client message : Log error info : target Important come out..
+[36m23:39:16.726 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:39:16 CST 2016, info=Log error info : target Important come out..}
+[mjson object : {"date":1465141156727,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Important come out.."}
+[32m23:39:18.911 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:39:18.911 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=120, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Exception come out ..}
+get client message : Log error info : target Exception come out ..
+[36m23:39:20.363 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:39:20 CST 2016, info=Log error info : target Exception come out ..}
+[mjson object : {"date":1465141160363,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Exception come out .."}
+[32m23:39:20.392 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:39:20.392 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=120, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Exception come out ..}
+get client message : Log error info : target Exception come out ..
+[36m23:39:44.326 [nioEventLoopGroup-1-3] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:39:44 CST 2016, info=Log error info : target Exception come out ..}
+[mjson object : {"date":1465141184326,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Exception come out .."}
+[32m23:39:44.347 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:39:44.347 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=118, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+get client message : Log error info : target Important come out..
+[36m23:39:57.111 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:39:57 CST 2016, info=Log error info : target Important come out..}
+[mjson object : {"date":1465141197111,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Important come out.."}
+[32m23:39:57.134 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:39:57.134 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=118, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+get client message : Log error info : target Important come out..
+[36m23:40:07.222 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:40:07 CST 2016, info=Log error info : target Important come out..}
+[mjson object : {"date":1465141207222,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Important come out.."}
+[32m23:40:07.247 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:40:07.247 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=118, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+get client message : Log error info : target Important come out..
+[36m23:40:29.579 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:40:29 CST 2016, info=Log error info : target Important come out..}
+[mjson object : {"date":1465141229579,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Important come out.."}
+[32m23:40:29.597 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:40:29.597 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=118, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+get client message : Log error info : target Important come out..
+[36m23:40:43.364 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:40:43 CST 2016, info=Log error info : target Important come out..}
+[mjson object : {"date":1465141243364,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Important come out.."}
+[32m23:40:43.383 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:40:43.383 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=118, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+get client message : Log error info : target Important come out..
+[36m23:41:03.474 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:41:03 CST 2016, info=Log error info : target Important come out..}
+[mjson object : {"date":1465141263474,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Important come out.."}
+[32m23:41:03.492 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:41:03.492 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=118, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+get client message : Log error info : target Important come out..
+[36m23:41:05.502 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:41:05 CST 2016, info=Log error info : target Important come out..}
+[mjson object : {"date":1465141265502,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Important come out.."}
+[32m23:41:05.520 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:41:05.520 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=118, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+get client message : Log error info : target Important come out..
+[36m23:41:10.774 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:41:10 CST 2016, info=Log error info : target Important come out..}
+[mjson object : {"date":1465141270774,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Important come out.."}
+[32m23:41:10.791 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:41:10.791 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=120, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Exception come out ..}
+get client message : Log error info : target Exception come out ..
+[36m23:41:19.901 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:41:19 CST 2016, info=Log error info : target Exception come out ..}
+[mjson object : {"date":1465141279901,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Exception come out .."}
+[32m23:41:19.922 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:41:19.922 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=120, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Exception come out ..}
+get client message : Log error info : target Exception come out ..
+[36m23:41:49.737 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:41:49 CST 2016, info=Log error info : target Exception come out ..}
+[mjson object : {"date":1465141309737,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Exception come out .."}
+[32m23:41:49.756 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:41:49.756 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=118, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+get client message : Log error info : target Important come out..
+[36m23:41:55.836 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:41:55 CST 2016, info=Log error info : target Important come out..}
+[mjson object : {"date":1465141315836,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Important come out.."}
+[32m23:41:55.852 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:41:55.852 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=118, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Important come out..}
+get client message : Log error info : target Important come out..
+[36m23:42:05.983 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:42:05 CST 2016, info=Log error info : target Important come out..}
+[mjson object : {"date":1465141325983,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Important come out.."}
+[32m23:42:06.002 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:42:06.002 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[mmsg : NettyMessage{header=Header{crcCode=-1410399999, length=120, sessionID=0, type=7, priority=0, attachment={}}, body=Log error info : target Exception come out ..}
+get client message : Log error info : target Exception come out ..
+[36m23:42:09.034 [nioEventLoopGroup-1-4] INFO  com.king.hawkeye.remote.handler.MessageReqHandler - remote message : RemoteInfo{projectName='nodejs', clientName='nodejs-1', source='localhost:51127', date=Sun Jun 05 23:42:09 CST 2016, info=Log error info : target Exception come out ..}
+[mjson object : {"date":1465141329035,"source":"localhost:51127","projectName":"nodejs","clientName":"nodejs-1","info":"Log error info : target Exception come out .."}
+[32m23:42:09.051 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - config ids is {}
+[m[32m23:42:09.051 [Thread-2] DEBUG com.king.hawkeye.server.alert.AlertClient - alert msg channel size : 0
+[m

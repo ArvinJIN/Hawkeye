@@ -1,0 +1,18 @@
+ {
+  "project": "nodejs",
+  "file_path": "/Users/King/app.log",
+  "chain": [
+    {
+      "type": "level",
+      "value": "error"
+    },{
+      "type": "keyword",
+      "value": "target"
+    }
+  ],
+  "alert": {
+    "type": "upload",
+    "value": "127.0.0.1:8927"
+  }
+}
+ 

@@ -1,0 +1,120 @@
+totalConfig: {"file_path":"/Users/King/Work/code58/hawkeye/client/logs/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"Exception"}],"alert":{"type":"blank","value":"jinleihao@58ganji.com"}}
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"localhost:8927"}}
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:8927
+Hawkeye client init error.
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:8927
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_40]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_40]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:223) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:276) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:531) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"localhost:8927"}}
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"localhost:8927"}}
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"localhost:8927"}}
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:8927
+Hawkeye client init error.
+java.net.ConnectException: Connection refused: localhost/127.0.0.1:8927
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_40]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_40]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:223) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:276) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:531) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126) ~[netty-all-5.0.0.Alpha2.jar:5.0.0.Alpha2]
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"localhost:8927"}}
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"localhost:8927"}}
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"localhost:8927"}}
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"localhost:8927"}}
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"blank","value":"blank"}}
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"blank","value":"blank"}}
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"email","value":"127.0.0.1:8927"}}
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"127.0.0.1:8927"}}
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Exception come out ..
+log info: Log error info : target Important come out..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Exception come out ..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Exception come out ..
+log info: Log error info : target Exception come out ..
+log info: Log error info : target Exception come out ..
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"127.0.0.1:8927"}}
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Exception come out ..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Exception come out ..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Exception come out ..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Important come out..
+log info: Log error info : target Exception come out ..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Important come out..
+log info: Log error info : this is a normal log..
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"127.0.0.1:8927"}}
+Hawkeye client init error.
+java.io.IOException: 缺少project
+	at com.king.hawkeye.client.config.ConfigPaser.parseAndInit(ConfigPaser.java:41) ~[hawkeye-client.jar:?]
+	at com.king.hawkeye.client.boot.Bootstrap.readConfigAndInit(Bootstrap.java:109) ~[hawkeye-client.jar:?]
+	at com.king.hawkeye.client.boot.Bootstrap.init(Bootstrap.java:57) ~[hawkeye-client.jar:?]
+	at com.king.hawkeye.client.boot.Bootstrap.main(Bootstrap.java:47) [hawkeye-client.jar:?]
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"127.0.0.1:8927"},"project":"nodejs"}
+totalConfig: {"file_path":"/Users/King/app.log","chain":[{"type":"level","value":"error"},{"type":"keyword","value":"target"}],"alert":{"type":"upload","value":"127.0.0.1:8927"},"project":"nodejs"}
+log info: s a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Important come out..
+log info: Log error info : target Exception come out ..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Exception come out ..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Important come out..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Important come out..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Important come out..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Important come out..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Important come out..
+log info: Log error info : target Important come out..
+log info: Log error info : target Important come out..
+log info: Log error info : target Exception come out ..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : this is a normal log..
+log info: Log error info : target Exception come out ..
+log info: Log error info : target Important come out..
+log info: Log error info : target Important come out..
+log info: Log error info : target Exception come out ..

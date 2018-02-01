@@ -1,0 +1,14 @@
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+.gridStyle {
+    border: 1px solid rgb(212, 212, 212);
+    height: 300px
+}
+
+.alert-panel {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 45%;
+}
